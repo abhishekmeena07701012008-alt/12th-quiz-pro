@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBSE 12th Quiz Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --secondary-color: #06b6d4;
+            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --success-color: #10b981;
+            --wrong-color: #ef4444;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+        body { background: var(--bg-gradient); color: var(--text-main); min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px; }
+        
+        .quiz-container {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            width: 100%;
+            max-width: 650px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        .quiz-header { text-align: center; margin-bottom: 25px; }
+        .quiz-header h1 {
+            font-size: 2.2rem; font-weight: 700;
+            background: linear-gradient(to right, #818cf8, #22d3ee);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .subject-box { margin-bottom: 25px; text-align: left; }
+        .subject-box label { display: block; font-size: 0.95rem; color: var(--text-muted); margin-bottom: 8px; }
+        
+        .subject-select {
+            width: 100%; padding: 14px 16px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--card-border);
+            border-radius: 14px; color: var(--text-main);
+            font-size: 1rem; cursor: pointer; outline: none;
+        }
+        .subject-select:focus { border-color: var(--secondary-color); }
+
+        .progress-bar-container { width: 100%; height: 6px; background: rgba(255, 255, 255, 0.1); border-radius: 10px; margin-top: 20px; overflow: hidden; }
+        .progress-bar { height: 100%; width: 0%; background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); transition: width 0.4s ease; }
+        
+        .question-box { margin-bottom: 30px; background: rgba(255, 255, 255, 0.02); padding: 20px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.03); }
+        .question-number { font-size: 0.85rem; color: var(--secondary-color); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+        .question-text { font-size: 1.25rem; font-weight: 600; line-height: 1.6; }
+        
+        .options-list { display: flex; flex-direction: column; gap: 14px; }
+        .option-btn {
+            background: rgba(255, 255, 255, 0.02); border: 1px solid var(--card-border);
+            padding: 16px 20px; border-radius: 14px; color: var(--text-main);
+            font-size: 1rem; text-align: left; cursor: pointer; transition: all 0.2s ease;
+        }
+
+        .option-btn:hover:not([disabled]) { background: rgba(255, 255, 255, 0.08); border-color: var(--secondary-color); transform: translateY(-2px); }
+        .option-btn.correct { background: rgba(16, 185, 129, 0.15) !important; border-color: var(--success-color) !important; color: #34d399; font-weight: 600; }
+        .option-btn.wrong { background: rgba(239, 68, 68, 0.15) !important; border-color: var(--wrong-color) !important; color: #f87171; }
+        .disabled { pointer-events: none; opacity: 0.6; }
+        
+        .quiz-footer { margin-top: 30px; display: flex; justify-content: flex-end; }
+        .next-btn {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #4338ca 100%);
+            color: white; border: none; padding: 14px 35px; font-size: 1rem; font-weight: 600;
+            border-radius: 12px; cursor: pointer; display: none; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        }
+
+        .result-box { text-align: center; display: none; }
+        .result-box h2 { font-size: 2.4rem; margin-bottom: 15px; background: linear-gradient(to right, #34d399, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .score-text { font-size: 1.3rem; margin-bottom: 25px; color: var(--text-muted); }
+        .score-number { font-size: 3.5rem; font-weight: 700; color: var(--text-main); display: block; margin-top: 10px; }
+        
+        .restart-btn {
+            background: transparent; border: 2px solid var(--secondary-color);
+            color: var(--secondary-color); padding: 12px 35px; font-size: 1rem;
+            font-weight: 600; border-radius: 12px; cursor: pointer; transition: all 0.2s ease;
+        }
+        .restart-btn:hover { background: var(--secondary-color); color: #0f172a; }
+
+        @media (max-width: 480px) {
+            .quiz-container { padding: 25px 15px; }
+            .quiz-header h1 { font-size: 1.8rem; }
+            .question-text { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div id="quiz-box">
+            <div class="quiz-header">
+                <h1>RBSE 12th Quiz Pro</h1>
+                
+                <div class="subject-box">
+                    <label for="subject-select">अपना विषय और माध्यम चुनें (Select Subject & Medium):</label>
+                    <select id="subject-select" class="subject-select" onchange="loadSubjectData()">
+                        <optgroup label="अनिवार्य विषय (Compulsory)">
+                            <option value="hindi_compulsory:hi">अनिवार्य हिन्दी (Hindi Compulsory)</option>
+                            <option value="english_compulsory:en">अनिवार्य अंग्रेजी (English Compulsory)</option>
+                        </optgroup>
+
+                        <optgroup label="कला संकाय (Arts Stream)">
+                            <option value="history:hi">इतिहास (Hindi Medium)</option>
+                            <option value="history:en">History (English Medium)</option>
+                            <option value="polscience:hi">राजनीति विज्ञान (Hindi Medium)</option>
+                            <option value="polscience:en">Political Science (English Medium)</option>
+                            <option value="geography:hi">भूगोल (Hindi Medium)</option>
+                            <option value="geography:en">Geography (English Medium)</option>
+                            <option value="economics:hi">अर्थशास्त्र (Hindi Medium)</option>
+                            <option value="economics:en">Economics (English Medium)</option>
+                            <option value="hindi_literature:hi">हिन्दी साहित्य (Hindi Literature)</option>
+                            <option value="english_literature:en">English Literature</option>
+                        </optgroup>
+
+                        <optgroup label="विज्ञान संकाय (Science Stream)">
+                            <option value="physics:hi">भौतिक विज्ञान (Hindi Medium)</option>
+                            <option value="physics:en">Physics (English Medium)</option>
+                            <option value="chemistry:hi">रसायन विज्ञान (Hindi Medium)</option>
+                            <option value="chemistry:en">Chemistry (English Medium)</option>
+                            <option value="math:hi">गणित (Hindi Medium)</option>
+                            <option value="math:en">Mathematics (English Medium)</option>
+                            <option value="biology:hi">जीव विज्ञान (Hindi Medium)</option>
+                            <option value="biology:en">Biology (English Medium)</option>
+                        </optgroup>
+
+                        <optgroup label="वाणिज्य संकाय (Commerce Stream)">
+                            <option value="accountancy:hi">लेखाशास्त्र (Hindi Medium)</option>
+                            <option value="accountancy:en">Accountancy (English Medium)</option>
+                            <option value="busstudies:hi">व्यवसाय अध्ययन (Hindi Medium)</option>
+                            <option value="busstudies:en">Business Studies (English Medium)</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+
+            <div class="question-box">
+                <div class="question-number" id="q-count">प्रश्न 1</div>
+                <div class="question-text" id="q-text">लोड हो रहा है...</div>
+            </div>
+
+            <div class="options-list" id="options-container"></div>
+
+            <div class="quiz-footer">
+                <button class="next-btn" id="next-btn" onclick="nextQuestion()">अगला प्रश्न</button>
+            </div>
+        </div>
+
+        <div id="result-box" class="result-box">
+            <h2>शानदार प्रयास! 🎉</h2>
+            <p class="score-text">आपका कुल स्कोर नीचे है:</p>
+            <div class="score-number"><span id="score">0</span> / <span id="total-q">0</span></div>
+            <div style="margin-top: 40px;">
+                <button class="restart-btn" onclick="restartQuiz()">फिर से शुरू करें</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
