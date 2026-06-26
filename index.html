@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Data</title>
-    <!-- यहाँ आपकी JavaScript फ़ाइल लिंक हो रही है -->
+    <!-- आपकी JS फ़ाइल लिंक हो रही है -->
     <script src="history.js"></script>
 </head>
-<body>
-    <h1>My Quiz App Data</h1>
-    <p>Check the console (F12) to see the loaded data.</p>
+<body style="background-color: #121212; color: white; font-family: sans-serif; padding: 20px;">
+    
+    <h2>My Quiz Data Test</h2>
+    <p>आपका पहला प्रश्न नीचे लोड हो रहा है:</p>
+
+    <!-- डेटा यहाँ दिखेगा -->
+    <div id="output" style="background-color: #333; padding: 15px; border-radius: 8px; margin-top: 20px;">
+        डेटा चेक हो रहा है...
+    </div>
 
     <script>
-        // यह कोड चेक करेगा कि डेटा सही से लोड हुआ है या नहीं
-        console.log("Total Questions Loaded:", quizDataMaster.length);
-        console.log("First Question:", quizDataMaster[0]);
+        // यह चेक करेगा कि quizDataMaster उपलब्ध है या नहीं
+        if (typeof quizDataMaster !== 'undefined' && quizDataMaster.length > 0) {
+            
+            let firstQuestion = quizDataMaster[0]; // पहला प्रश्न निकाल रहे हैं
+            
+            // स्क्रीन पर HTML के रूप में प्रिंट करना
+            document.getElementById("output").innerHTML = `
+                <p style="color: #4CAF50;">✅ डेटा सफलतापूर्वक लोड हो गया! (कुल प्रश्न: ${quizDataMaster.length})</p>
+                <hr style="border-color: #555;">
+                <p><strong>प्रश्न (हिंदी):</strong> ${firstQuestion.q_hi}</p>
+                <p><strong>Question (English):</strong> ${firstQuestion.q_en}</p>
+                <p><strong>विकल्प:</strong> <br>
+                1. ${firstQuestion.options[0]} <br>
+                2. ${firstQuestion.options[1]} <br>
+                3. ${firstQuestion.options[2]} <br>
+                4. ${firstQuestion.options[3]}
+                </p>
+            `;
+        } else {
+            document.getElementById("output").innerHTML = "<span style='color: red;'>❌ डेटा लोड नहीं हुआ! कृपया सुनिश्चित करें कि 'history(3).js' फ़ाइल का नाम और लोकेशन सही है।</span>";
+        }
     </script>
 </body>
 </html>
