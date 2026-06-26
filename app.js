@@ -1,69 +1,53 @@
-let currentLang = '', currentSubject = '', quizQuestions = [], currentIndex = 0, score = 0;
+let lang = '', currentQuestions = [], index = 0, score = 0;
 
-function setLanguage(lang) {
-    currentLang = lang;
+function selectLang(l) {
+    lang = l;
     document.getElementById('lang-screen').classList.add('hidden');
-    document.getElementById('subject-screen').classList.remove('hidden');
-    renderSubjects();
-}
-
-function renderSubjects() {
-    let container = document.getElementById('subjects-container');
-    // Unique subjects nikalne ke liye
-    let subjects = [...new Set(quizDataMaster.map(q => q.subject))];
-    subjects.forEach(sub => {
-        let btn = document.createElement('button');
-        btn.className = 'btn';
-        btn.innerText = sub;
-        btn.onclick = () => startQuiz(sub);
-        container.appendChild(btn);
+    document.getElementById('sub-screen').classList.remove('hidden');
+    let subs = [...new Set(quizDataMaster.map(q => q.subject))];
+    let list = document.getElementById('sub-list');
+    subs.forEach(s => {
+        let b = document.createElement('button');
+        b.className = 'btn';
+        b.innerText = s;
+        b.onclick = () => startQuiz(s);
+        list.appendChild(b);
     });
 }
 
 function startQuiz(sub) {
-    currentSubject = sub;
-    // Data filter: Subject + Lang match hona chahiye
-    quizQuestions = quizDataMaster
-        .filter(q => q.subject === sub && (q.lang === currentLang || !q.lang))
+    // यहाँ question और q दोनों का सपोर्ट है
+    currentQuestions = quizDataMaster
+        .filter(q => q.subject === sub)
         .sort(() => Math.random() - 0.5)
         .slice(0, 20);
-
-    if(quizQuestions.length === 0) { alert("Questions not found for this subject!"); return; }
-
-    document.getElementById('subject-screen').classList.add('hidden');
+    
+    document.getElementById('sub-screen').classList.add('hidden');
     document.getElementById('quiz-screen').classList.remove('hidden');
-    showQuestion();
+    document.getElementById('subject-name').innerText = sub;
+    showQ();
 }
 
-function showQuestion() {
-    if (currentIndex >= quizQuestions.length) {
-        document.getElementById('quiz-screen').classList.add('hidden');
-        document.getElementById('report').classList.remove('hidden');
-        document.getElementById('score-text').innerText = `Score: ${score} / ${quizQuestions.length}`;
+function showQ() {
+    if(index >= currentQuestions.length) {
+        alert("आपका स्कोर: " + score + "/" + currentQuestions.length);
+        location.reload();
         return;
     }
-
-    let q = quizQuestions[currentIndex];
-    // .question ya .q handle karne ke liye (Aapki file ke hisaab se)
+    let q = currentQuestions[index];
     document.getElementById('question').innerText = q.question || q.q;
-    document.getElementById('options').innerHTML = "";
-    
-    q.options.forEach((opt, idx) => {
-        let btn = document.createElement('button');
-        btn.className = 'option-btn';
-        btn.innerText = opt;
-        btn.onclick = () => checkAnswer(idx, q.correct, btn);
-        document.getElementById('options').appendChild(btn);
+    let optDiv = document.getElementById('options');
+    optDiv.innerHTML = '';
+    q.options.forEach((o, i) => {
+        let b = document.createElement('button');
+        b.className = 'option-btn';
+        b.innerText = o;
+        b.onclick = () => {
+            document.querySelectorAll('.option-btn').forEach(x => x.style.pointerEvents='none');
+            if(i === q.correct) { b.classList.add('correct'); score++; }
+            else { b.classList.add('wrong'); }
+            setTimeout(() => { index++; showQ(); }, 1000);
+        };
+        optDiv.appendChild(b);
     });
-}
-
-function checkAnswer(idx, correct, btn) {
-    document.querySelectorAll('.option-btn').forEach(b => b.style.pointerEvents = 'none');
-    if (idx === correct) {
-        btn.classList.add('correct');
-        score++;
-    } else {
-        btn.classList.add('wrong');
-    }
-    setTimeout(() => { currentIndex++; showQuestion(); }, 1000);
 }
