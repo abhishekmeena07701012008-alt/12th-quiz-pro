@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>12th Quiz Pro</title>
+</head>
+<body>
+    <div class="card" id="quiz-container">
+        <h3 id="subject-tag">विषय: सामान्य ज्ञान</h3>
+        <h2 id="question">प्रश्न यहाँ आएगा...</h2>
+        <div id="options"></div>
+        <div id="progress">प्रश्न 1 / 20</div>
+    </div>
+
+    <div class="card" id="report" style="display:none;">
+        <h2>📊 रिपोर्ट कार्ड</h2>
+        <h1 id="score-text">0</h1>
+        <button class="retry-btn" onclick="location.reload()">दोबारा खेलें</button>
+    </div>
+    <script src="history.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
