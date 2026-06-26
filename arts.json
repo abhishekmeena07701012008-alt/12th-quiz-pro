@@ -4613,9 +4613,7 @@
       "question_hi": "भक्ति आंदोलन का सूत्रपात कहाँ से हुआ?",
       "options_hi": ["दक्षिण भारत", "उत्तर भारत", "पूर्वी भारत", "पश्चिम भारत"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "English Literature (RBSE 12th)",
   "questions": [
@@ -7027,9 +7025,7 @@
       "question_en": "What is the ultimate goal of philosophy?",
       "options_en": ["Search for truth", "Search for wealth", "Search for power", "Search for fame"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Legal Studies (100 Questions - Bilingual)",
   "questions": [
