@@ -801,9 +801,7 @@
       "options_hi": ["26 नवंबर 1949", "15 अगस्त 1947", "26 जनवरी 1950", "2 अक्टूबर 1949"],
       "options_en": ["26 November 1949", "15 August 1947", "26 January 1950", "2 October 1949"],
       "answer_index": 0
-    }
-  ]
-},
+    },
 {
   "subject": "Political Science",
   "questions": [
@@ -1606,9 +1604,7 @@
       "options_hi": ["लिखित", "मौखिक", "दोनों", "कोई नहीं"],
       "options_en": ["Written", "Oral", "Both", "None"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Political Science",
   "questions": [
@@ -2411,9 +2407,7 @@
       "options_hi": ["जगदीप धनखड़", "वेंकैया नायडू", "हमिद अंसारी", "भैरों सिंह शेखावत"],
       "options_en": ["Jagdeep Dhankhar", "Venkaiah Naidu", "Hamid Ansari", "Bhairon Singh Shekhawat"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Geography",
   "questions": [
@@ -4016,9 +4010,7 @@
       "options_hi": ["कच्छ का रण", "गिर", "मानस", "पेरियार"],
       "options_en": ["Rann of Kutch", "Gir", "Manas", "Periyar"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Hindi Literature (RBSE 12th)",
   "questions": [
@@ -5226,9 +5218,7 @@
       "question_en": "Who wrote 'The Raven'?",
       "options_en": ["Edgar Allan Poe", "Walt Whitman", "Emily Dickinson", "Robert Frost"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Advanced English Literature (100 Questions)",
   "questions": [
@@ -5831,9 +5821,7 @@
       "question_en": "Who wrote 'Ulysses'?",
       "options_en": ["James Joyce", "Virginia Woolf", "D.H. Lawrence", "E.M. Forster"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Home Science (Advanced Level)",
   "questions": [
@@ -6436,9 +6424,7 @@
       "question_en": "What is the goal of Home Science education?",
       "options_en": ["Better living", "Skill development", "Scientific knowledge", "All of these"],
       "answer_index": 3
-    }
-  ]
-}
+    },
 {
   "subject": "Philosophy (100 Questions)",
   "questions": [
@@ -7846,9 +7832,7 @@
       "options_en": ["Law defining rights and duties", "Law about family", "Law about crime", "Law about property"],
       "options_hi": ["अधिकारों और कर्तव्यों को परिभाषित करने वाला कानून", "परिवार के बारे में कानून", "अपराध के बारे में कानून", "संपत्ति के बारे में कानून"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Sociology (100 Questions - Bilingual)",
   "questions": [
@@ -8651,9 +8635,7 @@
       "options_en": ["Positive social change", "Regress", "Stagnation", "Decline"],
       "options_hi": ["सकारात्मक सामाजिक परिवर्तन", "प्रतिगमन", "ठहराव", "पतन"],
       "answer_index": 0
-    }
-  ]
-}
+    },
 {
   "subject": "Physiology (100 Questions - Bilingual)",
   "questions": [
