@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Data</title>
+    <title>Quiz Data Test</title>
     <script src="history.js"></script>
 </head>
 <body style="background-color: #121212; color: white; font-family: sans-serif; padding: 20px;">
     
-    <h2>My Quiz Data Test</h2>
-    <p>आपका पहला प्रश्न नीचे लोड हो रहा है:</p>
+    <h2>Quiz Data Verification</h2>
 
     <div id="output" style="background-color: #333; padding: 15px; border-radius: 8px; margin-top: 20px;">
-        डेटा चेक हो रहा है...
+        डेटा चेक हो रहा है... (कृपया 1-2 सेकंड प्रतीक्षा करें)
     </div>
 
     <script>
-        // यह चेक करेगा कि quizDataMaster उपलब्ध है या नहीं
-        if (typeof quizDataMaster !== 'undefined' && quizDataMaster.length > 0) {
-            
-            // चूँकि आपकी फ़ाइल में पहले विषय (subject) है, फिर प्रश्न (questions) हैं
-            let firstSubject = quizDataMaster[0]; 
-            let firstQuestion = firstSubject.questions[0]; 
-            
-            // स्क्रीन पर HTML के रूप में प्रिंट करना
-            document.getElementById("output").innerHTML = `
-                <p style="color: #4CAF50;">✅ डेटा सफलतापूर्वक लोड हो गया!</p>
-                <p style="color: #bbb;"><strong>विषय:</strong> ${firstSubject.subject.toUpperCase()}</p>
-                <hr style="border-color: #555;">
-                <p><strong>प्रश्न (हिंदी):</strong> ${firstQuestion.q_hi}</p>
-                <p><strong>Question (English):</strong> ${firstQuestion.q_en}</p>
-                <p><strong>विकल्प:</strong> <br>
-                1. ${firstQuestion.options[0]} <br>
-                2. ${firstQuestion.options[1]} <br>
-                3. ${firstQuestion.options[2]} <br>
-                4. ${firstQuestion.options[3]}
-                </p>
-            `;
-        } else {
-            document.getElementById("output").innerHTML = "<span style='color: #ff4c4c;'>❌ डेटा लोड नहीं हुआ! कृपया सुनिश्चित करें कि 'history.js' फ़ाइल उसी फोल्डर में है जहाँ यह HTML फ़ाइल है।</span>";
-        }
+        // JS फाइल को लोड होने के लिए थोड़ा समय देते हैं
+        setTimeout(() => {
+            if (typeof quizDataMaster !== 'undefined' && quizDataMaster.length > 0) {
+                
+                // 1. सबसे पहले पहला विषय (Subject) निकालते हैं
+                let firstSubjectData = quizDataMaster[0]; 
+                
+                // 2. उस विषय के अंदर से पहला प्रश्न (Question) निकालते हैं
+                let firstQuestion = firstSubjectData.questions[0]; 
+                
+                // 3. स्क्रीन पर प्रिंट करते हैं
+                document.getElementById("output").innerHTML = `
+                    <p style="color: #4CAF50;">✅ डेटा सफलतापूर्वक लोड हो गया!</p>
+                    <p style="color: #FFC107;"><strong>विषय (Subject):</strong> ${firstSubjectData.subject.toUpperCase()}</p>
+                    <hr style="border-color: #555;">
+                    <p><strong>प्रश्न (हिंदी):</strong> ${firstQuestion.q_hi}</p>
+                    <p><strong>Question (English):</strong> ${firstQuestion.q_en}</p>
+                    <p><strong>विकल्प:</strong> <br>
+                    1. ${firstQuestion.options[0]} <br>
+                    2. ${firstQuestion.options[1]} <br>
+                    3. ${firstQuestion.options[2]} <br>
+                    4. ${firstQuestion.options[3]}
+                    </p>
+                `;
+            } else {
+                document.getElementById("output").innerHTML = "<span style='color: #ff4c4c;'>❌ डेटा लोड नहीं हुआ! कृपया सुनिश्चित करें कि ऊपर &lt;script src=\"...\"&gt; में आपकी JS फ़ाइल का नाम बिल्कुल सही लिखा है।</span>";
+            }
+        }, 800); // 800ms का डिले
     </script>
 </body>
 </html>
