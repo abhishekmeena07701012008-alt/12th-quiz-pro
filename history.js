@@ -4647,8 +4647,1482 @@ var quizDataMaster = [
     { "subject": "Philosophy", lang: "hi-en", "question": "7. 'धर्म' (Religion)?", "options": ["कर्तव्य (Duty)", "अंधविश्वास", "कोई नहीं"], "correct": 0 },
     { "subject": "Philosophy", lang: "hi-en", "question": "8. 'नैतिकता' (Ethics)?", "options": ["सही-गलत (Right-Wrong)", "स्वार्थ", "कोई नहीं"], "correct": 0 },
     { "subject": "Philosophy", lang: "hi-en", "question": "9. 'ज्ञान' (Knowledge)?", "options": ["समझ (Understanding)", "अज्ञान", "कोई नहीं"], "correct": 0 },
-    { "subject": "Philosophy", lang: "hi-en", "question": "10. 'सत्य' (Truth)?", "options": ["शाश्वत (Eternal)", "झूठ", "कोई नहीं"], "correct": 0 }
-   ]:
+    { "subject": "Philosophy", lang: "hi-en", "question": "10. 'सत्य' (Truth)?", "options": ["शाश्वत (Eternal)", "झूठ", "कोई नहीं"], "correct": 0 },
+    {
+  "questions": [
+    { "subject": "History", "lang": "hi-en", "question": "1. 'महात्मा गांधी' ने 'साबरमती आश्रम' की स्थापना कब की? (When did Mahatma Gandhi establish Sabarmati Ashram?)", "options": ["1916", "1915", "1917"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "2. 'हड़प्पा' (Harappa) किस नदी के तट पर स्थित है? (On which river bank is Harappa located?)", "options": ["रावी (Ravi)", "सिंधु (Indus)", "सतलज (Sutlej)"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "3. 'कौटिल्य' (Kautilya) के प्रसिद्ध ग्रंथ का नाम? (Name of Kautilya's famous work?)", "options": ["अर्थशास्त्र (Arthashastra)", "वेद", "पुराण"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "4. 'जैन धर्म' के 24वें तीर्थंकर? (24th Tirthankara of Jainism?)", "options": ["महावीर (Mahavira)", "पार्श्वनाथ", "ऋषभदेव"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "5. 'बक्सर' (Buxar) का युद्ध कब हुआ? (When did the Battle of Buxar take place?)", "options": ["1764", "1757", "1761"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "6. 'मुगल साम्राज्य' (Mughal Empire) का संस्थापक? (Founder of Mughal Empire?)", "options": ["बाबर (Babur)", "हुमायूं", "अकबर"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "7. 'शिवाजी' (Shivaji) की राजधानी क्या थी? (What was the capital of Shivaji?)", "options": ["रायगढ़ (Raigad)", "पुणे", "सतारा"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "8. 'साइमन कमीशन' (Simon Commission) भारत कब आया? (When did the Simon Commission arrive in India?)", "options": ["1928", "1927", "1930"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "9. 'अशोक' (Ashoka) ने कौन सा धर्म अपनाया? (Which religion did Ashoka adopt?)", "options": ["बौद्ध (Buddhism)", "जैन", "हिंदू"], "correct": 0 },
+    { "subject": "History", "lang": "hi-en", "question": "10. 'सती प्रथा' का अंत किसने किया? (Who abolished the Sati system?)", "options": ["राजा राममोहन राय (Raja Ram Mohan Roy)", "ईश्वर चंद्र विद्यासागर", "गांधी"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "1. 'संविधान' (Constitution) की कुंजी किसे कहते हैं? (What is called the key to the Constitution?)", "options": ["प्रस्तावना (Preamble)", "मौलिक अधिकार", "नीति निदेशक तत्व"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "2. 'भारत' (India) एक डैश है? (India is a ...?)", "options": ["राज्यों का संघ (Union of States)", "एकात्मक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "3. 'आपातकाल' (Emergency) प्रावधान किस देश से लिए गए? (Emergency provisions are borrowed from which country?)", "options": ["जर्मनी (Germany)", "रूस", "ब्रिटेन"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "4. 'लोकसभा' (Lok Sabha) के सदस्यों का कार्यकाल? (Term of Lok Sabha members?)", "options": ["5 वर्ष (5 years)", "6 वर्ष", "4 वर्ष"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "5. 'राज्यपाल' (Governor) की नियुक्ति कौन करता है? (Who appoints the Governor?)", "options": ["राष्ट्रपति (President)", "प्रधानमंत्री", "मुख्यमंत्री"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "6. 'संविधान' (Constitution) में कितने मौलिक अधिकार हैं? (How many fundamental rights are in the Constitution?)", "options": ["6", "7", "5"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "7. 'भारत' का प्रथम नागरिक कौन है? (Who is the first citizen of India?)", "options": ["राष्ट्रपति (President)", "प्रधानमंत्री", "मुख्य न्यायाधीश"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "8. 'अनुच्छेद 32' (Article 32) को क्या कहा जाता है? (What is Article 32 called?)", "options": ["संविधान की आत्मा (Soul of Constitution)", "कानून", "कोई नहीं"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "9. 'सर्वोच्च न्यायालय' (Supreme Court) के जज की सेवानिवृत्ति? (Retirement age of SC judge?)", "options": ["65 वर्ष (65 years)", "60 वर्ष", "62 वर्ष"], "correct": 0 },
+    { "subject": "Political Science", "lang": "hi-en", "question": "10. 'चुनाव आयोग' (Election Commission) का वर्णन? (Description of Election Commission?)", "options": ["अनुच्छेद 324 (Article 324)", "अनुच्छेद 352", "कोई नहीं"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "1. 'पृथ्वी' (Earth) की सबसे बाहरी परत? (Outermost layer of Earth?)", "options": ["भूपर्पटी (Crust)", "मेंटल", "कोर"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "2. 'विश्व' (World) का सबसे बड़ा महासागर? (Largest ocean of the world?)", "options": ["प्रशांत (Pacific)", "हिंद", "अटलांटिक"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "3. 'कर्क रेखा' (Tropic of Cancer) भारत के कितने राज्यों से? (How many states does Tropic of Cancer pass through?)", "options": ["8", "7", "9"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "4. 'मानसून' (Monsoon) किस भाषा का शब्द है? (Monsoon is a word of which language?)", "options": ["अरबी (Arabic)", "फारसी", "हिंदी"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "5. 'भारत' (India) की सबसे लंबी नदी? (Longest river of India?)", "options": ["गंगा (Ganga)", "यमुना", "गोदावरी"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "6. 'ज्वालामुखी' (Volcano) से निकलने वाली गैस? (Gas released from volcano?)", "options": ["जलवाष्प (Water vapor)", "नाइट्रोजन", "ऑक्सीजन"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "7. 'वायुमंडल' (Atmosphere) की ओजोन परत? (Ozone layer of atmosphere?)", "options": ["समताप मंडल (Stratosphere)", "क्षोभ मंडल", "मध्य मंडल"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "8. 'विश्व' (World) की सबसे लंबी नदी? (Longest river of the world?)", "options": ["नील (Nile)", "अमेजन", "मिसीसिपी"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "9. 'भारत' (India) का 'मैनचेस्टर' किसे कहते हैं? (Who is called the Manchester of India?)", "options": ["अहमदाबाद (Ahmedabad)", "सूरत", "मुंबई"], "correct": 0 },
+    { "subject": "Geography", "lang": "hi-en", "question": "10. 'पृथ्वी' (Earth) का एकमात्र प्राकृतिक उपग्रह? (Earth's only natural satellite?)", "options": ["चंद्रमा (Moon)", "मंगल", "शुक्र"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "1. 'आर्थिक नियोजन' (Economic Planning) किस सूची का विषय है? (Economic planning is in which list?)", "options": ["समवर्ती (Concurrent)", "राज्य", "केंद्र"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "2. 'RBI' (आरबीआई) की स्थापना कब हुई? (When was RBI established?)", "options": ["1935", "1947", "1950"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "3. 'हरित क्रांति' (Green Revolution) का संबंध? (Green revolution is related to?)", "options": ["कृषि (Agriculture)", "दूध", "उद्योग"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "4. 'जीएसटी' (GST) कब लागू हुआ? (When was GST implemented?)", "options": ["2017", "2016", "2015"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "5. 'भारत' (India) की मुद्रा क्या है? (What is India's currency?)", "options": ["रुपया (Rupee)", "डॉलर", "पाउंड"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "6. 'विश्व' (World) व्यापार संगठन (WTO)? (WTO Headquarters?)", "options": ["जिनेवा (Geneva)", "न्यूयॉर्क", "लंदन"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "7. 'राष्ट्रीय आय' (National Income) का आकलन? (Calculation of national income?)", "options": ["CSO", "RBI", "वित्त मंत्रालय"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "8. 'बैंक' (Bank) का मुख्य कार्य? (Main function of bank?)", "options": ["जमा स्वीकार करना (Accepting deposits)", "खेती", "दुकान"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "9. 'खुली अर्थव्यवस्था' (Open Economy)? (Open economy means?)", "options": ["मुक्त व्यापार (Free trade)", "बंद", "कोई नहीं"], "correct": 0 },
+    { "subject": "Economics", "lang": "hi-en", "question": "10. 'बजट' (Budget) शब्द का मूल अर्थ? (Meaning of budget word?)", "options": ["चमड़े का थैला (Leather bag)", "पैसा", "किताब"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "1. 'समाजशास्त्र' (Sociology) के जनक? (Father of Sociology?)", "options": ["अगस्त कॉम्टे (Auguste Comte)", "मार्क्स", "वेबर"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "2. 'संस्कृति' (Culture) क्या है? (What is culture?)", "options": ["सीखा हुआ व्यवहार (Learned behavior)", "जैविक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "3. 'जाति' (Caste) आधारित समाज? (Caste-based society?)", "options": ["बंद समाज (Closed society)", "खुला", "लोकतांत्रिक"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "4. 'संयुक्त परिवार' (Joint Family) का मुख्य लक्षण? (Main feature of Joint Family?)", "options": ["साझा रसोई (Common kitchen)", "अकेलापन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "5. 'सामाजीकरण' (Socialization) कहां से शुरू? (Socialization starts from?)", "options": ["परिवार (Family)", "पड़ोस", "स्कूल"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "6. 'प्रस्थिति' (Status) है? (Status is?)", "options": ["सामाजिक पद (Social position)", "कार्य", "कोई नहीं"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "7. 'ग्रामीण' (Rural) समाज की विशेषता? (Feature of rural society?)", "options": ["कृषि (Agriculture)", "उद्योग", "व्यापार"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "8. 'धर्म' (Religion) क्या है? (What is religion?)", "options": ["आस्था/विश्वास (Faith)", "विज्ञान", "तर्क"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "9. 'विचलन' (Deviance) है? (Deviance is?)", "options": ["नियम तोड़ना (Breaking norms)", "नियम पालन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Sociology", "lang": "hi-en", "question": "10. 'मार्क्स' (Marx) के अनुसार वर्ग? (Class according to Marx?)", "options": ["आर्थिक (Economic)", "सामाजिक", "राजनीतिक"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "1. 'मनोविज्ञान' (Psychology) का अर्थ? (Meaning of Psychology?)", "options": ["व्यवहार का विज्ञान (Science of behavior)", "आत्मा", "मन"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "2. 'बुद्धि' (Intelligence) मापने का IQ सूत्र? (IQ formula?)", "options": ["MA/CA*100", "CA/MA*100", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "3. 'चेतना' (Consciousness)? (Consciousness?)", "options": ["जागरूकता (Awareness)", "अचेतन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "4. 'व्यक्तित्व' (Personality) के कारक? (Factors of Personality?)", "options": ["वंशानुक्रम और वातावरण (Heredity & Environment)", "सिर्फ भोजन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "5. 'भूलना' (Forgetting) है? (Forgetting is?)", "options": ["स्मृति का ह्रास (Loss of memory)", "सीखना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "6. 'प्रेरणा' (Motivation) का आधार? (Basis of Motivation?)", "options": ["आवश्यकता (Need)", "मनोरंजन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "7. 'संवेग' (Emotion)? (Emotion?)", "options": ["तीव्र उत्तेजना (Strong feeling)", "शांत", "तर्क"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "8. 'तनाव' (Stress)? (Stress?)", "options": ["अनुकूलन की कमी (Lack of adaptation)", "खुशी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "9. 'सीखना' (Learning) है? (Learning is?)", "options": ["व्यवहार में परिवर्तन (Change in behavior)", "जन्म", "कोई नहीं"], "correct": 0 },
+    { "subject": "Psychology", "lang": "hi-en", "question": "10. 'फ्रायड' (Freud) का सिद्धांत? (Freud's theory?)", "options": ["मनोविश्लेषण (Psychoanalysis)", "व्यवहारवाद", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "1. 'प्रोटीन' (Protein) का कार्य? (Function of Protein?)", "options": ["शरीर निर्माण (Body building)", "ऊर्जा", "रोग"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "2. 'विटामिन सी' (Vitamin C)? (Vitamin C?)", "options": ["खट्टे फल (Citrus fruits)", "अंडे", "दूध"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "3. 'बजट' (Budget) प्रबंधन है? (Budget management is?)", "options": ["वित्तीय योजना (Financial planning)", "बर्बादी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "4. 'शिशु' (Infant) का प्रथम आहार? (First food of infant?)", "options": ["माँ का दूध (Mother's milk)", "गाय का दूध", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "5. 'कपड़ों' (Clothes) की धुलाई? (Washing of clothes?)", "options": ["स्वच्छता (Cleanliness)", "गंदगी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "6. 'भोजन' (Food) संरक्षण? (Food preservation?)", "options": ["खराब होने से बचाना (Prevention from spoilage)", "सड़ाना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "7. 'समय' (Time) प्रबंधन? (Time management?)", "options": ["दक्षता (Efficiency)", "आलस", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "8. 'आवास' (Housing)? (Housing?)", "options": ["सुरक्षा (Protection)", "सड़क", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "9. 'आयोडीन' (Iodine)? (Iodine?)", "options": ["घेंघा रोग निवारक (Goiter prevention)", "ताकत", "कोई नहीं"], "correct": 0 },
+    { "subject": "Home Science", "lang": "hi-en", "question": "10. 'फैशन' (Fashion)? (Fashion?)", "options": ["सज्जा (Design)", "खेती", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "1. 'FIR' (एफआईआर) क्या है? (What is FIR?)", "options": ["प्रथम सूचना रिपोर्ट (First Info Report)", "अंतिम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "2. 'दीवानी' (Civil) मामला? (Civil case?)", "options": ["संपत्ति/करार (Property/Contract)", "अपराध", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "3. 'फौजदारी' (Criminal) मामला? (Criminal case?)", "options": ["अपराध/चोरी (Crime/Theft)", "संपत्ति", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "4. 'न्यायपालिका' (Judiciary)? (Judiciary?)", "options": ["कानून की व्याख्या (Interpret law)", "बनाना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "5. 'संविधान' (Constitution)? (Constitution?)", "options": ["सर्वोच्च कानून (Supreme Law)", "किताब", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "6. 'वसीयत' (Will)? (Will?)", "options": ["संपत्ति हस्तांतरण (Property transfer)", "चोरी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "7. 'जमानत' (Bail)? (Bail?)", "options": ["अस्थायी रिहाई (Temporary release)", "सजा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "8. 'वकील' (Lawyer)? (Lawyer?)", "options": ["कानूनी प्रतिनिधित्व (Legal rep)", "दलाली", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "9. 'जनहित याचिका' (PIL)? (PIL?)", "options": ["सार्वजनिक हित (Public interest)", "स्वार्थ", "कोई नहीं"], "correct": 0 },
+    { "subject": "Legal Studies", "lang": "hi-en", "question": "10. 'कानून' (Law)? (Law?)", "options": ["नियमों का ढांचा (Framework of rules)", "मर्जी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "1. 'रामचरितमानस' के रचयिता? (Author of Ramcharitmanas?)", "options": ["तुलसीदास (Tulsidas)", "कबीर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "2. 'गोदान' के लेखक? (Author of Godaan?)", "options": ["प्रेमचंद (Premchand)", "निराला", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "3. 'कामायनी'? (Kamayani?)", "options": ["प्रसाद (Prasad)", "दिनकर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "4. 'कबीर' की भाषा? (Language of Kabir?)", "options": ["सधुक्कड़ी (Sadhukkari)", "अंग्रेजी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "5. 'मीराबाई' की भक्ति? (Mirabai's bhakti?)", "options": ["कृष्ण (Krishna)", "राम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "6. 'निराला' का युग? (Nirala's era?)", "options": ["छायावाद (Chhayavad)", "भक्ति", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "7. 'महादेवी' का उपनाम? (Mahadevi's nickname?)", "options": ["आधुनिक मीरा (Modern Mirabai)", "कबीर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "8. 'दिनकर' प्रसिद्ध थे? (Dinkar was famous for?)", "options": ["ओजस्वी कविता (Ojasvi poetry)", "हास्य", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "9. 'भारतेन्दु' क्या हैं? (Who is Bharatendu?)", "options": ["हिंदी के पिता (Father of Hindi)", "भक्ति", "कोई नहीं"], "correct": 0 },
+    { "subject": "Hindi Literature", lang: "hi-en", "question": "10. 'अज्ञेय' का संबंध? (Agyeya's relation?)", "options": ["प्रयोगवाद (Prayogvad)", "भक्ति", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "1. 'Shakespeare' प्रसिद्ध हैं? (Shakespeare is famous for?)", "options": ["नाटक (Drama)", "विज्ञान", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "2. 'Wordsworth'? (Wordsworth?)", "options": ["प्रकृति कवि (Nature poet)", "वैज्ञानिक", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "3. 'Eliot' का युग? (Eliot's era?)", "options": ["आधुनिक (Modern)", "प्राचीन", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "4. 'Keats' क्या थे? (Keats was?)", "options": ["रोमांटिक कवि (Romantic poet)", "गद्य", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "5. 'Dickens'? (Dickens?)", "options": ["उपन्यासकार (Novelist)", "नाटक", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "6. 'Hardy'? (Hardy?)", "options": ["उपन्यासकार (Novelist)", "कविता", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "7. 'Austen'? (Austen?)", "options": ["उपन्यासकार (Novelist)", "विज्ञान", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "8. 'Milton' की कृति? (Milton's work?)", "options": ["पैराडाइज लॉस्ट (Paradise Lost)", "गाना", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "9. 'Shelley'? (Shelley?)", "options": ["क्रांतिकारी (Revolutionary)", "शांति", "कोई नहीं"], "correct": 0 },
+    { "subject": "English Literature", lang: "hi-en", "question": "10. 'Byron'? (Byron?)", "options": ["रोमांटिक (Romantic)", "आधुनिक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "1. 'खाता' (Account)?", "options": ["लेखा (Record)", "खेल", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "2. 'लेखांकन' (Accounting)?", "options": ["वित्तीय सूचना (Financial Info)", "जुगाड़", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "3. 'उधार' (Credit)?", "options": ["दायित्व (Liability)", "संपत्ति", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "4. 'अंतिम खाता' (Final Accounts)?", "options": ["लाभ-हानि (Profit-Loss)", "रिकॉर्ड", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "5. 'पूंजी' (Capital)?", "options": ["निवेश (Investment)", "उधार", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "6. 'ह्रास' (Depreciation)?", "options": ["मूल्य कमी (Value reduction)", "वृद्धि", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "7. 'बिक्री' (Sales)?", "options": ["आय (Revenue)", "व्यय", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "8. 'खरीद' (Purchase)?", "options": ["व्यय (Expense)", "आय", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "9. 'लेखापरीक्षा' (Auditing)?", "options": ["जांच (Examination)", "लिखना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Accountancy", lang: "hi-en", "question": "10. 'वित्तीय वर्ष' (Financial Year)?", "options": ["1 अप्रैल-31 मार्च", "जनवरी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "1. 'संगठन' (Organization)?", "options": ["ढांचा (Structure)", "मौज", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "2. 'भर्ती' (Recruitment)?", "options": ["नियुक्ति (Hiring)", "हटाना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "3. 'प्रशिक्षण' (Training)?", "options": ["कौशल विकास (Skill development)", "काम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "4. 'नेतृत्व' (Leadership)?", "options": ["मार्गदर्शन (Guidance)", "कब्जा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "5. 'प्रेरणा' (Motivation)?", "options": ["इच्छाशक्ति (Willpower)", "दबाव", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "6. 'विज्ञापन' (Advertising)?", "options": ["बिक्री/प्रचार (Sales/Promo)", "कम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "7. 'वित्तीय योजना' (Financial plan)?", "options": ["जरूरत (Need)", "बचत", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "8. 'बाजार' (Market)?", "options": ["खरीद-बिक्री (Exchange)", "घर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "9. 'उपभोक्ता अधिकार' (Consumer rights)?", "options": ["सुरक्षा (Protection)", "शोषण", "कोई नहीं"], "correct": 0 },
+    { "subject": "Business Studies", lang: "hi-en", "question": "10. 'व्यवसाय' (Business)?", "options": ["लाभ (Profit)", "सेवा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "1. 'नवाचार' (Innovation)?", "options": ["नया विचार (New idea)", "पुराना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "2. 'जोखिम' (Risk)?", "options": ["अनिश्चितता (Uncertainty)", "निश्चित", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "3. 'उद्यमी' (Entrepreneur)?", "options": ["निर्माता (Creator)", "नौकरी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "4. 'पूंजी' (Capital)?", "options": ["व्यवसाय धन (Business money)", "खर्च", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "5. 'लक्ष्य' (Goal)?", "options": ["उद्देश्य (Objective)", "अस्पष्ट", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "6. 'बाजार' (Market)?", "options": ["अवसर (Opportunity)", "बाधा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "7. 'विकास' (Development)?", "options": ["वृद्धि (Growth)", "पतन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "8. 'तकनीक' (Technology)?", "options": ["आधुनिक (Modern)", "पुराना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "9. 'योजना' (Planning)?", "options": ["रूपरेखा (Blueprint)", "अचानक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Entrepreneurship", lang: "hi-en", "question": "10. 'सफलता' (Success)?", "options": ["लक्ष्य प्राप्ति (Goal achievement)", "हार", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "1. 'ध्वनि' (Sound)?", "options": ["तरंग (Wave)", "स्थिर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "2. 'चुंबक' (Magnet)?", "options": ["आकर्षण (Attraction)", "दूर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "3. 'घर्षण' (Friction)?", "options": ["अवरोध (Resistance)", "सहायक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "4. 'भार' (Weight)?", "options": ["गुरुत्वाकर्षण (Gravity)", "द्रव्यमान", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "5. 'दाब' (Pressure)?", "options": ["बल/क्षेत्रफल (Force/Area)", "दूरी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "6. 'उत्तोलक' (Lever)?", "options": ["मशीन (Machine)", "औजार", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "7. 'ताप' (Temperature)?", "options": ["ऊर्जा का माप (Measure of energy)", "दूरी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "8. 'अपवर्तन' (Refraction)?", "options": ["प्रकाश मुड़ना (Bending of light)", "सीधा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "9. 'दर्पण' (Mirror)?", "options": ["प्रतिबिंब (Reflection)", "अंधेरा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Physics", lang: "hi-en", "question": "10. 'परमाणु' (Atom)?", "options": ["सूक्ष्म (Micro)", "विशाल", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "1. 'कार्बन' (Carbon)?", "options": ["जीवन आधार (Life basis)", "धातु", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "2. 'ऑक्सीजन' (Oxygen)?", "options": ["दहन (Combustion)", "बुझाना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "3. 'धातु' (Metal)?", "options": ["चालक (Conductor)", "कुचालक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "4. 'अधातु' (Non-metal)?", "options": ["कुचालक (Insulator)", "चालक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "5. 'मिश्रण' (Mixture)?", "options": ["अनिश्चित (Unfixed)", "निश्चित", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "6. 'यौगिक' (Compound)?", "options": ["निश्चित (Fixed)", "अनिश्चित", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "7. 'विद्युत अपघटन' (Electrolysis)?", "options": ["वियोजन (Decomposition)", "जोड़ना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "8. 'ईंधन' (Fuel)?", "options": ["ऊर्जा (Energy)", "बेकार", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "9. 'प्लास्टिक' (Plastic)?", "options": ["बहुलक (Polymer)", "धातु", "कोई नहीं"], "correct": 0 },
+    { "subject": "Chemistry", lang: "hi-en", "question": "10. 'साबुन' (Soap)?", "options": ["सफाई (Cleaning)", "दाग", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "1. 'कंकाल' (Skeleton)?", "options": ["ढांचा (Framework)", "मांस", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "2. 'मांसपेशी' (Muscle)?", "options": ["गति (Movement)", "स्थिर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "3. 'पाचन' (Digestion)?", "options": ["ऊर्जा (Energy)", "अपशिष्ट", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "4. 'रक्त' (Blood)?", "options": ["परिवहन (Transport)", "स्थिर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "5. 'प्रजनन' (Reproduction)?", "options": ["वंश (Progeny)", "अंत", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "6. 'हार्मोन' (Hormone)?", "options": ["संदेशवाहक (Messenger)", "भोजन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "7. 'विषाणु' (Virus)?", "options": ["जीव-निर्जीव (Living-Nonliving)", "पौधा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "8. 'जीवाणु' (Bacteria)?", "options": ["एककोशिकीय (Unicellular)", "बहु", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "9. 'इकोसिस्टम' (Ecosystem)?", "options": ["जीव-पर्यावरण (Bio-Env)", "अलग", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biology", lang: "hi-en", "question": "10. 'जैव विविधता' (Biodiversity)?", "options": ["विभिन्नता (Variety)", "एकता", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "1. 'जीन थेरेपी' (Gene Therapy)?", "options": ["उपचार (Treatment)", "खेल", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "2. 'फर्मेंटेशन' (Fermentation)?", "options": ["सूक्ष्मजीव (Microbes)", "ठोस", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "3. 'टीका' (Vaccine)?", "options": ["सुरक्षा (Protection)", "रोग", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "4. 'बायो-सेंसर' (Biosensor)?", "options": ["जांच (Testing)", "शोर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "5. 'जीनोम' (Genome)?", "options": ["डीएनए (DNA)", "भोजन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "6. 'एंजाइम' (Enzyme)?", "options": ["उत्प्रेरक (Catalyst)", "ईंधन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "7. 'क्लोन' (Clone)?", "options": ["समान (Identical)", "अलग", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "8. 'प्रोटीन इंजीनियरिंग' (Protein eng)?", "options": ["बदलाव (Modification)", "भोजन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "9. 'बायोरिएक्टर' (Bioreactor)?", "options": ["उत्पादन (Production)", "आराम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Biotechnology", lang: "hi-en", "question": "10. 'बायोहैज़र्ड' (Biohazard)?", "options": ["जोखिम (Risk)", "सुरक्षा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "1. 'बहुपद' (Polynomial)?", "options": ["बीजगणित (Algebra)", "अंक", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "2. 'अवकलन' (Differentiation)?", "options": ["परिवर्तन (Change)", "स्थिर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "3. 'समाकलन' (Integration)?", "options": ["योग (Summation)", "तोड़ना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "4. 'सदिश' (Vector)?", "options": ["दिशा (Direction)", "अदिश", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "5. 'अदिश' (Scalar)?", "options": ["परिमाण (Magnitude)", "दिशा", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "6. 'फलन' (Function)?", "options": ["संबंध (Relation)", "भेद", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "7. 'सीमा' (Limit)?", "options": ["नजदीकी (Closeness)", "स्थिर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "8. 'ज्यामिति' (Geometry)?", "options": ["आकार (Shape)", "नंबर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "9. 'क्रमचय' (Permutation)?", "options": ["व्यवस्था (Arrangement)", "चयन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Maths", lang: "hi-en", "question": "10. 'संचय' (Combination)?", "options": ["चयन (Selection)", "क्रम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "1. 'पूर्वानुमान' (Forecasting)?", "options": ["भविष्य (Future)", "अतीत", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "2. 'नेटवर्क' (Network)?", "options": ["प्रोजेक्ट (Project)", "खेल", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "3. 'इन्वेंटरी' (Inventory)?", "options": ["स्टॉक (Stock)", "बिक्री", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "4. 'अनुक्रम' (Sequence)?", "options": ["सीरीज (Series)", "अस्त-व्यस्त", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "5. 'लाभ-हानि' (Profit-Loss)?", "options": ["अंक (Digits)", "बीज", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "6. 'ब्याज' (Interest)?", "options": ["पूंजी मूल्य (Capital cost)", "खर्च", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "7. 'चक्रवृद्धि' (Compound)?", "options": ["ब्याज पर (Interest on interest)", "सरल", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "8. 'ग्राफ' (Graph)?", "options": ["डेटा (Data)", "टेक्स्ट", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "9. 'सांख्यिकी' (Statistics)?", "options": ["औसत (Average)", "कहानी", "कोई नहीं"], "correct": 0 },
+    { "subject": "Applied Maths", lang: "hi-en", "question": "10. 'प्रोग्रामिंग' (Programming)?", "options": ["अनुकूलन (Optimization)", "अस्त-व्यस्त", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "1. 'सॉफ्टवेयर' (Software)?", "options": ["प्रोग्राम (Program)", "मशीन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "2. 'हार्डवेयर' (Hardware)?", "options": ["उपकरण (Equipment)", "प्रोग्राम", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "3. 'इंटरनेट' (Internet)?", "options": ["नेटवर्क (Network)", "मशीन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "4. 'वेबसाइट' (Website)?", "options": ["पेज (Page)", "मशीन", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "5. 'ईमेल' (Email)?", "options": ["डाक (Post)", "पत्र", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "6. 'प्रोग्रामिंग' (Programming)?", "options": ["कोडिंग (Coding)", "बोलना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "7. 'डेटाबेस' (Database)?", "options": ["संग्रह (Collection)", "गाना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "8. 'बाइनरी' (Binary)?", "options": ["0-1", "0-9", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "9. 'सर्वर' (Server)?", "options": ["सेवा (Service)", "क्लाइंट", "कोई नहीं"], "correct": 0 },
+    { "subject": "Computer Science", lang: "hi-en", "question": "10. 'क्लाउड' (Cloud)?", "options": ["स्टोरेज (Storage)", "डिस्क", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "1. 'तर्क' (Logic)?", "options": ["सोचना (Reasoning)", "खेल", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "2. 'मानवतावाद' (Humanism)?", "options": ["कल्याण (Welfare)", "स्वार्थ", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "3. 'यथार्थवाद' (Realism)?", "options": ["वास्तविकता (Reality)", "कल्पना", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "4. 'आदर्शवाद' (Idealism)?", "options": ["विचार (Thought)", "पदार्थ", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "5. 'चेतना' (Consciousness)?", "options": ["अनुभूति (Experience)", "स्थिर", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "6. 'मुक्ति' (Liberation)?", "options": ["बंधन रहित (Freedom)", "कैद", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "7. 'धर्म' (Religion)?", "options": ["कर्तव्य (Duty)", "अंधविश्वास", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "8. 'नैतिकता' (Ethics)?", "options": ["सही-गलत (Right-Wrong)", "स्वार्थ", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "9. 'ज्ञान' (Knowledge)?", "options": ["समझ (Understanding)", "अज्ञान", "कोई नहीं"], "correct": 0 },
+    { "subject": "Philosophy", lang: "hi-en", "question": "10. 'सत्य' (Truth)?", "options": ["शाश्वत (Eternal)", "झूठ", "कोई नहीं"], "correct": 0 },
+    {
+  "set_name": "Set 24: Comprehensive Academic Practice",
+  "total_questions": 220,
+  "data": [
+    { "subject": "History", "lang": "hi-en", "questions": [
+      { "q": "1. 'सिंधु घाटी सभ्यता' की खोज किसने की? (Who discovered the Indus Valley Civilization?)", "options": ["राय बहादुर दयाराम साहनी", "जॉन मार्शल", "आर.डी. बनर्जी"], "correct": 0 },
+      { "q": "2. 'अकबरनामा' के रचयिता? (Author of Akbarnama?)", "options": ["अबुल फजल", "बीरबल", "फैजी"], "correct": 0 },
+      { "q": "3. 'प्लासी का युद्ध' कब हुआ? (When did the Battle of Plassey take place?)", "options": ["1757", "1764", "1857"], "correct": 0 },
+      { "q": "4. 'वेदों' की कुल संख्या? (Total number of Vedas?)", "options": ["4", "3", "5"], "correct": 0 },
+      { "q": "5. 'गौतम बुद्ध' का जन्म कहाँ हुआ? (Where was Gautam Buddha born?)", "options": ["लुम्बिनी", "सारनाथ", "बोधगया"], "correct": 0 },
+      { "q": "6. 'भारत छोड़ो आंदोलन' कब शुरू हुआ? (When did Quit India Movement start?)", "options": ["1942", "1920", "1930"], "correct": 0 },
+      { "q": "7. 'दिल्ली चलो' का नारा? (Slogan of 'Delhi Chalo'?)", "options": ["सुभाष चंद्र बोस", "गांधी जी", "नेहरू"], "correct": 0 },
+      { "q": "8. 'हड़प्पा' किस नदी किनारे है? (Harappa is on which river bank?)", "options": ["रावी", "सिंधु", "सतलज"], "correct": 0 },
+      { "q": "9. 'विजयनगर' साम्राज्य का संस्थापक? (Founder of Vijayanagara Empire?)", "options": ["हरिहर और बुक्का", "कृष्णदेव राय", "देवराय"], "correct": 0 },
+      { "q": "10. 'जालियांवाला बाग' हत्याकांड कब हुआ? (When did Jallianwala Bagh massacre happen?)", "options": ["1919", "1918", "1920"], "correct": 0 }
+    ]},
+    { "subject": "Political Science", "lang": "hi-en", "questions": [
+      { "q": "1. 'संविधान सभा' के अध्यक्ष? (President of Constituent Assembly?)", "options": ["डॉ. राजेन्द्र प्रसाद", "बी.आर. अंबेडकर", "नेहरू"], "correct": 0 },
+      { "q": "2. 'मौलिक अधिकार' किस देश से लिए गए? (Fundamental Rights borrowed from?)", "options": ["अमेरिका", "ब्रिटेन", "रूस"], "correct": 0 },
+      { "q": "3. 'अनुच्छेद 370' का संबंध? (Article 370 related to?)", "options": ["जम्मू-कश्मीर", "पंजाब", "असम"], "correct": 0 },
+      { "q": "4. 'राज्यसभा' के सदस्यों का कार्यकाल? (Term of Rajya Sabha members?)", "options": ["6 वर्ष", "5 वर्ष", "4 वर्ष"], "correct": 0 },
+      { "q": "5. 'राष्ट्रपति' को शपथ कौन दिलाता है? (Who administers oath to President?)", "options": ["मुख्य न्यायाधीश", "प्रधानमंत्री", "उपराष्ट्रपति"], "correct": 0 },
+      { "q": "6. 'पंचायती राज' किस अनुसूची में है? (Panchayati Raj is in which schedule?)", "options": ["11वीं", "10वीं", "12वीं"], "correct": 0 },
+      { "q": "7. 'लोकतंत्र' का अर्थ? (Meaning of Democracy?)", "options": ["जनता का शासन", "राजा का शासन", "अमीर का शासन"], "correct": 0 },
+      { "q": "8. 'अनुच्छेद 14' क्या है? (What is Article 14?)", "options": ["समानता का अधिकार", "स्वतंत्रता", "शिक्षा"], "correct": 0 },
+      { "q": "9. 'वित्त आयोग' का गठन? (Finance Commission constitution?)", "options": ["अनुच्छेद 280", "अनुच्छेद 360", "अनुच्छेद 356"], "correct": 0 },
+      { "q": "10. 'संवैधानिक उपचार' का अधिकार? (Right to Constitutional Remedies?)", "options": ["अनुच्छेद 32", "अनुच्छेद 21", "अनुच्छेद 19"], "correct": 0 }
+    ]},
+    { "subject": "Geography", "lang": "hi-en", "questions": [
+      { "q": "1. 'वायुमंडल' में नाइट्रोजन का प्रतिशत? (Nitrogen percentage in atmosphere?)", "options": ["78%", "21%", "0.03%"], "correct": 0 },
+      { "q": "2. 'विश्व' का सबसे ऊँचा पर्वत? (Highest mountain of the world?)", "options": ["माउंट एवरेस्ट", "के2", "कंचनजंगा"], "correct": 0 },
+      { "q": "3. 'भारत' की सबसे लंबी सीमा? (India's longest border?)", "options": ["बांग्लादेश", "चीन", "पाकिस्तान"], "correct": 0 },
+      { "q": "4. 'काजीरंगा' नेशनल पार्क? (Kaziranga National Park?)", "options": ["असम", "मध्य प्रदेश", "गुजरात"], "correct": 0 },
+      { "q": "5. 'सूरत' किस नदी के किनारे? (Surat on which river?)", "options": ["ताप्ती", "नर्मदा", "गंगा"], "correct": 0 },
+      { "q": "6. 'सूर्य' के सबसे निकट ग्रह? (Planet closest to Sun?)", "options": ["बुध", "शुक्र", "पृथ्वी"], "correct": 0 },
+      { "q": "7. 'भूकंप' तीव्रता मापक? (Earthquake intensity scale?)", "options": ["रिएक्टर", "बैरोमीटर", "थर्मामीटर"], "correct": 0 },
+      { "q": "8. 'नीली क्रांति' का संबंध? (Blue revolution related to?)", "options": ["मत्स्य पालन", "दूध", "तेल"], "correct": 0 },
+      { "q": "9. 'कर्क रेखा' कितने राज्यों से? (Tropic of Cancer passes through how many states?)", "options": ["8", "7", "9"], "correct": 0 },
+      { "q": "10. 'भारत' का प्रवेश द्वार? (Gateway of India?)", "options": ["मुंबई", "दिल्ली", "चेन्नई"], "correct": 0 }
+    ]},
+    { "subject": "Economics", "lang": "hi-en", "questions": [
+      { "q": "1. 'अर्थशास्त्र' के जनक? (Father of Economics?)", "options": ["एडम स्मिथ", "मार्क्स", "कीन्स"], "correct": 0 },
+      { "q": "2. 'RBI' का मुख्यालय? (Headquarters of RBI?)", "options": ["मुंबई", "दिल्ली", "कोलकाता"], "correct": 0 },
+      { "q": "3. 'सकल घरेलू उत्पाद' (GDP)? (What is GDP?)", "options": ["आर्थिक उत्पादन", "पूंजी", "लाभ"], "correct": 0 },
+      { "q": "4. 'प्रथम पंचवर्षीय योजना'? (First Five Year Plan?)", "options": ["1951-56", "1947-52", "1950-55"], "correct": 0 },
+      { "q": "5. 'नकद आरक्षित अनुपात' (CRR)? (What is CRR?)", "options": ["बैंक जमा", "नकद", "सोना"], "correct": 0 },
+      { "q": "6. 'विश्व बैंक' का मुख्यालय? (World Bank HQ?)", "options": ["वाशिंगटन डीसी", "जिनेवा", "लंदन"], "correct": 0 },
+      { "q": "7. 'मुद्रास्फीति' का अर्थ? (Meaning of Inflation?)", "options": ["महंगाई", "मंदी", "लाभ"], "correct": 0 },
+      { "q": "8. 'मिश्रित अर्थव्यवस्था'? (Mixed Economy?)", "options": ["सार्वजनिक और निजी", "सिर्फ निजी", "सिर्फ सार्वजनिक"], "correct": 0 },
+      { "q": "9. 'नीति आयोग' अध्यक्ष? (Chairman of NITI Aayog?)", "options": ["प्रधानमंत्री", "राष्ट्रपति", "वित्त मंत्री"], "correct": 0 },
+      { "q": "10. 'आयकर' कैसा कर है? (Income tax is which tax?)", "options": ["प्रत्यक्ष", "अप्रत्यक्ष", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Sociology", "lang": "hi-en", "questions": [
+      { "q": "1. 'समाज' का निर्माण किससे होता है? (Society is made of?)", "options": ["सामाजिक संबंधों", "लोगों", "पैसों"], "correct": 0 },
+      { "q": "2. 'पितृसत्ता' (Patriarchy)? (Patriarchy?)", "options": ["पुरुष प्रधान", "महिला प्रधान", "समान"], "correct": 0 },
+      { "q": "3. 'आधुनिकीकरण' का अर्थ? (Meaning of Modernization?)", "options": ["बदलाव", "पुराना", "स्थिर"], "correct": 0 },
+      { "q": "4. 'प्रजाति' और 'जाति' में अंतर? (Difference between Race and Caste?)", "options": ["जैविक और सामाजिक", "एक ही", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'परिवार' कैसी संस्था है? (Family is which institution?)", "options": ["प्राथमिक", "द्वितीयक", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'प्रवास' (Migration) का कारण? (Cause of Migration?)", "options": ["रोजगार/बेहतर जीवन", "मनोरंजन", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'दहेज' प्रथा? (Dowry system?)", "options": ["सामाजिक बुराई", "अच्छी परंपरा", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'सामुदायिक भावना'? (Sense of community?)", "options": ["हम की भावना", "स्वार्थ", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'अस्पृश्यता' (Untouchability) निषेध? (Abolition of Untouchability?)", "options": ["अनुच्छेद 17", "अनुच्छेद 14", "अनुच्छेद 15"], "correct": 0 },
+      { "q": "10. 'नगरीकरण' (Urbanization) का प्रभाव? (Impact of Urbanization?)", "options": ["व्यक्तिवाद", "सामूहिकता", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Psychology", "lang": "hi-en", "questions": [
+      { "q": "1. 'मनोविज्ञान' शब्द की उत्पत्ति? (Origin of Psychology?)", "options": ["यूनानी", "लैटिन", "हिंदी"], "correct": 0 },
+      { "q": "2. 'बुद्धि लब्धि' (IQ) का सूत्र? (IQ Formula?)", "options": ["MA/CA * 100", "CA/MA * 100", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'व्यक्तित्व' (Personality) के प्रकार? (Types of Personality?)", "options": ["अंतर्मुखी/बहिर्मुखी", "स्थिर", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'सीखना' (Learning) कैसा प्रक्रिया है? (Learning is which process?)", "options": ["निरंतर", "रुकावट", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'भूलने' (Forgetting) के कारण? (Causes of Forgetting?)", "options": ["दमन/अस्पष्टता", "तेजी", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'अभिप्रेरणा' (Motivation) चक्र? (Motivation Cycle?)", "options": ["आवश्यकता-चालक-लक्ष्य", "अंत", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'तनाव' (Stress) के प्रभाव? (Effects of Stress?)", "options": ["शारीरिक/मानसिक", "आनंद", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'संवेग' (Emotion) का मुख्य केंद्र? (Center of Emotion?)", "options": ["लिम्बिक तंत्र", "कपाल", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'स्मृति' (Memory) के प्रकार? (Types of Memory?)", "options": ["अल्पकालीन/दीर्घकालीन", "एक ही", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'व्यवहारवाद' (Behaviorism) के जनक? (Father of Behaviorism?)", "options": ["जे.बी. वाटसन", "फ्रायड", "पावलोव"], "correct": 0 }
+    ]},
+    { "subject": "Home Science", "lang": "hi-en", "questions": [
+      { "q": "1. 'संतुलित आहार' (Balanced Diet)? (Balanced Diet?)", "options": ["सभी पोषक तत्व", "सिर्फ प्रोटीन", "चीनी"], "correct": 0 },
+      { "q": "2. 'विटामिन ए' की कमी? (Deficiency of Vitamin A?)", "options": ["रतौंधी", "स्कर्वी", "बेरी-बेरी"], "correct": 0 },
+      { "q": "3. 'वस्त्र' विज्ञान? (Textile science?)", "options": ["रेशा/बुनाई", "खेती", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'भोजन' पकाने की विधि? (Methods of cooking?)", "options": ["उबालना/तलना", "चबाना", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'बचत' (Saving)? (Saving?)", "options": ["भविष्य हेतु", "बर्बादी", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'शिशु' का टीकाकरण? (Vaccination of child?)", "options": ["बीमारी से बचाव", "बीमारी", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'घर की सजावट'? (Home decoration?)", "options": ["सौंदर्य/उपयोगिता", "गंदगी", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'आय' के प्रकार? (Types of Income?)", "options": ["मुद्रिक/वास्तविक", "सिर्फ पैसा", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'प्रदूषण' (Pollution) के प्रकार? (Types of Pollution?)", "options": ["वायु/जल/ध्वनि", "शांति", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'उपभोक्ता' (Consumer) शिक्षा? (Consumer education?)", "options": ["अधिकार/जिम्मेदारी", "स्वार्थ", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Legal Studies", "lang": "hi-en", "questions": [
+      { "q": "1. 'कानून' (Law) का शासन? (Rule of Law?)", "options": ["सब समान हैं", "भेदभाव", "शक्ति"], "correct": 0 },
+      { "q": "2. 'भारतीय दंड संहिता' (IPC)? (IPC related to?)", "options": ["अपराध", "दीवानी", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'न्यायिक पुनरावलोकन' (Judicial Review)? (Judicial Review?)", "options": ["कानून समीक्षा", "सजा", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'अधिकार' (Rights) क्या हैं? (What are Rights?)", "options": ["दावे", "मर्जी", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'करार' (Contract)? (Contract?)", "options": ["कानूनी समझौता", "जुबानी", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'कॉपीराइट' (Copyright)? (Copyright?)", "options": ["बौद्धिक संपदा", "चोरी", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'रिट' (Writ) कौन जारी करता है? (Who issues Writ?)", "options": ["न्यायालय", "पुलिस", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'साक्ष्य' (Evidence) कानून? (Evidence Act?)", "options": ["प्रमाण", "गपशप", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'वैकल्पिक विवाद समाधान' (ADR)? (ADR?)", "options": ["मध्यस्थता", "युद्ध", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'संविधान' (Constitution) सर्वोच्च है? (Is Constitution supreme?)", "options": ["हाँ", "नहीं", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Hindi Literature", "lang": "hi-en", "questions": [
+      { "q": "1. 'हिंदी' का प्रथम महाकाव्य? (First epic of Hindi?)", "options": ["पृथ्वीराज रासो", "रामचरितमानस", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'सूरसागर' के रचयिता? (Author of Soorsagar?)", "options": ["सूरदास", "तुलसीदास", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'आधुनिक' हिंदी के जनक? (Father of Modern Hindi?)", "options": ["भारतेन्दु हरिश्चंद्र", "प्रेमचंद", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'झरना' (Jharna) किसकी कृति है? (Work of?)", "options": ["जयशंकर प्रसाद", "दिनकर", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'गोदान' का नायक? (Hero of Godaan?)", "options": ["होरी", "गबरू", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'मैला आंचल' (Maila Aanchal)? (Maila Aanchal?)", "options": ["फणीश्वरनाथ रेणु", "निराला", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'कामायनी' में कुल सर्ग? (Total cantos in Kamayani?)", "options": ["15", "10", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'मीरा' की भाषा? (Language of Meera?)", "options": ["राजस्थानी मिश्रित", "खड़ी बोली", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'कबीर' की रचनाओं का संग्रह? (Collection of Kabir?)", "options": ["बीजक", "साखी", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'हिंदी दिवस' कब मनाते हैं? (When is Hindi Diwas?)", "options": ["14 सितंबर", "14 अगस्त", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "English Literature", "lang": "hi-en", "questions": [
+      { "q": "1. 'Hamlet' का लेखक? (Author of Hamlet?)", "options": ["Shakespeare", "Milton", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'The Waste Land' किसकी है? (Author of The Waste Land?)", "options": ["T.S. Eliot", "Wordsworth", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'Paradise Lost'? (Paradise Lost?)", "options": ["John Milton", "Shelley", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'Pride and Prejudice'? (Pride and Prejudice?)", "options": ["Jane Austen", "Hardy", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'Ode to a Nightingale'? (Ode to a Nightingale?)", "options": ["John Keats", "Byron", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'Victorian Age' काल? (Period of Victorian Age?)", "options": ["1837-1901", "1700", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'The Old Man and the Sea'? (The Old Man and the Sea?)", "options": ["Hemingway", "Dickens", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'Romantic Age' शुरुआत? (Romantic Age start?)", "options": ["1798", "1850", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'Essay on Criticism'? (Essay on Criticism?)", "options": ["Alexander Pope", "Dryden", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'Waiting for Godot'? (Waiting for Godot?)", "options": ["Samuel Beckett", "Pinter", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Accountancy", "lang": "hi-en", "questions": [
+      { "q": "1. 'लेन-देन' (Transaction)? (Transaction?)", "options": ["आर्थिक घटना", "खेल", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'रोज़नामचा' (Journal)? (Journal?)", "options": ["प्राथमिक प्रविष्टि", "अंतिम", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'बही-खाता' (Ledger)? (Ledger?)", "options": ["खातों का संग्रह", "डायरी", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'तलपट' (Trial Balance)? (Trial Balance?)", "options": ["गणितीय शुद्धता", "लाभ", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'संपत्ति' (Asset)? (Asset?)", "options": ["जो मूल्यवान है", "उधार", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'देनदार' (Debtor)? (Debtor?)", "options": ["जिससे पैसा लेना है", "देना है", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'लेनदार' (Creditor)? (Creditor?)", "options": ["जिसको पैसा देना है", "लेना है", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'लाभ-हानि खाता' (P&L Account)? (P&L Account?)", "options": ["परिणाम", "संपत्ति", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'चिट्ठा' (Balance Sheet)? (Balance Sheet?)", "options": ["वित्तीय स्थिति", "लाभ", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'लेखांकन सिद्धांत' (GAAP)? (GAAP?)", "options": ["नियम", "मर्जी", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Business Studies", "lang": "hi-en", "questions": [
+      { "q": "1. 'प्रबंधन' (Management)? (Management?)", "options": ["कला/विज्ञान", "खेल", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'नियोजन' (Planning)? (Planning?)", "options": ["भविष्य का कार्य", "बीता", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'नियंत्रण' (Controlling)? (Controlling?)", "options": ["सुधार/निगरानी", "स्वतंत्रता", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'संगठन' (Organizing)? (Organizing?)", "options": ["संसाधन जुटाना", "खर्च", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'स्टाफिंग' (Staffing)? (Staffing?)", "options": ["भर्ती/चयन", "बर्खास्त", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'निर्देशन' (Directing)? (Directing?)", "options": ["मार्गदर्शन", "कब्जा", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'विपणन' (Marketing)? (Marketing?)", "options": ["बिक्री प्रक्रिया", "उत्पादन", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'पूंजी संरचना' (Capital Structure)? (Capital Structure?)", "options": ["ऋण/इक्विटी", "बैंक", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'शेयर बाजार' (Stock Exchange)? (Stock Exchange?)", "options": ["प्रतिभूति बाजार", "फल मंडी", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'व्यवसाय पर्यावरण' (Business Environment)? (Business Environment?)", "options": ["बाहरी कारक", "आंतरिक", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Entrepreneurship", lang: "hi-en", "questions": [
+      { "q": "1. 'उद्यमिता' (Entrepreneurship)? (Entrepreneurship?)", "options": ["सृजन प्रक्रिया", "नौकरी", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'उद्यमी' (Entrepreneur)? (Entrepreneur?)", "options": ["जोखिम लेने वाला", "डरपोक", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'व्यवसाय योजना' (Business Plan)? (Business Plan?)", "options": ["ब्लूप्रिंट", "मजाक", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'बाजार विश्लेषण' (Market Analysis)? (Market Analysis?)", "options": ["ग्राहक मांग", "अंदाज", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'पूंजी' (Capital)? (Capital?)", "options": ["व्यवसाय धन", "उधार", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'प्रतियोगिता' (Competition)? (Competition?)", "options": ["चुनौती", "सहयोग", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'ब्रांडिंग' (Branding)? (Branding?)", "options": ["पहचान", "नाम", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'नेटवर्किंग' (Networking)? (Networking?)", "options": ["संबंध", "दूरी", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'वित्तीयन' (Financing)? (Financing?)", "options": ["पूंजी जुटाना", "खर्च", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'सफलता' (Success)? (Success?)", "options": ["लक्ष्य प्राप्ति", "हार", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Physics", lang: "hi-en", "questions": [
+      { "q": "1. 'न्यूटन' का गति नियम? (Newton's law?)", "options": ["तीन नियम", "एक", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'प्रकाश' की चाल? (Speed of light?)", "options": ["3x10^8 m/s", "शून्य", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'गुरुत्वाकर्षण' (Gravity)? (Gravity?)", "options": ["आकर्षण", "धक्का", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'ऊर्जा' (Energy) का संरक्षण? (Conservation of Energy?)", "options": ["ना नष्ट/उत्पन्न", "असंभव", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'ओम' का नियम? (Ohm's law?)", "options": ["V=IR", "V=I/R", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'परमाणु' (Atom)? (Atom?)", "options": ["प्रोटॉन/न्यूट्रॉन/इलेक्ट्रॉन", "कोशिका", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'ऊष्मा' (Heat)? (Heat?)", "options": ["ऊर्जा", "द्रव्यमान", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'विद्युत' (Electricity)? (Electricity?)", "options": ["आवेश का प्रवाह", "स्थिर", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'लेंस' (Lens)? (Lens?)", "options": ["अपवर्तन", "परावर्तन", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'वेग' (Velocity)? (Velocity?)", "options": ["विस्थापन/समय", "दूरी", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Chemistry", lang: "hi-en", "questions": [
+      { "q": "1. 'PH स्केल' (PH Scale)? (PH Scale?)", "options": ["अम्लता/क्षारता", "दूरी", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'आवर्त सारणी' (Periodic Table)? (Periodic Table?)", "options": ["तत्वों का वर्गीकरण", "कहानी", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'पानी' (Water) सूत्र? (Formula of Water?)", "options": ["H2O", "CO2", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'उत्प्रेरक' (Catalyst)? (Catalyst?)", "options": ["अभिक्रिया गति", "स्थिर", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'बहुलक' (Polymer)? (Polymer?)", "options": ["प्लास्टिक", "धातु", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'अम्ल' (Acid)? (Acid?)", "options": ["खट्टा", "कड़वा", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'क्षार' (Base)? (Base?)", "options": ["कड़वा", "खट्टा", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'धातु' (Metal)? (Metal?)", "options": ["चमकीला", "अंधेरा", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'परमाणु भार' (Atomic mass)? (Atomic mass?)", "options": ["P+N", "E", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'रेडियोधर्मिता' (Radioactivity)? (Radioactivity?)", "options": ["विकिरण उत्सर्जन", "स्थिर", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Biology", lang: "hi-en", "questions": [
+      { "q": "1. 'कोशिका' (Cell)? (Cell?)", "options": ["जीवन की इकाई", "मशीन", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'डीएनए' (DNA)? (DNA?)", "options": ["अनुवांशिक", "भोजन", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'प्रकाश संश्लेषण' (Photosynthesis)? (Photosynthesis?)", "options": ["पौधे का भोजन", "श्वसन", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'हृदय' (Heart)? (Heart?)", "options": ["रक्त पंपिंग", "पाचन", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'श्वसन' (Respiration)? (Respiration?)", "options": ["ऊर्जा प्राप्ति", "सोना", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'रक्त' (Blood)? (Blood?)", "options": ["परिवहन", "स्थिर", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'प्रजनन' (Reproduction)? (Reproduction?)", "options": ["वंशवृद्धि", "मृत्यु", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'इंसुलिन' (Insulin)? (Insulin?)", "options": ["शुगर नियंत्रण", "पाचन", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'वर्गीकरण' (Classification)? (Classification?)", "options": ["जीवों का समूह", "कोई नहीं", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'हार्मोन' (Hormone)? (Hormone?)", "options": ["संदेशवाहक", "भोजन", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Biotechnology", lang: "hi-en", "questions": [
+      { "q": "1. 'क्लोनिंग' (Cloning)? (Cloning?)", "options": ["हुबहू प्रतिलिपि", "विनाश", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'बायोटेक' (Biotech)? (Biotech?)", "options": ["जीव+तकनीक", "पत्थर", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'टीकाकरण' (Vaccination)? (Vaccination?)", "options": ["सुरक्षा", "रोग", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'जेनेटिक' (Genetic)? (Genetic?)", "options": ["अनुवांशिकी", "खेल", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'एंजाइम' (Enzyme)? (Enzyme?)", "options": ["उत्प्रेरक", "ईंधन", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'फर्मेंटेशन' (Fermentation)? (Fermentation?)", "options": ["सूक्ष्मजीव प्रक्रिया", "ठोस", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'जीनोम' (Genome)? (Genome?)", "options": ["डीएनए समूह", "कोई नहीं", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'बायोरिएक्टर' (Bioreactor)? (Bioreactor?)", "options": ["उत्पादन", "आराम", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'जीन थेरेपी' (Gene Therapy)? (Gene Therapy?)", "options": ["बीमारी का उपचार", "खेल", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'बायोसेंसर' (Biosensor)? (Biosensor?)", "options": ["जांच उपकरण", "शोर", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Maths", lang: "hi-en", "questions": [
+      { "q": "1. 'बहुपद' (Polynomial)? (Polynomial?)", "options": ["बीजगणित", "अंक", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'अवकलन' (Differentiation)? (Differentiation?)", "options": ["परिवर्तन", "स्थिर", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'समाकलन' (Integration)? (Integration?)", "options": ["योग", "तोड़ना", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'सदिश' (Vector)? (Vector?)", "options": ["दिशा+परिमाण", "अदिश", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'त्रिकोणमिति' (Trigonometry)? (Trigonometry?)", "options": ["कोण+माप", "अंक", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'प्रायिकता' (Probability)? (Probability?)", "options": ["संभावना", "निश्चितता", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'सीमा' (Limit)? (Limit?)", "options": ["निकटता", "अंत", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'ज्यामिति' (Geometry)? (Geometry?)", "options": ["आकार", "गणना", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'क्रमचय' (Permutation)? (Permutation?)", "options": ["व्यवस्था", "चयन", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'संचय' (Combination)? (Combination?)", "options": ["चयन", "क्रम", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Applied Maths", lang: "hi-en", "questions": [
+      { "q": "1. 'सांख्यिकी' (Statistics)? (Statistics?)", "options": ["डेटा विश्लेषण", "कहानी", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'चक्रवृद्धि ब्याज' (Compound Interest)? (Compound Interest?)", "options": ["ब्याज पर ब्याज", "सरल", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'अनुक्रम' (Sequence)? (Sequence?)", "options": ["क्रम", "अस्त-व्यस्त", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'इन्वेंटरी' (Inventory)? (Inventory?)", "options": ["स्टॉक", "खर्च", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'ग्राफ' (Graph)? (Graph?)", "options": ["दृश्य डेटा", "टेक्स्ट", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'पूर्वानुमान' (Forecasting)? (Forecasting?)", "options": ["भविष्य का अनुमान", "अतीत", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'लाभ-हानि' (Profit-Loss)? (Profit-Loss?)", "options": ["अंक गणित", "बीज", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'प्रोग्रामिंग' (Programming)? (Programming?)", "options": ["तार्किक निर्देश", "बोलचाल", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'नेटवर्क' (Network)? (Network?)", "options": ["प्रोजेक्ट ढांचा", "खेल", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'बजट' (Budget)? (Budget?)", "options": ["वित्तीय योजना", "खर्च", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Computer Science", lang: "hi-en", "questions": [
+      { "q": "1. 'CPU'? (What is CPU?)", "options": ["मस्तिष्क", "पेट", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'सॉफ्टवेयर' (Software)? (Software?)", "options": ["प्रोग्राम", "मशीन", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'इंटरनेट' (Internet)? (Internet?)", "options": ["नेटवर्क", "मशीन", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'डेटाबेस' (Database)? (Database?)", "options": ["सूचना संग्रह", "पेज", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'बाइनरी' (Binary)? (Binary?)", "options": ["0, 1", "0-9", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'सर्वर' (Server)? (Server?)", "options": ["सेवा प्रदाता", "क्लाइंट", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'क्लाउड' (Cloud)? (Cloud?)", "options": ["ऑनलाइन स्टोरेज", "हार्ड डिस्क", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'ऑपरेटिंग सिस्टम' (OS)? (OS?)", "options": ["सिस्टम प्रबंधन", "गेम", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'प्रोग्रामिंग' (Programming)? (Programming?)", "options": ["कोडिंग", "लेखन", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'ईमेल' (Email)? (Email?)", "options": ["इलेक्ट्रॉनिक डाक", "पत्र", "कोई नहीं"], "correct": 0 }
+    ]},
+    { "subject": "Philosophy", lang: "hi-en", "questions": [
+      { "q": "1. 'तर्क' (Logic)? (Logic?)", "options": ["चिंतन", "भाव", "कोई नहीं"], "correct": 0 },
+      { "q": "2. 'सत्य' (Truth)? (Truth?)", "options": ["यथार्थ", "झूठ", "कोई नहीं"], "correct": 0 },
+      { "q": "3. 'नैतिकता' (Ethics)? (Ethics?)", "options": ["सही-गलत", "स्वार्थ", "कोई नहीं"], "correct": 0 },
+      { "q": "4. 'चेतना' (Consciousness)? (Consciousness?)", "options": ["अनुभूति", "स्थिर", "कोई नहीं"], "correct": 0 },
+      { "q": "5. 'मुक्ति' (Liberation)? (Liberation?)", "options": ["बंधनहीनता", "कैद", "कोई नहीं"], "correct": 0 },
+      { "q": "6. 'आदर्शवाद' (Idealism)? (Idealism?)", "options": ["विचार प्रधान", "पदार्थ", "कोई नहीं"], "correct": 0 },
+      { "q": "7. 'यथार्थवाद' (Realism)? (Realism?)", "options": ["वास्तविकता", "कल्पना", "कोई नहीं"], "correct": 0 },
+      { "q": "8. 'ज्ञान' (Knowledge)? (Knowledge?)", "options": ["समझ", "अज्ञान", "कोई नहीं"], "correct": 0 },
+      { "q": "9. 'मानवतावाद' (Humanism)? (Humanism?)", "options": ["कल्याण", "स्वार्थ", "कोई नहीं"], "correct": 0 },
+      { "q": "10. 'धर्म' (Religion)? (Religion?)", "options": ["कर्तव्य", "अंधविश्वास", "कोई नहीं"], "correct": 0 },
+      {
+  "questions": [
+    {"subject": "History", "lang": "hi-en", "question": "1. 'महात्मा गांधी' ने 'साबरमती आश्रम' की स्थापना कब की? (When did Mahatma Gandhi establish Sabarmati Ashram?)", "options": ["1916", "1915", "1917"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "2. 'हड़प्पा' किस नदी के तट पर स्थित है? (On which river bank is Harappa located?)", "options": ["रावी", "सिंधु", "सतलज"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "3. 'अर्थशास्त्र' के रचयिता कौन हैं? (Who is the author of Arthashastra?)", "options": ["कौटिल्य", "वेदव्यास", "वाल्मीकि"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "4. 'जैन धर्म' के 24वें तीर्थंकर कौन थे? (Who was the 24th Tirthankara of Jainism?)", "options": ["महावीर", "ऋषभदेव", "पार्श्वनाथ"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "5. 'बक्सर का युद्ध' कब हुआ? (When did the Battle of Buxar take place?)", "options": ["1764", "1757", "1761"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "6. 'मुगल साम्राज्य' का संस्थापक कौन था? (Who was the founder of the Mughal Empire?)", "options": ["बाबर", "अकबर", "हुमायूं"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "7. 'शिवाजी' की राजधानी क्या थी? (What was the capital of Shivaji?)", "options": ["रायगढ़", "पुणे", "सतारा"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "8. 'साइमन कमीशन' भारत कब आया? (When did the Simon Commission arrive in India?)", "options": ["1928", "1927", "1930"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "9. 'अशोक' ने कौन सा धर्म अपनाया? (Which religion did Ashoka adopt?)", "options": ["बौद्ध", "जैन", "हिंदू"], "correct": 0},
+    {"subject": "History", "lang": "hi-en", "question": "10. 'सती प्रथा' का अंत किसने किया? (Who abolished the Sati system?)", "options": ["राजा राममोहन राय", "ईश्वर चंद्र विद्यासागर", "गांधी जी"], "correct": 0},
+    
+    {"subject": "Political Science", "lang": "hi-en", "question": "1. 'संविधान' की कुंजी किसे कहते हैं? (What is called the key to the Constitution?)", "options": ["प्रस्तावना", "मौलिक अधिकार", "नीति निदेशक तत्व"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "2. 'भारत' एक डैश है? (India is a ...?)", "options": ["राज्यों का संघ", "एकात्मक", "कोई नहीं"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "3. 'आपातकाल' प्रावधान किस देश से लिए गए? (Emergency provisions are borrowed from which country?)", "options": ["जर्मनी", "रूस", "ब्रिटेन"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "4. 'लोकसभा' के सदस्यों का कार्यकाल? (Term of Lok Sabha members?)", "options": ["5 वर्ष", "6 वर्ष", "4 वर्ष"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "5. 'राज्यपाल' की नियुक्ति कौन करता है? (Who appoints the Governor?)", "options": ["राष्ट्रपति", "प्रधानमंत्री", "मुख्यमंत्री"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "6. 'संविधान' में कितने मौलिक अधिकार हैं? (How many fundamental rights are in the Constitution?)", "options": ["6", "7", "5"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "7. 'भारत' का प्रथम नागरिक कौन है? (Who is the first citizen of India?)", "options": ["राष्ट्रपति", "प्रधानमंत्री", "मुख्य न्यायाधीश"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "8. 'अनुच्छेद 32' को क्या कहा जाता है? (What is Article 32 called?)", "options": ["संविधान की आत्मा", "कानून", "कोई नहीं"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "9. 'सर्वोच्च न्यायालय' के जज की सेवानिवृत्ति? (Retirement age of SC judge?)", "options": ["65 वर्ष", "60 वर्ष", "62 वर्ष"], "correct": 0},
+    {"subject": "Political Science", "lang": "hi-en", "question": "10. 'चुनाव आयोग' का वर्णन? (Description of Election Commission?)", "options": ["अनुच्छेद 324", "अनुच्छेद 352", "कोई नहीं"], "correct": 0},
+    
+    {"subject": "Geography", "lang": "hi-en", "question": "1. 'पृथ्वी' की सबसे बाहरी परत? (Outermost layer of Earth?)", "options": ["भूपर्पटी (Crust)", "मेंटल", "कोर"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "2. 'विश्व' का सबसे बड़ा महासागर? (Largest ocean of the world?)", "options": ["प्रशांत", "हिंद", "अटलांटिक"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "3. 'कर्क रेखा' भारत के कितने राज्यों से गुजरती है? (How many states does Tropic of Cancer pass through?)", "options": ["8", "7", "9"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "4. 'मानसून' किस भाषा का शब्द है? (Monsoon is a word of which language?)", "options": ["अरबी", "फारसी", "हिंदी"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "5. 'भारत' की सबसे लंबी नदी? (Longest river of India?)", "options": ["गंगा", "यमुना", "गोदावरी"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "6. 'ज्वालामुखी' से निकलने वाली मुख्य गैस? (Gas released from volcano?)", "options": ["जलवाष्प", "नाइट्रोजन", "ऑक्सीजन"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "7. 'वायुमंडल' की ओजोन परत कहाँ है? (Ozone layer of atmosphere is in?)", "options": ["समताप मंडल", "क्षोभ मंडल", "मध्य मंडल"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "8. 'विश्व' की सबसे लंबी नदी? (Longest river of the world?)", "options": ["नील", "अमेजन", "मिसीसिपी"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "9. 'भारत' का मैनचेस्टर किसे कहते हैं? (Who is called the Manchester of India?)", "options": ["अहमदाबाद", "सूरत", "मुंबई"], "correct": 0},
+    {"subject": "Geography", "lang": "hi-en", "question": "10. 'पृथ्वी' का एकमात्र प्राकृतिक उपग्रह? (Earth's only natural satellite?)", "options": ["चंद्रमा", "मंगल", "शुक्र"], "correct": 0},
+    
+    {"subject": "Economics", "lang": "hi-en", "question": "1. 'RBI' की स्थापना कब हुई? (When was RBI established?)", "options": ["1935", "1947", "1950"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "2. 'हरित क्रांति' का संबंध किससे है? (Green revolution is related to?)", "options": ["कृषि", "दूध", "उद्योग"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "3. 'जीएसटी' कब लागू हुआ? (When was GST implemented?)", "options": ["2017", "2016", "2015"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "4. 'भारत' की मुद्रा क्या है? (What is India's currency?)", "options": ["रुपया", "डॉलर", "पाउंड"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "5. 'WTO' का मुख्यालय? (WTO Headquarters?)", "options": ["जिनेवा", "न्यूयॉर्क", "लंदन"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "6. 'राष्ट्रीय आय' का आकलन कौन करता है? (Calculation of national income?)", "options": ["CSO", "RBI", "वित्त मंत्रालय"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "7. 'बैंक' का मुख्य कार्य क्या है? (Main function of bank?)", "options": ["जमा स्वीकार करना", "खेती", "दुकानदारी"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "8. 'खुली अर्थव्यवस्था' का अर्थ? (Open economy means?)", "options": ["मुक्त व्यापार", "बंद", "कोई नहीं"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "9. 'बजट' शब्द का अर्थ? (Meaning of budget word?)", "options": ["चमड़े का थैला", "पैसा", "किताब"], "correct": 0},
+    {"subject": "Economics", "lang": "hi-en", "question": "10. 'आर्थिक नियोजन' किस सूची का विषय है? (Economic planning is in which list?)", "options": ["समवर्ती", "राज्य", "केंद्र"], "correct": 0},
+    
+    {"subject": "Physics", "lang": "hi-en", "question": "1. 'ध्वनि' क्या है? (What is sound?)", "options": ["तरंग", "स्थिर", "ठोस"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "2. 'चुंबक' का क्या कार्य है? (Function of magnet?)", "options": ["आकर्षण", "दूर करना", "कोई नहीं"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "3. 'घर्षण' क्या है? (What is friction?)", "options": ["अवरोध", "सहायक", "बल"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "4. 'भार' का मुख्य कारण? (Reason for weight?)", "options": ["गुरुत्वाकर्षण", "द्रव्यमान", "दूरी"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "5. 'दाब' का सूत्र? (Formula of pressure?)", "options": ["बल/क्षेत्रफल", "दूरी", "आयतन"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "6. 'उत्तोलक' क्या है? (What is a lever?)", "options": ["मशीन", "औजार", "वस्तु"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "7. 'ताप' किसका माप है? (Temperature is measure of?)", "options": ["ऊर्जा", "दूरी", "आयतन"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "8. 'अपवर्तन' का अर्थ? (Meaning of refraction?)", "options": ["प्रकाश मुड़ना", "सीधा", "रुकना"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "9. 'दर्पण' क्या बनाता है? (What does a mirror form?)", "options": ["प्रतिबिंब", "अंधेरा", "प्रकाश"], "correct": 0},
+    {"subject": "Physics", "lang": "hi-en", "question": "10. 'परमाणु' कैसा है? (How is an atom?)", "options": ["सूक्ष्म", "विशाल", "भारी"], "correct": 0},
+    
+    {"subject": "Chemistry", "lang": "hi-en", "question": "1. 'कार्बन' क्या है? (What is carbon?)", "options": ["जीवन आधार", "धातु", "गैस"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "2. 'ऑक्सीजन' का कार्य? (Function of Oxygen?)", "options": ["दहन", "बुझाना", "स्थिर"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "3. 'धातु' क्या होती है? (What is a metal?)", "options": ["चालक", "कुचालक", "गैस"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "4. 'अधातु' क्या होती है? (What is a non-metal?)", "options": ["कुचालक", "चालक", "ठोस"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "5. 'मिश्रण' कैसा है? (What is a mixture?)", "options": ["अनिश्चित", "निश्चित", "स्थिर"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "6. 'यौगिक' क्या है? (What is a compound?)", "options": ["निश्चित", "अनिश्चित", "स्थिर"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "7. 'ईंधन' का क्या कार्य है? (Function of fuel?)", "options": ["ऊर्जा", "बेकार", "स्थिर"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "8. 'प्लास्टिक' क्या है? (What is plastic?)", "options": ["बहुलक", "धातु", "गैस"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "9. 'साबुन' का कार्य? (Function of soap?)", "options": ["सफाई", "दाग", "रंग"], "correct": 0},
+    {"subject": "Chemistry", "lang": "hi-en", "question": "10. 'जल' का PH मान? (PH value of water?)", "options": ["7", "0", "14"], "correct": 0},
+    
+    {"subject": "Biology", "lang": "hi-en", "question": "1. 'कंकाल' क्या है? (What is skeleton?)", "options": ["ढांचा", "मांस", "त्वचा"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "2. 'मांसपेशी' का कार्य? (Function of muscle?)", "options": ["गति", "स्थिर", "पाचन"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "3. 'पाचन' का क्या उद्देश्य है? (Purpose of digestion?)", "options": ["ऊर्जा", "अपशिष्ट", "दूरी"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "4. 'रक्त' का क्या कार्य है? (Function of blood?)", "options": ["परिवहन", "स्थिर", "पाचन"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "5. 'प्रजनन' का अर्थ? (Meaning of reproduction?)", "options": ["वंश", "अंत", "मृत्यु"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "6. 'हार्मोन' क्या हैं? (What are hormones?)", "options": ["संदेशवाहक", "भोजन", "पानी"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "7. 'विषाणु' क्या है? (What is a virus?)", "options": ["जीव-निर्जीव", "पौधा", "धातु"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "8. 'जीवाणु' क्या है? (What is bacteria?)", "options": ["एककोशिकीय", "बहुकोशिकीय", "कोई नहीं"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "9. 'इकोसिस्टम' क्या है? (What is an ecosystem?)", "options": ["जीव-पर्यावरण", "अलग", "स्थिर"], "correct": 0},
+    {"subject": "Biology", "lang": "hi-en", "question": "10. 'जैव विविधता' क्या है? (What is biodiversity?)", "options": ["विभिन्नता", "एकता", "स्थिरता"], "correct": 0},
+    
+    {"subject": "Maths", "lang": "hi-en", "question": "1. 'बहुपद' क्या है? (What is a polynomial?)", "options": ["बीजगणित", "अंक", "रेखा"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "2. 'अवकलन' का अर्थ? (Meaning of differentiation?)", "options": ["परिवर्तन", "स्थिर", "योग"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "3. 'समाकलन' का अर्थ? (Meaning of integration?)", "options": ["योग", "तोड़ना", "स्थिर"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "4. 'सदिश' क्या है? (What is a vector?)", "options": ["दिशा", "अदिश", "स्थिर"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "5. 'अदिश' क्या है? (What is a scalar?)", "options": ["परिमाण", "दिशा", "रेखा"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "6. 'फलन' क्या है? (What is a function?)", "options": ["संबंध", "भेद", "रेखा"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "7. 'सीमा' क्या है? (What is a limit?)", "options": ["नजदीकी", "स्थिर", "अंत"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "8. 'ज्यामिति' क्या है? (What is geometry?)", "options": ["आकार", "नंबर", "बीजगणित"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "9. 'क्रमचय' का कार्य? (Function of permutation?)", "options": ["व्यवस्था", "चयन", "अंक"], "correct": 0},
+    {"subject": "Maths", "lang": "hi-en", "question": "10. 'संचय' का कार्य? (Function of combination?)", "options": ["चयन", "क्रम", "योग"], "correct": 0},
+
+    {"subject": "Computer Science", "lang": "hi-en", "question": "1. 'सॉफ्टवेयर' क्या है? (What is software?)", "options": ["प्रोग्राम", "मशीन", "हार्डवेयर"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "2. 'हार्डवेयर' क्या है? (What is hardware?)", "options": ["उपकरण", "प्रोग्राम", "सॉफ्टवेयर"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "3. 'इंटरनेट' क्या है? (What is internet?)", "options": ["नेटवर्क", "मशीन", "प्रोग्राम"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "4. 'वेबसाइट' क्या है? (What is a website?)", "options": ["पेज", "मशीन", "प्रोग्राम"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "5. 'ईमेल' क्या है? (What is email?)", "options": ["डाक", "पत्र", "मशीन"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "6. 'प्रोग्रामिंग' क्या है? (What is programming?)", "options": ["कोडिंग", "बोलना", "लिखना"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "7. 'डेटाबेस' क्या है? (What is a database?)", "options": ["संग्रह", "गाना", "प्रोग्राम"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "8. 'बाइनरी' क्या है? (What is binary?)", "options": ["0-1", "0-9", "कोई नहीं"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "9. 'सर्वर' क्या है? (What is a server?)", "options": ["सेवा", "क्लाइंट", "मशीन"], "correct": 0},
+    {"subject": "Computer Science", "lang": "hi-en", "question": "10. 'क्लाउड' क्या है? (What is cloud?)", "options": ["स्टोरेज", "डिस्क", "मशीन"], "correct": 0},
+
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "1. 'रामचरितमानस' के रचयिता? (Author of Ramcharitmanas?)", "options": ["तुलसीदास", "कबीर", "सूरदास"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "2. 'गोदान' के लेखक? (Author of Godaan?)", "options": ["प्रेमचंद", "निराला", "प्रसाद"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "3. 'कामायनी' किसकी रचना है? (Who wrote Kamayani?)", "options": ["प्रसाद", "दिनकर", "निराला"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "4. 'कबीर' की भाषा? (Language of Kabir?)", "options": ["सधुक्कड़ी", "अवधी", "ब्रज"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "5. 'मीराबाई' की भक्ति? (Mirabai's devotion?)", "options": ["कृष्ण", "राम", "शिव"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "6. 'निराला' का युग? (Nirala's era?)", "options": ["छायावाद", "भक्ति", "द्विवेदी"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "7. 'महादेवी' का उपनाम? (Mahadevi's nickname?)", "options": ["आधुनिक मीरा", "कबीर", "सूर"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "8. 'दिनकर' प्रसिद्ध थे? (Dinkar was famous for?)", "options": ["ओजस्वी कविता", "हास्य", "कोई नहीं"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "9. 'भारतेन्दु' क्या हैं? (Who is Bharatendu?)", "options": ["हिंदी के पिता", "भक्ति", "आधुनिक"], "correct": 0},
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "10. 'अज्ञेय' का संबंध? (Agyeya's relation?)", "options": ["प्रयोगवाद", "छायावाद", "भक्ति"], "correct": 0},
+
+    {"subject": "Philosophy", "lang": "hi-en", "question": "1. 'तर्क' क्या है? (What is logic?)", "options": ["सोचना", "खेल", "पढ़ना"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "2. 'मानवतावाद' क्या है? (What is humanism?)", "options": ["कल्याण", "स्वार्थ", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "3. 'यथार्थवाद' क्या है? (What is realism?)", "options": ["वास्तविकता", "कल्पना", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "4. 'आदर्शवाद' क्या है? (What is idealism?)", "options": ["विचार", "पदार्थ", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "5. 'चेतना' क्या है? (What is consciousness?)", "options": ["अनुभूति", "स्थिर", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "6. 'मुक्ति' क्या है? (What is liberation?)", "options": ["बंधन रहित", "कैद", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "7. 'धर्म' क्या है? (What is religion?)", "options": ["कर्तव्य", "अंधविश्वास", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "8. 'नैतिकता' क्या है? (What is ethics?)", "options": ["सही-गलत", "स्वार्थ", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "9. 'ज्ञान' क्या है? (What is knowledge?)", "options": ["समझ", "अज्ञान", "खेल"], "correct": 0},
+    {"subject": "Philosophy", "lang": "hi-en", "question": "10. 'सत्य' क्या है? (What is truth?)", "options": ["शाश्वत", "झूठ", "खेल"], "correct": 0},
+    {
+  "subject_set": "Class 12th Advanced Practice (22 Subjects)",
+  "questions": [
+    // History
+    {"subject": "History", "lang": "hi-en", "question": "1. '1857 की क्रांति' के दौरान 'विद्रोहियों' द्वारा अंतिम मुगल सम्राट बहादुर शाह जफर को भारत का सम्राट घोषित करने का क्या प्रतीकात्मक महत्व था? (What was the symbolic significance of declaring Bahadur Shah Zafar as the Emperor of India by the rebels during the 1857 revolt?)", "options": ["मुगल सत्ता की निरंतरता और एकता का संकेत", "ब्रिटिश साम्राज्य का पूर्ण अंत", "धर्मनिरपेक्षता का प्रदर्शन"], "correct": 0},
+    
+    // Political Science
+    {"subject": "Political Science", "lang": "hi-en", "question": "2. भारतीय संविधान के 'अनुच्छेद 356' (राष्ट्रपति शासन) के दुरुपयोग को रोकने के लिए सर्वोच्च न्यायालय ने किस ऐतिहासिक वाद में दिशा-निर्देश जारी किए थे? (In which historic case did the Supreme Court issue guidelines to prevent the misuse of Article 356?)", "options": ["एस.आर. बोम्मई वाद (S.R. Bommai case)", "केशवानंद भारती वाद", "गोलकनाथ वाद"], "correct": 0},
+    
+    // Geography
+    {"subject": "Geography", "lang": "hi-en", "question": "3. 'जनसांख्यिकीय संक्रमण मॉडल' (Demographic Transition Model) की तीसरी अवस्था में जन्म दर और मृत्यु दर की क्या स्थिति होती है? (What is the status of birth and death rates in the third stage of the Demographic Transition Model?)", "options": ["जन्म दर में गिरावट और मृत्यु दर स्थिर", "दोनों उच्च", "दोनों निम्न"], "correct": 0},
+    
+    // Economics
+    {"subject": "Economics", "lang": "hi-en", "question": "4. 'व्यष्टि अर्थशास्त्र' (Microeconomics) में 'मांग की लोच' (Elasticity of Demand) का क्या अर्थ है यदि वस्तु की कीमत में बदलाव से कुल व्यय पर कोई प्रभाव नहीं पड़ता? (What does Elasticity of Demand mean in Microeconomics if a change in price does not affect total expenditure?)", "options": ["इकाई लोचदार (Unitary elastic)", "पूर्णतया लोचदार", "पूर्णतया बेलोचदार"], "correct": 0},
+    
+    // Psychology
+    {"subject": "Psychology", "lang": "hi-en", "question": "5. 'कार्ल जुंग' के अनुसार, 'सामूहिक अचेतन' (Collective Unconscious) का क्या तात्पर्य है? (According to Carl Jung, what is meant by Collective Unconscious?)", "options": ["पीढ़ियों से संचित अनुभव और प्रतीक", "व्यक्तिगत दमित यादें", "चेतन मस्तिष्क की सक्रियता"], "correct": 0},
+    
+    // Sociology
+    {"subject": "Sociology", "lang": "hi-en", "question": "6. एम.एन. श्रीनिवास द्वारा प्रतिपादित 'संस्कृतिकरण' (Sanskritization) की अवधारणा क्या दर्शाती है? (What does the concept of Sanskritization proposed by M.N. Srinivas demonstrate?)", "options": ["निम्न जाति द्वारा उच्च जाति के अनुष्ठानों को अपनाना", "जाति व्यवस्था का उन्मूलन", "पश्चिमी शिक्षा का प्रभाव"], "correct": 0},
+    
+    // Home Science
+    {"subject": "Home Science", "lang": "hi-en", "question": "7. 'खाद्य परिरक्षण' (Food Preservation) में 'पाश्चुरीकरण' (Pasteurization) का मुख्य उद्देश्य क्या है? (What is the main objective of Pasteurization in food preservation?)", "options": ["रोगजनक सूक्ष्मजीवों को नष्ट करना", "स्वाद बढ़ाना", "पोषक तत्वों में वृद्धि"], "correct": 0},
+    
+    // Legal Studies
+    {"subject": "Legal Studies", "lang": "hi-en", "question": "8. 'टॉर्ट लॉ' (Law of Tort) में 'प्रॉक्सिमेट कॉज़' (Proximate Cause) का क्या महत्व है? (What is the significance of Proximate Cause in the Law of Tort?)", "options": ["क्षति और लापरवाही के बीच सीधा संबंध", "केवल क्षति का होना", "कानून की अज्ञानता"], "correct": 0},
+    
+    // Hindi Literature
+    {"subject": "Hindi Literature", "lang": "hi-en", "question": "9. 'अंधा युग' (धर्मवीर भारती) में किस पौराणिक घटना के माध्यम से आधुनिक युगीन विसंगतियों को चित्रित किया गया है? (Through which mythological event are the anomalies of the modern era depicted in 'Andha Yug'?)", "options": ["महाभारत युद्ध के अंतिम दिन", "रामायण", "शिव पुराण"], "correct": 0},
+    
+    // English Literature
+    {"subject": "English Literature", "lang": "hi-en", "question": "10. In T.S. Eliot's 'The Waste Land', what does the 'Drought' symbolize in the context of post-WWI society? (टी.एस. एलियट की 'द वेस्ट लैंड' में, प्रथम विश्व युद्ध के बाद के समाज के संदर्भ में 'सूखा' किसका प्रतीक है?)", "options": ["आध्यात्मिक और सांस्कृतिक बंजरपन", "प्राकृतिक आपदा", "आर्थिक मंदी"], "correct": 0},
+    
+    // Accountancy
+    {"subject": "Accountancy", "lang": "hi-en", "question": "11. 'साझेदारी संलेख' (Partnership Deed) के अभाव में 'भारतीय साझेदारी अधिनियम 1932' के अनुसार ऋण पर कितना ब्याज देय है? (What is the interest payable on a loan as per the Indian Partnership Act 1932 in the absence of a partnership deed?)", "options": ["6% प्रति वर्ष", "12% प्रति वर्ष", "कोई ब्याज नहीं"], "correct": 0},
+    
+    // Business Studies
+    {"subject": "Business Studies", "lang": "hi-en", "question": "12. 'फ्रेडरिक टेलर' के वैज्ञानिक प्रबंधन के 'कार्यात्मक फोरमैनशिप' (Functional Foremanship) का मूल उद्देश्य क्या है? (What is the core objective of Functional Foremanship in Taylor's scientific management?)", "options": ["विशेषज्ञों द्वारा कार्य का विभाजन", "श्रमिकों का शोषण", "प्रबंधन का केंद्रीकरण"], "correct": 0},
+    
+    // Entrepreneurship
+    {"subject": "Entrepreneurship", "lang": "hi-en", "question": "13. 'स्वॉट एनालिसिस' (SWOT Analysis) में 'T' का क्या अर्थ है और यह कैसे मदद करता है? (What does 'T' mean in SWOT Analysis and how does it help?)", "options": ["Threats (खतरे पहचानना)", "Tasks (कार्य)", "Team (टीम)"], "correct": 0},
+    
+    // Physics
+    {"subject": "Physics", "lang": "hi-en", "question": "14. 'हाइजेनबर्ग के अनिश्चितता सिद्धांत' (Uncertainty Principle) के अनुसार किसी कण की स्थिति और संवेग का गुणनफल किससे कम नहीं हो सकता? (According to Heisenberg's Uncertainty Principle, the product of position and momentum cannot be less than?)", "options": ["h / 4π", "h / 2π", "h / π"], "correct": 0},
+    
+    // Chemistry
+    {"subject": "Chemistry", "lang": "hi-en", "question": "15. 'SN1 अभिक्रिया' (Substitution Nucleophilic Unimolecular) में अभिक्रिया की दर किस पर निर्भर करती है? (On what does the rate of reaction depend in SN1 reaction?)", "options": ["केवल सबस्ट्रेट की सांद्रता पर", "न्यूक्लियोफाइल की सांद्रता पर", "दोनों पर"], "correct": 0},
+    
+    // Biology
+    {"subject": "Biology", "lang": "hi-en", "question": "16. 'ओपेरॉन मॉडल' (Operon Model) में 'रेप्रेशर प्रोटीन' का कार्य क्या है? (What is the function of Repressor protein in the Operon model?)", "options": ["ऑपरेटर से जुड़कर ट्रांसक्रिप्शन को रोकना", "एंजाइम बनाना", "जीन का प्रवर्धन"], "correct": 0},
+    
+    // Biotechnology
+    {"subject": "Biotechnology", "lang": "hi-en", "question": "17. 'पीसीआर' (PCR) तकनीक में 'टैक पॉलीमरेज़' (Taq Polymerase) का उपयोग क्यों किया जाता है? (Why is Taq Polymerase used in PCR technology?)", "options": ["उच्च तापमान पर सक्रिय रहने के लिए", "डीएनए को काटने के लिए", "कोशिका विभाजन के लिए"], "correct": 0},
+    
+    // Maths
+    {"subject": "Maths", "lang": "hi-en", "question": "18. यदि किसी फलन (Function) का अवकलज (Derivative) अंतराल में धनात्मक है, तो वह फलन कैसा होगा? (If the derivative of a function is positive in an interval, what will the function be?)", "options": ["निरंतर वर्धमान (Strictly increasing)", "ह्रासमान", "स्थिर"], "correct": 0},
+    
+    // Applied Maths
+    {"subject": "Applied Maths", "lang": "hi-en", "question": "19. 'परिवहन समस्या' (Transportation Problem) को हल करने के लिए 'वोगेल अनुमान विधि' (VAM) का उद्देश्य क्या है? (What is the objective of Vogel's Approximation Method in solving a Transportation Problem?)", "options": ["न्यूनतम परिवहन लागत प्राप्त करना", "अधिकतम लाभ", "समय की बचत"], "correct": 0},
+    
+    // Computer Science
+    {"subject": "Computer Science", "lang": "hi-en", "question": "20. 'डीबीएमएस' (DBMS) में 'नॉर्मलाइजेशन' (Normalization) का मुख्य उद्देश्य क्या है? (What is the main objective of Normalization in DBMS?)", "options": ["डेटा रिडंडेंसी कम करना", "गति बढ़ाना", "सुरक्षा"], "correct": 0},
+    
+    // Philosophy
+    {"subject": "Philosophy", "lang": "hi-en", "question": "21. 'सार्त्र' के 'अस्तित्ववाद' (Existentialism) में 'अस्तित्व सार से पूर्व है' का क्या अर्थ है? (In Sartre's Existentialism, what does 'Existence precedes Essence' mean?)", "options": ["मनुष्य पहले आता है, फिर अपनी परिभाषा बनाता है", "ईश्वर ने पहले से तय किया है", "भाग्य प्रधान है"], "correct": 0},
+    
+    // Physical Education
+    {"subject": "Physical Education", "lang": "hi-en", "question": "22. 'न्यूटन के दूसरे गति नियम' का खेलकूद में क्या अनुप्रयोग है? (What is the application of Newton's second law in sports?)", "options": ["वेग और त्वरण का सीधा संबंध (F=ma)", "संतुलन", "लचीलापन"], "correct": 0},
+    {
+  "subject_set": "Advanced Class 12 Practice (5 Questions per subject)",
+  "data": [
+    {
+      "subject": "History",
+      "questions": [
+        {"q": "1. 1857 के विद्रोह का तात्कालिक कारण क्या था? (What was the immediate cause of the 1857 revolt?)", "options": ["एनफील्ड राइफल", "हड़प नीति", "ईसाई धर्म"], "correct": 0},
+        {"q": "2. 'अकबरनामा' के लेखक? (Author of Akbarnama?)", "options": ["अबुल फजल", "बीरबल", "फैजी"], "correct": 0},
+        {"q": "3. हड़प्पा सभ्यता की खोज कब हुई? (When was Harappa discovered?)", "options": ["1921", "1922", "1930"], "correct": 0},
+        {"q": "4. विजयनगर की स्थापना किसने की? (Who founded Vijayanagara?)", "options": ["हरिहर-बुक्का", "कृष्णदेव राय", "देवराय"], "correct": 0},
+        {"q": "5. महात्मा गांधी ने 'दांडी यात्रा' कब शुरू की? (When did Gandhi start Dandi March?)", "options": ["1930", "1920", "1942"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Political Science",
+      "questions": [
+        {"q": "1. 'मौलिक अधिकार' किस देश से लिए गए? (Fundamental Rights borrowed from?)", "options": ["अमेरिका", "ब्रिटेन", "रूस"], "correct": 0},
+        {"q": "2. नीति आयोग के अध्यक्ष? (Chairman of NITI Aayog?)", "options": ["प्रधानमंत्री", "राष्ट्रपति", "वित्त मंत्री"], "correct": 0},
+        {"q": "3. राज्यसभा का कार्यकाल? (Term of Rajya Sabha?)", "options": ["स्थायी सदन", "6 वर्ष", "5 वर्ष"], "correct": 0},
+        {"q": "4. आपातकाल का अनुच्छेद? (Article for Emergency?)", "options": ["352", "356", "360"], "correct": 0},
+        {"q": "5. 'संविधान की आत्मा'? (Soul of the Constitution?)", "options": ["प्रस्तावना", "अनुच्छेद 32", "अनुच्छेद 21"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Geography",
+      "questions": [
+        {"q": "1. भारत का मानक समय? (Indian Standard Time?)", "options": ["82.5° E", "80° E", "85° E"], "correct": 0},
+        {"q": "2. 'जनसांख्यिकीय संक्रमण' का सिद्धांत किसने दिया? (Theory of Demographic Transition by?)", "options": ["थॉम्पसन", "मालथस", "अमर्त्य सेन"], "correct": 0},
+        {"q": "3. सर्वाधिक जनसंख्या वाला राज्य? (Most populous state?)", "options": ["उत्तर प्रदेश", "महाराष्ट्र", "बिहार"], "correct": 0},
+        {"q": "4. भू-उपयोग वर्गीकरण में 'पड़ती भूमि' क्या है? (What is Fallow land in land use?)", "options": ["खेती न की गई भूमि", "वन भूमि", "बंजर"], "correct": 0},
+        {"q": "5. 'भिलाई' स्टील प्लांट कहाँ है? (Bhilai Steel plant is in?)", "options": ["छत्तीसगढ़", "झारखंड", "ओडिशा"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Economics",
+      "questions": [
+        {"q": "1. 'व्यष्टि' अर्थशास्त्र का संबंध? (Microeconomics deals with?)", "options": ["व्यक्तिगत इकाई", "राष्ट्रीय आय", "बेरोजगारी"], "correct": 0},
+        {"q": "2. 'GDP' का पूर्ण रूप? (Full form of GDP?)", "options": ["Gross Domestic Product", "Gross Domestic Profit", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'खुली अर्थव्यवस्था'? (Open Economy?)", "options": ["निर्यात-आयात संभव", "बंद", "कोई नहीं"], "correct": 0},
+        {"q": "4. मांग का नियम? (Law of Demand?)", "options": ["व्युत्क्रमानुपाती", "समानुपाती", "स्थिर"], "correct": 0},
+        {"q": "5. मुद्रास्फीति का नियंत्रण? (Control of Inflation?)", "options": ["मौद्रिक नीति", "बजट", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Psychology",
+      "questions": [
+        {"q": "1. बुद्धि का 'द्विकारक' सिद्धांत? (Two-factor theory of intelligence?)", "options": ["स्पीयरमैन", "थार्नडाइक", "बिने"], "correct": 0},
+        {"q": "2. 'इदम' (Id) किस पर आधारित है? (Id is based on?)", "options": ["सुख का सिद्धांत", "वास्तविकता", "नैतिकता"], "correct": 0},
+        {"q": "3. तनाव का मुख्य कारण? (Main cause of stress?)", "options": ["प्रतिकूल घटना", "खुशी", "आराम"], "correct": 0},
+        {"q": "4. 'मनोविज्ञान' के जनक? (Father of Psychology?)", "options": ["विलियम वुंट", "फ्रायड", "वाटसन"], "correct": 0},
+        {"q": "5. 'सीखना' (Learning) कैसा है? (Learning is?)", "options": ["निरंतर प्रक्रिया", "स्थिर", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Sociology",
+      "questions": [
+        {"q": "1. 'संस्कृतिकरण' की अवधारणा? (Concept of Sanskritization?)", "options": ["एम.एन. श्रीनिवास", "दुर्खिम", "मार्क्स"], "correct": 0},
+        {"q": "2. 'जाति' क्या है? (What is Caste?)", "options": ["प्रदत्त स्थिति", "अर्जित", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'परिवार' कैसी संस्था है? (Family is?)", "options": ["प्राथमिक", "द्वितीयक", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'नगरीकरण' के प्रभाव? (Effects of Urbanization?)", "options": ["व्यक्तिवाद", "सामूहिकता", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'दहेज' का मुख्य कारण? (Main cause of dowry?)", "options": ["सामाजिक कुप्रथा", "शिक्षा", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Home Science",
+      "questions": [
+        {"q": "1. 'संतुलित आहार'? (Balanced Diet?)", "options": ["सभी पोषक तत्व", "सिर्फ प्रोटीन", "वसा"], "correct": 0},
+        {"q": "2. 'विटामिन सी' का स्रोत? (Source of Vitamin C?)", "options": ["खट्टे फल", "दूध", "अंडा"], "correct": 0},
+        {"q": "3. 'पाश्चुरीकरण'? (Pasteurization?)", "options": ["दूध का संरक्षण", "सब्जी", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'शिशु' का प्रथम भोजन? (First food of infant?)", "options": ["माँ का दूध", "बाहरी दूध", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'बचत' का मुख्य कारण? (Main reason for saving?)", "options": ["भविष्य की सुरक्षा", "दिखावा", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Legal Studies",
+      "questions": [
+        {"q": "1. 'भारतीय दंड संहिता' (IPC)? (IPC relates to?)", "options": ["अपराध", "दीवानी", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'अधिकार' क्या है? (What is a Right?)", "options": ["कानूनी दावा", "मर्जी", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'संविदा' (Contract)? (Contract?)", "options": ["समझौता", "वादा", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'रिट' (Writ) क्षेत्राधिकार? (Writ jurisdiction?)", "options": ["न्यायालय", "पुलिस", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'न्यायिक पुनरावलोकन'? (Judicial Review?)", "options": ["कानून की जांच", "सजा", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Hindi Literature",
+      "questions": [
+        {"q": "1. 'कामायनी' के रचनाकार? (Author of Kamayani?)", "options": ["जयशंकर प्रसाद", "निराला", "दिनकर"], "correct": 0},
+        {"q": "2. 'हिंदी साहित्य' का स्वर्णकाल? (Golden age of Hindi?)", "options": ["भक्तिकाल", "आदिकाल", "आधुनिक काल"], "correct": 0},
+        {"q": "3. 'गोदान' का लेखक? (Author of Godaan?)", "options": ["प्रेमचंद", "प्रसाद", "निराला"], "correct": 0},
+        {"q": "4. 'कबीर' किस धारा के कवि? (Kabir belongs to?)", "options": ["निर्गुण", "सगुण", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'हिंदी दिवस'? (Hindi Diwas?)", "options": ["14 सितंबर", "14 अक्टूबर", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "English Literature",
+      "questions": [
+        {"q": "1. 'Shakespeare' का जन्म? (Shakespeare birth?)", "options": ["1564", "1600", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'Romantic Era' शुरुआत? (Start of Romantic Era?)", "options": ["1798", "1800", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'The Waste Land' लेखक? (Author of Waste Land?)", "options": ["T.S. Eliot", "Keats", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'Pride and Prejudice' लेखिका? (Author of P&P?)", "options": ["Jane Austen", "Hardy", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'Ode' क्या है? (What is an Ode?)", "options": ["कविता", "नाटक", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Accountancy",
+      "questions": [
+        {"q": "1. 'साझेदारी'? (Partnership?)", "options": ["दो या अधिक", "एक", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'चिट्ठा'? (Balance Sheet?)", "options": ["वित्तीय स्थिति", "लाभ", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'ख्याति' (Goodwill)? (Goodwill?)", "options": ["अदृश्य संपत्ति", "दिखने वाली", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'लाभ-हानि खाता'? (P&L Account?)", "options": ["परिणाम", "संपत्ति", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'तलपट'? (Trial Balance?)", "options": ["अंतिम शेष", "शुरुआती", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Business Studies",
+      "questions": [
+        {"q": "1. 'प्रबंधन' (Management)? (Management?)", "options": ["प्रक्रिया", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'नियोजन'? (Planning?)", "options": ["सोचना", "करना", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'नियंत्रण'? (Controlling?)", "options": ["सुधार", "कब्जा", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'संगठन'? (Organizing?)", "options": ["संसाधन", "खर्च", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'विपणन'? (Marketing?)", "options": ["ग्राहक संतुष्टि", "बिक्री", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Entrepreneurship",
+      "questions": [
+        {"q": "1. 'उद्यमी' (Entrepreneur)? (Entrepreneur?)", "options": ["जोखिम लेने वाला", "डरपोक", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'व्यवसाय योजना'? (Business Plan?)", "options": ["ब्लूप्रिंट", "मजाक", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'बाजार सर्वेक्षण'? (Market survey?)", "options": ["मांग जांच", "बेचना", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'पूंजी'? (Capital?)", "options": ["निवेश", "कर्ज", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'ब्रांडिंग'? (Branding?)", "options": ["पहचान", "नाम", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Physics",
+      "questions": [
+        {"q": "1. 'प्रकाश की चाल'? (Speed of light?)", "options": ["3x10^8 m/s", "शून्य", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'ओम का नियम'? (Ohm's Law?)", "options": ["V=IR", "V=I/R", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'परमाणु'? (Atom?)", "options": ["सूक्ष्म", "विशाल", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'ऊर्जा संरक्षण'? (Conservation of Energy?)", "options": ["न नास, ना सृजन", "नाश", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'लेंस'? (Lens?)", "options": ["अपवर्तन", "परावर्तन", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "questions": [
+        {"q": "1. 'जल का सूत्र'? (Water formula?)", "options": ["H2O", "CO2", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'PH मान'? (PH scale?)", "options": ["अम्लता/क्षारता", "दूरी", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'धातु'? (Metal?)", "options": ["चालक", "अचालक", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'कार्बन'? (Carbon?)", "options": ["जीवन का आधार", "अधातु", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'बहुलक'? (Polymer?)", "options": ["प्लास्टिक", "धातु", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Biology",
+      "questions": [
+        {"q": "1. 'कोशिका'? (Cell?)", "options": ["जीवन की इकाई", "अंग", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'डीएनए'? (DNA?)", "options": ["अनुवांशिक", "भोजन", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'प्रकाश संश्लेषण'? (Photosynthesis?)", "options": ["पौधे का भोजन", "श्वसन", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'रक्त समूह'? (Blood group?)", "options": ["लैंडस्टीनर", "पावलोव", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'हार्मोन'? (Hormone?)", "options": ["संदेशवाहक", "भोजन", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Biotechnology",
+      "questions": [
+        {"q": "1. 'क्लोनिंग'? (Cloning?)", "options": ["प्रतिलिपि", "विनाश", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'पीसीआर'? (PCR?)", "options": ["डीएनए प्रवर्धन", "काटना", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'एंजाइम'? (Enzyme?)", "options": ["जैविक उत्प्रेरक", "ईंधन", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'जीन थेरेपी'? (Gene therapy?)", "options": ["उपचार", "बीमारी", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'बायोरिएक्टर'? (Bioreactor?)", "options": ["उत्पादन", "आराम", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Maths",
+      "questions": [
+        {"q": "1. 'अवकलन' (Diff)? (Derivative?)", "options": ["परिवर्तन", "योग", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'समाकलन' (Int)? (Integration?)", "options": ["योग", "तोड़ना", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'प्रायिकता'? (Probability?)", "options": ["संभावना", "निश्चितता", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'सदिश'? (Vector?)", "options": ["दिशा", "अंक", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'त्रिकोणमिति'? (Trigonometry?)", "options": ["कोण", "अंक", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Applied Maths",
+      "questions": [
+        {"q": "1. 'सांख्यिकी'? (Statistics?)", "options": ["डेटा विश्लेषण", "कहानी", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'चक्रवृद्धि ब्याज'? (Compound Interest?)", "options": ["ब्याज पर ब्याज", "साधारण", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'ग्राफ'? (Graph?)", "options": ["दृश्य डेटा", "टेक्स्ट", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'पूर्वानुमान'? (Forecasting?)", "options": ["भविष्य का अनुमान", "अतीत", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'बजट'? (Budget?)", "options": ["वित्तीय योजना", "खर्च", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Computer Science",
+      "questions": [
+        {"q": "1. 'CPU' का पूर्ण नाम? (Full form of CPU?)", "options": ["Central Processing Unit", "Computer Processing", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'सॉफ्टवेयर'? (Software?)", "options": ["प्रोग्राम", "मशीन", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'बाइनरी'? (Binary?)", "options": ["0-1", "0-9", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'इंटरनेट'? (Internet?)", "options": ["नेटवर्क", "मशीन", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'क्लाउड'? (Cloud?)", "options": ["स्टोरेज", "डिस्क", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Philosophy",
+      "questions": [
+        {"q": "1. 'तर्क'? (Logic?)", "options": ["सोचना", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'नैतिकता'? (Ethics?)", "options": ["सही-गलत", "स्वार्थ", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'सत्य'? (Truth?)", "options": ["यथार्थ", "झूठ", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'चेतना'? (Consciousness?)", "options": ["अनुभूति", "स्थिर", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'अस्तित्ववाद'? (Existentialism?)", "options": ["स्वतंत्रता", "नियति", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Physical Education",
+      "questions": [
+        {"q": "1. 'न्यूटन का पहला नियम'? (Newton 1st Law?)", "options": ["जड़त्व", "त्वरण", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'हृदय' का कार्य? (Function of Heart?)", "options": ["रक्त पंपिंग", "पाचन", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'योग' के जनक? (Father of Yoga?)", "options": ["पतंजलि", "रामदेव", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'लचीलापन'? (Flexibility?)", "options": ["गतिमयता", "स्थिर", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'आहार'? (Diet?)", "options": ["संतुलित", "जंक", "कोई नहीं"], "correct": 0},
+        {
+  "subject_set": "Class 12th Practice Set 02 (5 Questions each)",
+  "data": [
+    {
+      "subject": "History",
+      "questions": [
+        {"q": "1. 'मुगलकाल' में 'जब्ती प्रणाली' किसने शुरू की थी? (Who introduced the 'Zabti system' in the Mughal era?)", "options": ["राजा टोडरमल", "अकबर", "अकबर के वजीर"], "correct": 0},
+        {"q": "2. 'संथाल विद्रोह' कब हुआ? (When did the Santhal rebellion take place?)", "options": ["1855", "1857", "1820"], "correct": 0},
+        {"q": "3. 'इंडिका' के लेखक? (Author of Indika?)", "options": ["मेगस्थनीज", "फाह्यान", "ह्वेनसांग"], "correct": 0},
+        {"q": "4. 'जैन धर्म' के वास्तविक संस्थापक? (Real founder of Jainism?)", "options": ["महावीर स्वामी", "ऋषभदेव", "पार्श्वनाथ"], "correct": 0},
+        {"q": "5. 'साइमन कमीशन' का बहिष्कार क्यों हुआ? (Why was the Simon Commission boycotted?)", "options": ["कोई भारतीय सदस्य नहीं था", "महंगा था", "अंग्रेज पक्षपाती थे"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Political Science",
+      "questions": [
+        {"q": "1. 'संविधान सभा' के स्थायी अध्यक्ष? (Permanent President of Constituent Assembly?)", "options": ["डॉ. राजेंद्र प्रसाद", "बी.आर. अंबेडकर", "जवाहरलाल नेहरू"], "correct": 0},
+        {"q": "2. 'मौलिक कर्तव्य' किस देश से लिए गए? (Fundamental Duties borrowed from?)", "options": ["पूर्व सोवियत संघ (रूस)", "अमेरिका", "ब्रिटेन"], "correct": 0},
+        {"q": "3. 'वित्त आयोग' का गठन कौन करता है? (Who constitutes the Finance Commission?)", "options": ["राष्ट्रपति", "प्रधानमंत्री", "संसद"], "correct": 0},
+        {"q": "4. 'पंचायती राज' किस संविधान संशोधन से जुड़ा? (Panchayati Raj linked to which Amendment?)", "options": ["73वां", "74वां", "42वां"], "correct": 0},
+        {"q": "5. 'संपत्ति का अधिकार' अब क्या है? (What is Right to Property now?)", "options": ["कानूनी अधिकार", "मौलिक अधिकार", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Geography",
+      "questions": [
+        {"q": "1. 'सड़क घनत्व' सबसे अधिक किस राज्य में है? (Which state has the highest road density?)", "options": ["केरल", "पंजाब", "महाराष्ट्र"], "correct": 0},
+        {"q": "2. 'भारत की मुख्य भूमि' का दक्षिणतम बिंदु? (Southernmost point of mainland India?)", "options": ["कन्याकुमारी", "इंदिरा पॉइंट", "लक्षद्वीप"], "correct": 0},
+        {"q": "3. 'कॉफी' का सबसे बड़ा उत्पादक? (Largest producer of coffee?)", "options": ["कर्नाटक", "केरल", "तमिलनाडु"], "correct": 0},
+        {"q": "4. 'ओजोन परत' कहाँ पाई जाती है? (Ozone layer is found in?)", "options": ["समताप मंडल", "क्षोभ मंडल", "मध्य मंडल"], "correct": 0},
+        {"q": "5. 'स्वेज नहर' किसको जोड़ती है? (Suez Canal connects?)", "options": ["लाल सागर-भूमध्य सागर", "अटलांटिक-प्रशांत", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Economics",
+      "questions": [
+        {"q": "1. 'मंदी' (Recession) के समय क्या होता है? (What happens during a recession?)", "options": ["मांग में कमी", "मांग में वृद्धि", "बेरोजगारी कम"], "correct": 0},
+        {"q": "2. 'वस्तु विनिमय' (Barter System) का मुख्य दोष? (Main defect of Barter System?)", "options": ["आवश्यकताओं का दोहरा संयोग", "मुद्रा की कमी", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'मौद्रिक नीति' कौन बनाता है? (Who forms Monetary Policy?)", "options": ["RBI", "वित्त मंत्रालय", "सरकार"], "correct": 0},
+        {"q": "4. 'हरित क्रांति' के जनक? (Father of Green Revolution?)", "options": ["एम.एस. स्वामीनाथन", "वर्गीज कुरियन", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'बजट' किस अनुच्छेद में है? (Budget is in which Article?)", "options": ["112", "110", "115"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Psychology",
+      "questions": [
+        {"q": "1. 'अधिगम' (Learning) का गेस्टाल्ट सिद्धांत? (Gestalt Theory of Learning?)", "options": ["कोहलर", "पावलोव", "स्किनर"], "correct": 0},
+        {"q": "2. 'बुद्धि लब्धि' (IQ) का सूत्र? (Formula of IQ?)", "options": ["MA/CA * 100", "CA/MA * 100", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'मानसिक आयु' की अवधारणा? (Concept of Mental Age?)", "options": ["अल्फ्रेड बिने", "फ्रायड", "वाटसन"], "correct": 0},
+        {"q": "4. 'प्रक्षेपण' (Projection) क्या है? (What is Projection?)", "options": ["रक्षा तंत्र (Defense Mechanism)", "बुद्धि", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'व्यक्तित्व' का 'टाइप-ए' सिद्धांत? (Type-A theory of personality?)", "options": ["फ्रीडमैन और रोजेनमैन", "फ्रायड", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Sociology",
+      "questions": [
+        {"q": "1. 'एकांतवाद' (Alienation) का सिद्धांत? (Theory of Alienation?)", "options": ["कार्ल मार्क्स", "दुर्खिम", "वेबर"], "correct": 0},
+        {"q": "2. 'धर्म' क्या है? (What is Religion?)", "options": ["पवित्र और अपवित्र का विभाजन", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'वर्ण व्यवस्था' का आधार? (Basis of Varna system?)", "options": ["गुण और कर्म", "जन्म", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'प्रच्छन्न बेरोजगारी' का संबंध? (Hidden unemployment relates to?)", "options": ["कृषि", "उद्योग", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'भारतीय समाज' की विशेषता? (Characteristic of Indian Society?)", "options": ["विविधता में एकता", "समानता", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Home Science",
+      "questions": [
+        {"q": "1. 'कैलशियम' की कमी से क्या होता है? (Deficiency of Calcium causes?)", "options": ["हड्डियों का कमजोर होना", "एनीमिया", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'वस्त्र' का मुख्य उद्देश्य? (Main purpose of clothes?)", "options": ["सुरक्षा", "फैशन", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'आय' का प्रकार? (Type of Income?)", "options": ["मौद्रिक/वास्तविक", "बड़ी", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'खाद्य पिरामिड' का आधार? (Base of food pyramid?)", "options": ["अनाज", "फल", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'तंतु' (Fiber) कितने प्रकार के? (Types of Fiber?)", "options": ["प्राकृतिक/कृत्रिम", "एक", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Legal Studies",
+      "questions": [
+        {"q": "1. 'प्राकृतिक न्याय' (Natural Justice) का सिद्धांत? (Principle of Natural Justice?)", "options": ["सुनवाई का अवसर", "जल्दबाजी", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'दीवानी मामला' (Civil Case) किससे जुड़ा है? (Civil case relates to?)", "options": ["संपत्ति/अनुबंध", "हत्या", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'वसीयत' (Will) क्या है? (What is a Will?)", "options": ["मृत्यु बाद संपत्ति का वितरण", "दस्तावेज", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'लोक अदालत' की विशेषता? (Feature of Lok Adalat?)", "options": ["सुलह-समझौता", "सजा", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'एफआईआर' (FIR)? (What is FIR?)", "options": ["प्रथम सूचना रिपोर्ट", "अंतिम रिपोर्ट", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Hindi Literature",
+      "questions": [
+        {"q": "1. 'रीतिकाल' का दूसरा नाम? (Another name for Ritikal?)", "options": ["उत्तर मध्य काल", "भक्तिकाल", "आदिकाल"], "correct": 0},
+        {"q": "2. 'सूरदास' किस भाषा के कवि? (Surdas wrote in which language?)", "options": ["ब्रज", "अवधी", "खड़ी बोली"], "correct": 0},
+        {"q": "3. 'साकेत' महाकाव्य के रचयिता? (Author of Saket?)", "options": ["मैथिलीशरण गुप्त", "प्रसाद", "निराला"], "correct": 0},
+        {"q": "4. 'तुलसीदास' की रचना? (Work of Tulsidas?)", "options": ["रामचरितमानस", "गोदान", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'प्रेमचंद' का अधूरा उपन्यास? (Incomplete novel of Premchand?)", "options": ["मंगलसूत्र", "गोदान", "गबन"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "English Literature",
+      "questions": [
+        {"q": "1. 'Sonnet' में कितनी पंक्तियाँ होती हैं? (How many lines in a Sonnet?)", "options": ["14", "10", "12"], "correct": 0},
+        {"q": "2. 'Milton' का प्रसिद्ध महाकाव्य? (Milton's epic?)", "options": ["Paradise Lost", "Hamlet", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'Victorian Era' रानी विक्टोरिया के शासनकाल से है? (Victorian Era belongs to Queen Victoria?)", "options": ["हाँ", "नहीं", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'Macbeth' का लेखक? (Author of Macbeth?)", "options": ["Shakespeare", "Hardy", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'Biography' क्या है? (What is a Biography?)", "options": ["जीवन गाथा", "कहानी", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Accountancy",
+      "questions": [
+        {"q": "1. 'आय-व्यय खाता' (Income-Expenditure) कहाँ बनता है? (Where is I&E A/c prepared?)", "options": ["गैर-लाभकारी संस्था", "व्यापारिक संस्था", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'अहस्तांतरणीय संपत्ति'? (Non-transferable asset?)", "options": ["ख्याति (Goodwill)", "मशीन", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'साझेदारी का पुनर्गठन'? (Reconstitution of partnership?)", "options": ["लाभ विभाजन अनुपात में बदलाव", "बंद", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'ऋणपत्र' (Debentures)? (Debentures are?)", "options": ["कंपनी का कर्ज", "पूंजी", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'वित्तीय विवरण'? (Financial Statements?)", "options": ["चिट्ठा और P&L", "अखबार", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Business Studies",
+      "questions": [
+        {"q": "1. 'प्रबंधन' को क्या माना जाता है? (Management is considered?)", "options": ["कला और विज्ञान", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'समय अध्ययन' (Time Study) किसने दिया? (Who gave Time Study?)", "options": ["एफ.डब्ल्यू. टेलर", "फेयोल", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'विकेंद्रीकरण' का अर्थ? (Meaning of Decentralization?)", "options": ["अधिकारों का प्रत्यायोजन", "केंद्रित करना", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'वित्तीय बाजार'? (Financial Market?)", "options": ["पूंजी जुटाने का स्थान", "सब्जी मंडी", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'उपभोक्ता संरक्षण अधिनियम'? (Consumer Protection Act?)", "options": ["1986", "1990", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Entrepreneurship",
+      "questions": [
+        {"q": "1. 'प्रोजेक्ट रिपोर्ट'? (Project Report?)", "options": ["व्यवसाय का विवरण", "गाना", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'इनक्यूबेटर' (Incubator)? (What is an Incubator?)", "options": ["स्टार्टअप मदद केंद्र", "हॉस्पिटल", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'जोखिम'? (Risk?)", "options": ["अनिश्चितता का तत्व", "लाभ", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'प्रवर्तन' (Promotion)? (Promotion?)", "options": ["अवसर की खोज", "विज्ञापन्न", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'मदद/सहायता'? (Help/Support?)", "options": ["सरकारी सब्सिडी", "टेक्स", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Physics",
+      "questions": [
+        {"q": "1. 'चुंबकीय क्षेत्र' की इकाई? (Unit of Magnetic Field?)", "options": ["टेस्ला", "एम्पीयर", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'परमाणु नाभिक' की खोज? (Discovery of Nucleus?)", "options": ["रदरफोर्ड", "नील्स बोर", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'आपेक्षिकता का सिद्धांत'? (Theory of Relativity?)", "options": ["आइंस्टीन", "न्यूटन", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'घर्षण' (Friction)? (Friction is?)", "options": ["बल", "ऊर्जा", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'विद्युत विभवांतर'? (Electric Potential Difference?)", "options": ["वोल्ट", "एम्पीयर", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "questions": [
+        {"q": "1. 'आधुनिक आवर्त सारणी'? (Modern Periodic Table?)", "options": ["परमाणु क्रमांक", "परमाणु भार", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'अमोनिया का निर्माण' विधि? (Haber process?)", "options": ["हैबर विधि", "कोई नहीं", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'हीरा' किसका अपररूप? (Diamond is allotrope of?)", "options": ["कार्बन", "सिलिकॉन", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'साबुनीकरण'? (Saponification?)", "options": ["साबुन बनाना", "कपड़ा", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'कैथोड' पर क्या होता है? (What happens at Cathode?)", "options": ["अपचयन (Reduction)", "ऑक्सीकरण", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Biology",
+      "questions": [
+        {"q": "1. 'राइबोसोम' का कार्य? (Function of Ribosome?)", "options": ["प्रोटीन संश्लेषण", "श्वसन", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'माइटोकॉन्ड्रिया'? (Mitochondria?)", "options": ["कोशिका का बिजलीघर", "पाचन", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'पारिस्थितिकी'? (Ecology?)", "options": ["जीव-पर्यावरण संबंध", "खेती", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'रक्त' का PH मान? (PH of blood?)", "options": ["7.4", "7.0", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'इंसुलिन'? (Insulin?)", "options": ["शर्करा नियंत्रण", "पाचन", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Biotechnology",
+      "questions": [
+        {"q": "1. 'प्लाज्मिड' (Plasmid)? (What is a Plasmid?)", "options": ["बैक्टीरिया का डीएनए", "कोशिका", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'रिस्ट्रिक्शन एंजाइम'? (Restriction Enzyme?)", "options": ["डीएनए काटने वाला", "जोड़ने वाला", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'जीन क्लोनिंग'? (Gene Cloning?)", "options": ["जीन की कॉपी", "बीमारी", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'ट्रांसजेनिक पौधा'? (Transgenic plant?)", "options": ["बदला हुआ डीएनए", "सामान्य", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'एलिसा' (ELISA) टेस्ट? (ELISA test?)", "options": ["रोग जांच", "डीएनए", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Maths",
+      "questions": [
+        {"q": "1. 'आव्यूह' (Matrix) का क्रम? (Order of Matrix?)", "options": ["पंक्ति x कॉलम", "कॉलम x पंक्ति", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'सारणिक' (Determinant)? (Determinant?)", "options": ["वैल्यू", "मैट्रिक्स", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'निश्चित समाकलन'? (Definite Integration?)", "options": ["सीमा के साथ", "अनंत", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'व्युत्क्रम' (Inverse)? (Inverse of a function?)", "options": ["x=f^-1(y)", "x=f(y)", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'कोण' (Angle)? (Angle measure?)", "options": ["रेडियन/डिग्री", "मीटर", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Applied Maths",
+      "questions": [
+        {"q": "1. 'सांख्यिकीय माध्य'? (Statistical Mean?)", "options": ["औसत", "योग", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'किस्त' (Installment)? (Installment?)", "options": ["भुगतान", "ब्याज", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'प्रायिकता' का मान? (Probability value?)", "options": ["0 से 1 के बीच", "10", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'इंडेक्स नंबर'? (Index number?)", "options": ["मूल्य परिवर्तन", "संख्या", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'लाभ-हानि'? (Profit-Loss?)", "options": ["वित्त का आधार", "विज्ञान", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Computer Science",
+      "questions": [
+        {"q": "1. 'ऑपरेटिंग सिस्टम' का उदाहरण? (Example of OS?)", "options": ["Windows/Linux", "MS Office", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'LAN' का पूरा नाम? (Full form of LAN?)", "options": ["Local Area Network", "Line Area", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'प्रोटोकॉल' (Protocol)? (What is Protocol?)", "options": ["नियमों का समूह", "मशीन", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'डेटाबेस' में 'Key' क्या है? (What is a Key in DB?)", "options": ["पहचान के लिए", "लॉक", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'एल्गोरिदम'? (Algorithm?)", "options": ["समस्या समाधान", "कोडिंग", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Philosophy",
+      "questions": [
+        {"q": "1. 'तर्कवाक्य' (Proposition)? (Proposition?)", "options": ["कथन", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'उपयोगितावाद'? (Utilitarianism?)", "options": ["अधिकतम सुख", "स्वार्थ", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'भारतीय दर्शन' का प्रकार? (Type of Indian Philosophy?)", "options": ["आस्तिक/नास्तिक", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'प्रमाण' (Epistemology)? (Epistemology is?)", "options": ["ज्ञान का स्रोत", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'अहिंसा'? (Non-violence?)", "options": ["गांधीवादी मूल्य", "युद्ध", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Physical Education",
+      "questions": [
+        {"q": "1. 'एनाटॉमी'? (Anatomy?)", "options": ["शारीरिक संरचना", "खेल", "कोई नहीं"], "correct": 0},
+        {"q": "2. 'दोपिंग' (Doping) क्या है? (What is Doping?)", "options": ["प्रतिबंधित दवा", "आराम", "कोई नहीं"], "correct": 0},
+        {"q": "3. 'आसन' (Asana)? (Asana?)", "options": ["शारीरिक स्थिरता", "दौड़", "कोई नहीं"], "correct": 0},
+        {"q": "4. 'रक्तचाप' (BP)? (What is BP?)", "options": ["धमनी का दबाव", "धड़कन", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'खेल मनोविज्ञान'? (Sports Psychology?)", "options": ["खिलाड़ी का व्यवहार", "नियम", "कोई नहीं"], "correct": 0},
+      {
+  "subject_set": "Class 12th Advanced/Competitive Practice (Hard Level)",
+  "data": [
+    {
+      "subject": "History",
+      "questions": [
+        {"q": "1. 1857 की क्रांति के बाद 'ब्रिटिश क्राउन' द्वारा 'भारत सरकार अधिनियम 1858' का मुख्य उद्देश्य क्या था? (What was the main objective of the Govt of India Act 1858 by British Crown?)", "options": ["ईस्ट इंडिया कंपनी से सत्ता हस्तांतरण", "धार्मिक स्वतंत्रता", "औद्योगीकरण"], "correct": 0},
+        {"q": "2. गुप्त काल में 'भूमि अनुदान' (Agrahar) का मुख्य सामाजिक प्रभाव क्या था? (What was the main social impact of land grants in Gupta period?)", "options": ["सामंतवाद का उदय", "केंद्रीय प्रशासन का सुदृढ़ीकरण", "व्यापार में वृद्धि"], "correct": 0},
+        {"q": "3. 'बौद्ध दर्शन' के अनुसार 'प्रतीत्यसमुत्पाद' का अर्थ क्या है? (Meaning of 'Pratityasamutpada' in Buddhism?)", "options": ["कार्य-कारण सिद्धांत", "आत्मवाद", "ईश्वरवाद"], "correct": 0},
+        {"q": "4. विजयनगर साम्राज्य की 'नायक प्रणाली' किस आधुनिक प्रणाली के समतुल्य थी? (Nayak system of Vijayanagara is equivalent to which modern system?)", "options": ["मनसबदारी", "जागीरदारी", "स्थायी बंदोबस्त"], "correct": 0},
+        {"q": "5. 'गांधी-इरविन समझौता' (1931) की मुख्य शर्त क्या थी? (What was the core condition of Gandhi-Irwin Pact?)", "options": ["सविनय अवज्ञा आंदोलन का स्थगन", "स्वतंत्रता की घोषणा", "भारत छोड़ो"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Political Science",
+      "questions": [
+        {"q": "1. 'संविधान संशोधन' की प्रक्रिया (अनुच्छेद 368) किस प्रकार के बहुमत की आवश्यकता रखती है? (What kind of majority is needed for Constitutional Amendment under Art 368?)", "options": ["विशेष बहुमत", "साधारण बहुमत", "अल्पमत"], "correct": 0},
+        {"q": "2. भारतीय संविधान का 'अनुच्छेद 14' (समानता का अधिकार) किस सिद्धांत पर आधारित है? (Article 14 is based on which principle?)", "options": ["कानून के समक्ष समानता", "असमानता", "विशेष अधिकार"], "correct": 0},
+        {"q": "3. 'राष्ट्रपति के चुनाव' में कौन भाग नहीं ले सकता? (Who cannot participate in Presidential election?)", "options": ["विधान परिषद के सदस्य", "लोकसभा सदस्य", "राज्यसभा सदस्य"], "correct": 0},
+        {"q": "4. 'न्यायिक सक्रियता' (Judicial Activism) का भारत में मुख्य उपकरण क्या है? (Main tool of Judicial Activism in India?)", "options": ["जनहित याचिका (PIL)", "रिट याचिका", "अपील"], "correct": 0},
+        {"q": "5. 'भारत-चीन संबंध' में 'पंचशील सिद्धांत' का प्रतिपादन कब हुआ? (When was Panchsheel formulated?)", "options": ["1954", "1947", "1962"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Economics",
+      "questions": [
+        {"q": "1. 'फिलिप्स वक्र' (Phillips Curve) किसके बीच संबंध दिखाता है? (What does Phillips Curve relate?)", "options": ["बेरोजगारी और मुद्रास्फीति", "आय और खपत", "मांग और आपूर्ति"], "correct": 0},
+        {"q": "2. 'तरलता जाल' (Liquidity Trap) की स्थिति कब होती है? (When does Liquidity Trap occur?)", "options": ["ब्याज दर बहुत कम होने पर", "ब्याज दर बहुत अधिक होने पर", "मुद्रा आपूर्ति शून्य होने पर"], "correct": 0},
+        {"q": "3. 'राजकोषीय घाटा' (Fiscal Deficit) का अर्थ है? (What is Fiscal Deficit?)", "options": ["कुल व्यय - कुल प्राप्तियाँ (ऋण को छोड़कर)", "केवल ब्याज भुगतान", "आय में कमी"], "correct": 0},
+        {"q": "4. 'पारेटो इष्टतम' (Pareto Optimality) स्थिति का क्या अर्थ है? (Meaning of Pareto Optimality?)", "options": ["किसी की स्थिति सुधारे बिना दूसरों को बेहतर न करना", "पूर्ण प्रतिस्पर्धा", "एकाधिकार"], "correct": 0},
+        {"q": "5. 'बैंक दर' (Bank Rate) में वृद्धि का क्या अर्थ है? (What does an increase in Bank Rate imply?)", "options": ["मौद्रिक नीति का कड़ा होना", "तरलता बढ़ाना", "विकास दर में सुधार"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Physics",
+      "questions": [
+        {"q": "1. 'क्वांटम टनलिंग' (Quantum Tunneling) का सिद्धांत किसमें लागू होता है? (Quantum Tunneling applies in?)", "options": ["अल्फा क्षय (Alpha Decay)", "प्रकाश का परावर्तन", "ध्वनि की गति"], "correct": 0},
+        {"q": "2. 'एंट्रॉपी' (Entropy) का दूसरा नियम क्या दर्शाता है? (Second law of Thermodynamics implies?)", "options": ["ब्रह्मांड की अव्यवस्था का बढ़ना", "ऊर्जा का संरक्षण", "तापमान में कमी"], "correct": 0},
+        {"q": "3. 'फोटोइलेक्ट्रिक प्रभाव' में 'देहली आवृत्ति' (Threshold Frequency) से क्या तात्पर्य है? (What is Threshold Frequency?)", "options": ["न्यूनतम आवृत्ति जो इलेक्ट्रॉन उत्सर्जित करे", "अधिकतम ऊर्जा", "स्थिर गति"], "correct": 0},
+        {"q": "4. 'व्यतिकरण' (Interference) किसके अस्तित्व को सिद्ध करता है? (Interference proves the existence of?)", "options": ["प्रकाश की तरंग प्रकृति", "कण प्रकृति", "गुरुत्वाकर्षण"], "correct": 0},
+        {"q": "5. 'सेमीकंडक्टर' में 'बैंड गैप' (Band Gap) का क्या महत्व है? (Significance of Band Gap in Semiconductor?)", "options": ["चालकता निर्धारित करना", "रंग बदलना", "द्रव्यमान कम करना"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "questions": [
+        {"q": "1. 'लुईस अम्ल' (Lewis Acid) किसे कहते हैं? (What is a Lewis Acid?)", "options": ["इलेक्ट्रॉन युग्म ग्राही", "प्रोटॉन दाता", "न्यूट्रॉन दाता"], "correct": 0},
+        {"q": "2. 'संकरण' (Hybridization) में sp3d2 का ज्यामितीय आकार क्या है? (Geometry of sp3d2 hybridization?)", "options": ["अष्टफलकीय (Octahedral)", "त्रिकोणीय", "रैखिक"], "correct": 0},
+        {"q": "3. 'रेडियोधर्मी क्षय' किस कोटि (Order) की अभिक्रिया है? (Radioactive decay is which order reaction?)", "options": ["प्रथम कोटि (First Order)", "शून्य कोटि", "द्वितीय कोटि"], "correct": 0},
+        {"q": "4. 'क्रिस्टल क्षेत्र सिद्धांत' (CFT) का मुख्य आधार क्या है? (Basis of Crystal Field Theory?)", "options": ["इलेक्ट्रोस्टेटिक आकर्षण", "सहसंयोजक बंधन", "ध्रुवीयता"], "correct": 0},
+        {"q": "5. 'एल्डोल संघनन' (Aldol Condensation) किस प्रकार के यौगिक देते हैं? (Compounds giving Aldol Condensation?)", "options": ["α-हाइड्रोजन युक्त कार्बोनिल", "अल्कोहल", "ईथर"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Biology",
+      "questions": [
+        {"q": "1. 'डीएनए फिंगरप्रिंटिंग' में 'VNTR' का क्या उपयोग है? (Use of VNTR in DNA Fingerprinting?)", "options": ["व्यक्तिगत पहचान", "प्रोटीन निर्माण", "कोशिका विभाजन"], "correct": 0},
+        {"q": "2. 'सेंट्रल डोग्मा' (Central Dogma) का सही क्रम क्या है? (Correct flow of Central Dogma?)", "options": ["DNA → RNA → Protein", "RNA → DNA → Protein", "Protein → DNA → RNA"], "correct": 0},
+        {"q": "3. 'सहजीविता' (Symbiosis) का उदाहरण क्या है? (Example of Symbiosis?)", "options": ["लाइकेन (Lichen)", "परजीविता", "शिकार"], "correct": 0},
+        {"q": "4. 'इम्यूनिटी' (Immunity) के दौरान 'मेमोरी सेल' का कार्य क्या है? (Function of memory cells?)", "options": ["पुनः संक्रमण को पहचानना", "एंटीजन बनाना", "कोशिका नष्ट करना"], "correct": 0},
+        {"q": "5. 'एपोमिक्सिस' (Apomixis) क्या है? (What is Apomixis?)", "options": ["बिना निषेचन बीज निर्माण", "लैंगिक प्रजनन", "कलम लगाना"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Maths",
+      "questions": [
+        {"q": "1. 'रोल प्रमेय' (Rolle's Theorem) के लागू होने की मुख्य शर्त? (Main condition for Rolle's Theorem?)", "options": ["f(a) = f(b)", "f'(x) = 0", "f(a) > f(b)"], "correct": 0},
+        {"q": "2. 'डिटरमिनेंट' में 'इनवर्स' कब संभव नहीं? (When inverse is not possible?)", "options": ["जब डिटरमिनेंट = 0", "जब डिटरमिनेंट > 0", "जब डिटरमिनेंट < 0"], "correct": 0},
+        {"q": "3. 'कन्वर्जेंस' (Convergence) का क्या अर्थ है? (Meaning of Convergence?)", "options": ["एक निश्चित सीमा की ओर प्रवृत्त होना", "अनंत तक जाना", "बदलते रहना"], "correct": 0},
+        {"q": "4. 'सदिश गुणनफल' (Cross Product) का परिणाम? (Result of Cross Product?)", "options": ["एक लंबवत सदिश", "एक अदिश संख्या", "शून्य"], "correct": 0},
+        {"q": "5. 'बैयस प्रमेय' (Bayes' Theorem) किस पर आधारित है? (Bayes' Theorem is based on?)", "options": ["सशर्त प्रायिकता (Conditional Probability)", "योग", "औसत"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Computer Science",
+      "questions": [
+        {"q": "1. 'डेटाबेस' में 'नॉर्मलाइजेशन' का 3NF स्तर क्या रोकता है? (What does 3NF stop in DBMS?)", "options": ["ट्रांजिटिव डिपेंडेंसी", "डुप्लिकेशन", "डेटा लॉस"], "correct": 0},
+        {"q": "2. 'स्टैक' (Stack) डेटा संरचना का सिद्धांत क्या है? (Principle of Stack?)", "options": ["LIFO (Last In First Out)", "FIFO", "रैंडम"], "correct": 0},
+        {"q": "3. 'इंटरप्ट' (Interrupt) क्या है? (What is an Interrupt?)", "options": ["CPU को सिग्नल भेजना", "वायरस", "एरर"], "correct": 0},
+        {"q": "4. 'एन्क्रिप्शन' (Encryption) किस तकनीक का हिस्सा है? (Encryption is part of?)", "options": ["साइबर सुरक्षा", "नेटवर्किंग", "हार्डवेयर"], "correct": 0},
+        {"q": "5. 'ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग' का स्तंभ क्या है? (Pillar of OOP?)", "options": ["पॉलीमॉर्फिज्म (Polymorphism)", "लूप", "वेरिएबल"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Philosophy",
+      "questions": [
+        {"q": "1. कांट का 'सिंथेटिक अ-प्रायरी' (Synthetic a priori) ज्ञान क्या है? (What is Synthetic a priori?)", "options": ["अनुभव पूर्व लेकिन जानकारी देने वाला", "केवल अनुभव", "तर्कहीन"], "correct": 0},
+        {"q": "2. 'उपयोगितावाद' के प्रवर्तक जे.एस. मिल के अनुसार 'उच्च सुख' क्या है? (J.S. Mill's 'Higher Pleasures'?)", "options": ["बौद्धिक सुख", "शारीरिक सुख", "कोई नहीं"], "correct": 0},
+        {"q": "3. सांख्य दर्शन के अनुसार 'पुरुष' और 'प्रकृति' का क्या संबंध है? (Relation of Purusha and Prakriti in Sankhya?)", "options": ["द्वैतवाद (Dualism)", "अद्वैतवाद", "शून्यवाद"], "correct": 0},
+        {"q": "4. 'अस्तित्ववाद' में 'अथॉरिटी' (Authority) का विरोध क्यों किया जाता है? (Why is authority opposed in Existentialism?)", "options": ["व्यक्तिगत स्वतंत्रता हेतु", " अराजकता के लिए", "कोई नहीं"], "correct": 0},
+        {"q": "5. 'सत्य' के 'संवादिता सिद्धांत' (Correspondence Theory) का अर्थ? (Meaning of Correspondence Theory?)", "options": ["तथ्यों से मेल खाना", "तर्क से मेल खाना", "कोई नहीं"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Accountancy & Business",
+      "questions": [
+        {"q": "1. 'साझेदारी' में 'लाभ प्राप्ति अनुपात' (Gaining Ratio) का उपयोग कब होता है? (When is Gaining Ratio used?)", "options": ["साझेदार के अवकाश ग्रहण (Retirement) पर", "प्रवेश पर", "समापन पर"], "correct": 0},
+        {"q": "2. 'कैश फ्लो स्टेटमेंट' (Cash Flow Statement) का वर्गीकरण? (Classification of Cash Flow?)", "options": ["परिचालन, निवेश और वित्त", "केवल व्यापार", "आय और व्यय"], "correct": 0},
+        {"q": "3. 'टेलर' के वैज्ञानिक प्रबंधन और 'फेयोल' के सिद्धांतों में मुख्य अंतर? (Main difference between Taylor and Fayol?)", "options": ["टेलर-कार्य, फेयोल-प्रबंधन स्तर", "दोनों समान", "टेलर-प्रबंधन"], "correct": 0},
+        {"q": "4. 'वित्तीय लीवरेज' (Financial Leverage) क्या दर्शाता है? (What does Financial Leverage show?)", "options": ["ऋण का उपयोग", "नकद", "लागत"], "correct": 0},
+        {"q": "5. 'उपभोक्ता' को अधिकार 'उपभोक्ता संरक्षण अधिनियम' की कौन सी धारा देती है? (Which section gives rights to consumers?)", "options": ["धारा 6", "धारा 2", "धारा 10"], "correct": 0}
+      ]
+    },
+    {
+      "subject": "Sociology & Psychology",
+      "questions": [
+        {"q": "1. मैक्स वेबर के अनुसार 'नौकरशाही' (Bureaucracy) का मुख्य गुण क्या है? (Main feature of Bureaucracy according to Weber?)", "options": ["तार्किकता (Rationality)", "भाई-भतीजावाद", "परंपरा"], "correct": 0},
+        {"q": "2. 'सोशल इंजिनियरिंग' में 'फ्रेमिंग' का क्या अर्थ है? (Meaning of Framing in Social Engineering?)", "options": ["जानकारी को खास नजरिए से पेश करना", "झूठ बोलना", "प्रचार"], "correct": 0},
+        {"q": "3. 'संज्ञानात्मक विसंगति' (Cognitive Dissonance) का क्या अर्थ है? (Meaning of Cognitive Dissonance?)", "options": ["विश्वास और व्यवहार में विरोधाभास", "खुशी", "सीखना"], "correct": 0},
+        {"q": "4. 'फ्रायड' के 'ईगो' (Ego) का कार्य क्या है? (Function of Ego in Freud's theory?)", "options": ["वास्तविकता का तालमेल", "सुख की इच्छा", "नैतिकता"], "correct": 0},
+        {"q": "5. 'एम.एन. श्रीनिवास' ने 'प्रभु जाति' (Dominant Caste) का आधार क्या बताया? (Base of Dominant Caste?)", "options": ["भूमि और संख्या बल", "शिक्षा", "केवल जाति"], "correct": 0},
+        {
+  "subject_set": "Advanced Practice Set (22 Subjects - Level: Hard)",
+  "data": [
+    {"subject": "History", "q": "1. 'अभिलेखशास्त्र' (Epigraphy) में अशोक के शिलालेखों की भाषा और लिपि का सही संयोजन क्या है? (What is the language and script of Ashoka's edicts?)", "options": ["प्राकृत और ब्राह्मी", "संस्कृत और खरोष्ठी", "पाली और देवनागरी"], "correct": 0},
+    {"subject": "Political Science", "q": "2. भारतीय संविधान का 'अनुच्छेद 25-28' किस अधिकार को सुरक्षित करता है? (Which right is protected under Art 25-28?)", "options": ["धर्म की स्वतंत्रता", "समानता", "शोषण के विरुद्ध"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'कोरिओलिस बल' (Coriolis force) का प्रभाव किस दिशा में सबसे अधिक होता है? (Where is Coriolis force maximum?)", "options": ["ध्रुवों पर (Poles)", "भूमध्य रेखा पर", "45° अक्षांश पर"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'IS-LM मॉडल' में 'LM वक्र' किसका संतुलन दर्शाता है? (In IS-LM, what does LM curve represent?)", "options": ["मुद्रा बाजार", "वस्तु बाजार", "विदेशी व्यापार"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'पावलोव' के 'क्लासिकल कंडीशनिंग' में 'घंटी' क्या है? (In Pavlov's conditioning, what is the bell?)", "options": ["अननुबंधित उद्दीपक (Conditioned Stimulus)", "प्राकृतिक उद्दीपक", "कोई नहीं"], "correct": 0},
+    {"subject": "Sociology", "q": "6. एमिल दुर्खिम के अनुसार 'यांत्रिक एकजुटता' (Mechanical Solidarity) कहाँ पाई जाती है? (Where is Mechanical Solidarity found?)", "options": ["पारंपरिक समाजों में", "आधुनिक औद्योगिक समाजों में", "कोई नहीं"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'बी.एम.आर.' (BMR) को प्रभावित करने वाला मुख्य कारक क्या है? (Main factor affecting BMR?)", "options": ["थायराइड ग्रंथि", "दिन का समय", "बाहरी तापमान"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'टॉर्ट' (Tort) में 'Strict Liability' का सिद्धांत किस केस से प्रसिद्ध हुआ? (Which case is famous for Strict Liability?)", "options": ["Rylands v Fletcher", "Donoghue v Stevenson", "कोई नहीं"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. छायावाद का 'प्रथम काव्य संग्रह' किसे माना जाता है? (Which is considered the first collection of Chhayavad?)", "options": ["झरना", "कामायनी", "पल्लव"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'Stream of Consciousness' तकनीक का मुख्य उद्देश्य क्या है? (Purpose of Stream of Consciousness?)", "options": ["मानसिक विचारों की निरंतरता", "कहानी की गति", "कोई नहीं"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'कंपनी अधिनियम 2013' के अनुसार 'अधिकार अंश' (Right Shares) किसे दिए जाते हैं? (To whom are Right Shares issued?)", "options": ["मौजूदा शेयरधारकों को", "नए निवेशकों को", "प्रवर्तकों को"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'प्रबंधन के सिद्धांतों' में 'उपक्रम का मुख्य उद्देश्य' क्या है? (Core objective of management principles?)", "options": ["दक्षता और प्रभावशीलता", "केवल मुनाफा", "कोई नहीं"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'स्टार्टअप' का मुख्य आधार क्या होता है? (Core basis of a startup?)", "options": ["नवाचार (Innovation)", "पूंजी", "स्थान"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'हाइजेनबर्ग अनिश्चितता' के अनुसार, यदि स्थिति का डेल्टा x शून्य हो, तो संवेग (p) का मान क्या होगा? (If Δx is zero, what happens to Δp?)", "options": ["अनंत (Infinity)", "शून्य", "स्थिर"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'संकरण' (Hybridization) में 'आणविक कक्षक सिद्धांत' (MOT) के अनुसार, O2 अणु कैसा व्यवहार करता है? (O2 behavior according to MOT?)", "options": ["अनुचुंबकीय (Paramagnetic)", "प्रतिचुंबकीय", "कोई नहीं"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'रेस्ट्रिक्शन एंडोन्यूक्लिऐज' का दूसरा नाम? (Another name for Restriction Endonuclease?)", "options": ["आणविक कैंची (Molecular Scissors)", "गोंद", "कोई नहीं"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'टी.आई. प्लाज्मिड' (Ti Plasmid) का उपयोग किसमें किया जाता है? (Use of Ti Plasmid?)", "options": ["पादप जेनेटिक इंजीनियरिंग", "मानव उपचार", "कोई नहीं"], "correct": 0},
+    {"subject": "Maths", "q": "18. एक आव्यूह का 'सारणिक' (Determinant) शून्य है, तो वह कैसा आव्यूह है? (If Det=0, what is the matrix?)", "options": ["अव्युत्क्रमणीय (Singular Matrix)", "इकाई", "कोई नहीं"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'परिवहन समस्या' (Transportation Problem) में 'न्यूनतम लागत' ज्ञात करने की सर्वोत्तम विधि? (Best method for min cost?)", "options": ["वोगेल सन्निकटन विधि", "उत्तर-पश्चिम कोना विधि", "कोई नहीं"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'ओएसआई मॉडल' (OSI Model) की सबसे निचली परत कौन सी है? (Lowest layer of OSI Model?)", "options": ["Physical Layer", "Network Layer", "कोई नहीं"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'कांट' के अनुसार 'अतींद्रिय' (Transcendental) ज्ञान का स्रोत क्या है? (Source of Transcendental knowledge?)", "options": ["बुद्धि की संरचना", "अनुभव", "कोई नहीं"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'न्यूटन के तीसरे नियम' (क्रिया-प्रतिक्रिया) का खेल में उदाहरण? (Example of 3rd Law in sports?)", "options": ["तैराकी", "दौड़ना", "बैठना"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 04 (22 Subjects - High Difficulty)",
+  "data": [
+    {"subject": "History", "q": "1. 'अलाउद्दीन खिलजी' की बाजार नियंत्रण प्रणाली का मुख्य आर्थिक उद्देश्य क्या था? (What was the main economic objective of Alauddin Khilji's market control?)", "options": ["सैनिकों को कम वेतन पर रखना", "व्यापारियों को लाभ पहुँचाना", "गरीबी मिटाना"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'भारत के महान्यायवादी' (Attorney General) को संसद के किस सदन में बोलने का अधिकार है? (In which house can the Attorney General speak?)", "options": ["किसी भी सदन में", "केवल लोकसभा", "केवल राज्यसभा"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'अल-निनो' (El Nino) घटना का भारतीय मानसून पर क्या प्रतिकूल प्रभाव पड़ता है? (What is the adverse impact of El Nino on Indian Monsoon?)", "options": ["मानसून की वर्षा में कमी", "मानसून का जल्दी आना", "चक्रवातों का न बनना"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'पारेटो इष्टतम' (Pareto Optimality) स्थिति किस बाजार संरचना में संभव है? (Pareto optimality is possible in which market?)", "options": ["पूर्ण प्रतिस्पर्धा (Perfect Competition)", "एकाधिकार", "अल्पाधिकार"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'अल्बर्ट बांडुरा' के 'सामाजिक अधिगम' (Social Learning) सिद्धांत का मुख्य तत्व क्या है? (Key element of Bandura's Social Learning?)", "options": ["अवलोकन और मॉडलिंग (Observational Learning)", "पुरस्कार और दंड", "केवल अनुभव"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'एमिल दुर्खिम' ने 'आत्महत्या' (Suicide) के अध्ययन में किस सामाजिक कारक को जिम्मेदार माना है? (Factor responsible for Suicide according to Durkheim?)", "options": ["सामाजिक एकीकरण की कमी", "आर्थिक तंगी", "अनुवांशिकता"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'आर.डी.ए.' (RDA) निर्धारित करने का मुख्य आधार क्या है? (Basis for determining RDA?)", "options": ["शारीरिक पोषण आवश्यकता", "बाजार मूल्य", "उपलब्धता"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'न्यायिक पुनरावलोकन' (Judicial Review) का भारतीय संविधान में क्या अर्थ है? (Meaning of Judicial Review in India?)", "options": ["विधायिका के कानूनों की संवैधानिक जांच", "न्यायाधीशों की नियुक्ति", "निचली अदालत की अपील"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'नई कविता' आंदोलन का प्रमुख दार्शनिक आधार क्या है? (Philosophical basis of Nayi Kavita movement?)", "options": ["अस्तित्ववाद (Existentialism)", "भक्तिवाद", "मार्क्सवाद"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'जेम्स जॉयस' के उपन्यास 'यूलिसिस' में किस पौराणिक तकनीक का उपयोग हुआ है? (Mythological technique in James Joyce's Ulysses?)", "options": ["मिथकीय समानांतर (Mythic parallel)", "फ्लैशबैक", "नाटक"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'कंपनी के समापन' (Winding up) के समय लेनदारों का भुगतान किस क्रम में होता है? (Order of payment during liquidation?)", "options": ["सुरक्षित लेनदार पहले", "अंशधारक पहले", "कर्मचारी पहले"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'मस्लो के आवश्यकता पदानुक्रम' (Maslow's Hierarchy) में सबसे उच्च आवश्यकता क्या है? (Highest need in Maslow's hierarchy?)", "options": ["आत्म-प्राप्ति (Self-Actualization)", "सुरक्षा", "सामाजिक"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'सीड फंडिंग' (Seed Funding) का उद्यमिता में क्या अर्थ है? (Meaning of Seed Funding?)", "options": ["प्रारंभिक चरण की पूँजी", "अंतिम विस्तार पूँजी", "मार्केटिंग पूँजी"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'सुपरकंडक्टिविटी' (Superconductivity) में 'माइसनर प्रभाव' (Meissner Effect) क्या दर्शाता है? (What does Meissner effect show?)", "options": ["चुंबकीय क्षेत्र का निष्कासन", "तापमान में वृद्धि", "प्रतिरोध में वृद्धि"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'ग्रीन केमिस्ट्री' (Green Chemistry) का मूल सिद्धांत क्या है? (Core principle of Green Chemistry?)", "options": ["अपशिष्ट का न्यूनतम उत्पादन", "रसायनों का उपयोग", "प्रयोगशाला विकास"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'कोशिका चक्र' (Cell Cycle) में 'चेक-पॉइंट्स' (Checkpoints) का क्या कार्य है? (Function of checkpoints in cell cycle?)", "options": ["डीएनए त्रुटि जांचना", "ऊर्जा बनाना", "कोशिका विभाजन रोकना"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'जीनोम एडिटिंग' (CRISPR-Cas9) में 'गाइड आरएनए' (gRNA) का कार्य क्या है? (Function of gRNA in CRISPR?)", "options": ["लक्ष्य डीएनए की पहचान", "डीएनए को काटना", "प्रोटीन बनाना"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'लैग्रेंज मल्टीप्लायर' (Lagrange Multipliers) का उपयोग किस लिए होता है? (Use of Lagrange Multipliers?)", "options": ["विवशता के साथ अनुकूलन (Constrained Optimization)", "औसत निकालना", "योग"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'रिग्रेशन विश्लेषण' (Regression Analysis) किस उद्देश्य के लिए किया जाता है? (Objective of Regression Analysis?)", "options": ["चरों के बीच संबंध का पूर्वानुमान", "योग", "औसत"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'प्रॉक्सि सर्वर' (Proxy Server) का मुख्य कार्य क्या है? (Primary function of a Proxy Server?)", "options": ["इंटरनेट फिल्टरिंग और सुरक्षा", "डेटा स्टोरेज", "कोडिंग"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'सार्त्र' के अनुसार 'अस्तित्व' (Existence) का उत्तरदायित्व किस पर है? (Responsibility of existence according to Sartre?)", "options": ["व्यक्ति स्वयं पर", "भाग्य पर", "ईश्वर पर"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'बायोमैकेनिक्स' (Biomechanics) में 'लीवर के प्रकार' का खेल में क्या उपयोग है? (Use of types of levers in sports?)", "options": ["बल और वेग का अनुकूलन", "सजावट", "कोई नहीं"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 05 (22 Subjects - High Difficulty)",
+  "data": [
+    {"subject": "History", "q": "1. 'मुगलकालीन' मनसबदारी व्यवस्था में 'मशरूत' (Mashrut) मनसब का क्या अर्थ था? (Meaning of 'Mashrut' in Mansabdari system?)", "options": ["शर्त पर आधारित पद", "वंशानुगत पद", "वेतनहीन पद"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'संविधान के अनुच्छेद 32' को 'संविधान की आत्मा' किसने कहा था? (Who called Art 32 the 'Soul of the Constitution'?)", "options": ["डॉ. बी.आर. अंबेडकर", "जवाहरलाल नेहरू", "डॉ. राजेंद्र प्रसाद"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'आइसोहेलाइन' (Isohaline) रेखाएं मानचित्र पर क्या प्रदर्शित करती हैं? (What do Isohaline lines show on a map?)", "options": ["समान लवणता वाले स्थान", "समान वर्षा वाले स्थान", "समान तापमान वाले स्थान"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'किन्स' (Keynes) के अनुसार, 'तरलता जाल' (Liquidity Trap) की स्थिति कब होती है? (When does Liquidity Trap occur according to Keynes?)", "options": ["जब ब्याज दर न्यूनतम हो", "जब मुद्रा आपूर्ति कम हो", "जब मांग अधिक हो"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'कार्ल जुंग' (Carl Jung) के अनुसार, 'सामूहिक अचेतन' (Collective Unconscious) का अर्थ क्या है? (Meaning of 'Collective Unconscious'?)", "options": ["साझा मानव अनुभव", "व्यक्तिगत यादें", "बाल्यावस्था के अनुभव"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'एम.एन. श्रीनिवास' की 'प्रभु जाति' (Dominant Caste) की अवधारणा का मुख्य आधार क्या है? (Basis of 'Dominant Caste' concept?)", "options": ["भूमि और संख्या बल", "शिक्षा का स्तर", "धार्मिक उच्चता"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'ई.डी.टी.ए.' (EDTA) का उपयोग खाद्य प्रसंस्करण में किस रूप में किया जाता है? (Use of EDTA in food processing?)", "options": ["कीलेटिंग एजेंट (Chelating Agent)", "रंग बढ़ाने में", "स्वाद बढ़ाने में"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'अनुच्छेद 21' (जीवन का अधिकार) में 'निजता का अधिकार' (Right to Privacy) किस वाद में जोड़ा गया? (Case in which Right to Privacy was added to Art 21?)", "options": ["के.एस. पुट्टास्वामी वाद", "केशवानंद भारती वाद", "मिनर्वा मिल्स वाद"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'तुलसीदास' की 'विनयपत्रिका' की भाषा कौन सी है? (Language of Vinaypatrika by Tulsidas?)", "options": ["ब्रज", "अवधी", "खड़ी बोली"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'टी.एस. इलियट' का 'ऑब्जेक्टिव कोरिलेटिव' (Objective Correlative) सिद्धांत किस पर केंद्रित है? (Focus of 'Objective Correlative'?)", "options": ["भावनाओं को व्यक्त करने वाले प्रतीक", "कथा की संरचना", "भाषा की शैली"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'आएस-1' (IAS-1) के अनुसार, 'वित्तीय विवरण' का मुख्य उद्देश्य क्या है? (Objective of Financial Statements as per IAS-1?)", "options": ["उपयोगकर्ताओं के लिए प्रासंगिक जानकारी", "कर का भुगतान", "मैनेजमेंट को रिपोर्ट करना"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'पोर्टर का फाइव फोर्सेस मॉडल' (Porter's 5 Forces) का मुख्य उपयोग क्या है? (Use of Porter's 5 Forces model?)", "options": ["उद्योग प्रतिस्पर्धा का विश्लेषण", "कर्मचारी चयन", "बजट निर्माण"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'स्केल-अप' (Scale-up) का उद्यमिता में क्या अर्थ है? (Meaning of 'Scale-up' in entrepreneurship?)", "options": ["व्यवसाय के विस्तार की गति", "शुरुआत", "व्यवसाय बंद करना"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'क्वांटम एंटैंगलमेंट' (Quantum Entanglement) को 'आइंस्टीन' ने क्या कहा था? (What did Einstein call Quantum Entanglement?)", "options": ["डरावनी क्रिया (Spooky action at a distance)", "असंभव", "जादू"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'सॉल्वे प्रक्रिया' (Solvay Process) का मुख्य उत्पाद क्या है? (Main product of Solvay Process?)", "options": ["सोडियम कार्बोनेट", "अमोनिया", "सल्फ्यूरिक एसिड"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'प्रोटीन संश्लेषण' (Protein Synthesis) में 'राइबोसोम' का क्या कार्य है? (Function of Ribosome in protein synthesis?)", "options": ["पेप्टाइड बॉन्ड बनाना", "ऊर्जा बनाना", "डीएनए को कॉपी करना"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'बायो-इंफॉर्मेटिक्स' (Bio-informatics) का मुख्य उपयोग क्या है? (Main use of Bio-informatics?)", "options": ["जैविक डेटा विश्लेषण", "प्रयोगशाला सफाई", "पौधे उगाना"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'इंटीग्रल कैलकुलस' में 'गामा फंक्शन' (Gamma Function) किसका विस्तार है? (Gamma function is an extension of?)", "options": ["फैक्टोरियल (Factorial)", "अवकलन", "त्रिकोणमिति"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'मार्कोव चेन' (Markov Chain) का मुख्य उपयोग किसमें होता है? (Main use of Markov Chain?)", "options": ["भविष्यवाणी/संभाव्यता विश्लेषण", "ज्यामिति", "अंकगणित"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'कंपाइलर' (Compiler) और 'इंटरप्रेटर' (Interpreter) में मुख्य अंतर क्या है? (Main difference between Compiler & Interpreter?)", "options": ["पूरे कोड को एक साथ बनाम पंक्ति दर पंक्ति", "मेमोरी उपयोग", "स्पीड"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'सार्त्र' (Sartre) के अस्तित्ववाद में 'बैड फेथ' (Bad Faith) का क्या अर्थ है? (Meaning of 'Bad Faith'?)", "options": ["स्वयं को झूठ बोलना/जिम्मेदारी से भागना", "धर्म को मानना", "अज्ञानता"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'एर्गोजेनिक एड्स' (Ergogenic Aids) का खेल में क्या तात्पर्य है? (Meaning of Ergogenic Aids in sports?)", "options": ["प्रदर्शन बढ़ाने वाले सहायक तत्व", "खेल के जूते", "प्रशिक्षण योजना"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 06 (22 Subjects - High Difficulty)",
+  "data": [
+    {"subject": "History", "q": "1. 'मुगलकाल' में 'मुस्तौफी' (Mustaufi) अधिकारी का मुख्य कार्य क्या था? (Main duty of 'Mustaufi' in Mughal era?)", "options": ["राज्य के व्यय का लेखा-जोखा", "सैन्य भर्ती", "धार्मिक मामलों का प्रमुख"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'संविधान संशोधन' के 'आधारभूत संरचना' (Basic Structure) सिद्धांत को किस ऐतिहासिक वाद ने स्थापित किया? (Which case established the Basic Structure doctrine?)", "options": ["केशवानंद भारती वाद", "गोलकनाथ वाद", "मेनका गांधी वाद"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'जेन्युज' (Jeune) के अनुसार 'विश्व का सांस्कृतिक भूदृश्य' किस पर आधारित है? (On what is 'Cultural Landscape' based according to Jeune?)", "options": ["मानव और पर्यावरण की अंतःक्रिया", "केवल जलवायु", "केवल भूगोल"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'क्रिप्टोकरेंसी' के संदर्भ में 'ब्लॉकचेन' का कौन सा गुण इसे 'अपरिवर्तनीय' बनाता है? (What makes Blockchain immutable?)", "options": ["क्रिप्टोग्राफिक हैश लिंकिंग", "माइनिंग की गति", "विकेंद्रीकरण"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'संज्ञानात्मक व्यवहार थेरेपी' (CBT) में 'स्वचालित विचारों' (Automatic Thoughts) को बदलने का उद्देश्य क्या है? (Objective of changing Automatic Thoughts in CBT?)", "options": ["नकारात्मक स्कीमा को पुनर्गठित करना", "पुरानी यादें मिटाना", "केवल आराम देना"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'मैक्स वेबर' द्वारा प्रतिपादित 'तार्किकता का लौह पिंजरा' (Iron Cage of Rationality) किस ओर संकेत करता है? (What does the 'Iron Cage' suggest?)", "options": ["नौकरशाही का दमघोंटू प्रभाव", "आर्थिक समृद्धि", "सामाजिक स्वतंत्रता"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'हाइपर-विटामिनोसिस' (Hypervitaminosis) मुख्य रूप से किस प्रकार के विटामिनों के कारण होता है? (Hypervitaminosis is mainly caused by?)", "options": ["वसा में घुलनशील (Fat-soluble)", "जल में घुलनशील", "खनिज"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'इंटरनेशनल लॉ' में 'ज्यूस कोजेंस' (Jus Cogens) का क्या अर्थ है? (Meaning of 'Jus Cogens' in International Law?)", "options": ["अनिवार्य मानदंड (Peremptory norms)", "वैश्विक व्यापार", "संधि का उल्लंघन"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'आचार्य रामचंद्र शुक्ल' के अनुसार 'श्रद्धा और भक्ति' निबंध का मुख्य आधार क्या है? (Basis of 'Shraddha aur Bhakti' by Shukla?)", "options": ["समानुभूति और सत्कार", "केवल तर्क", "इतिहास"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'पोस्ट-स्ट्रक्चरलिज्म' (Post-structuralism) में 'डिकंस्ट्रक्शन' (Deconstruction) का जनक किसे माना जाता है? (Father of Deconstruction?)", "options": ["जैक्स डेरिडा", "मिशेल फूको", "रोलां बार्थ"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'लीज अकाउंटिंग' (Lease Accounting) में 'ऑपरेटिंग लीज' और 'फाइनेंस लीज' में मुख्य अंतर क्या है? (Difference between Operating & Finance Lease?)", "options": ["जोखिम और पुरस्कार का हस्तांतरण", "समय की अवधि", "भुगतान का तरीका"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'सी.एस.आर.' (Corporate Social Responsibility) का मुख्य दर्शन क्या है? (Core philosophy of CSR?)", "options": ["मुनाफे के साथ सामाजिक उत्तरदायित्व", "सिर्फ परोपकार", "प्रचार"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'स्केल-एबिलिटी' (Scalability) का क्या अर्थ है? (Meaning of Scalability?)", "options": ["बढ़ती मांग को कुशलता से संभालने की क्षमता", "खर्च घटाना", "कर्मचारी बढ़ाना"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'हौकिंग रेडिएशन' (Hawking Radiation) का संबंध किससे है? (Hawking Radiation relates to?)", "options": ["ब्लैक होल का वाष्पीकरण", "तारों का जन्म", "प्रकाश की गति"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'क्वांटम यांत्रिकी' में 'हाइजेनबर्ग अनिश्चितता' का गणितीय रूप क्या है? (Mathematical form of Heisenberg's Uncertainty?)", "options": ["Δx · Δp ≥ h/4π", "E=mc^2", "PV=nRT"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'एपिकल्चर' (Apiculture) के बजाय यदि 'क्रिसपर' का प्रयोग किया जाए, तो वह क्या कहलाएगा? (Using CRISPR instead of Apiculture refers to?)", "options": ["जीनोम एडिटिंग", "परागकण संवर्धन", "मधुमक्खी पालन"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'प्रोटीओमिक्स' (Proteomics) का मुख्य केंद्र बिंदु क्या है? (Core focus of Proteomics?)", "options": ["जीव के संपूर्ण प्रोटीन का अध्ययन", "जीन का अध्ययन", "कोशिका"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'टोपोलॉजी' (Topology) में 'होमियोमोर्फिज्म' (Homeomorphism) का क्या अर्थ है? (Meaning of Homeomorphism in Topology?)", "options": ["निरंतर विरूपण (Continuous deformation)", "कोण मापन", "अंकगणित"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'क्यूइंग थ्योरी' (Queuing Theory) का उपयोग मुख्य रूप से कहाँ होता है? (Primary use of Queuing Theory?)", "options": ["सेवा प्रणालियों में प्रतीक्षा समय का विश्लेषण", "भोजन बनाना", "खेल"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'कंटेनर टेक्नोलॉजी' (जैसे Docker) 'वर्चुअल मशीन' से कैसे भिन्न है? (How is Docker different from VM?)", "options": ["OS कर्नल साझा करना", "पूरी तरह अलग OS", "कोई अंतर नहीं"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'हेगेल' के 'द्वंद्वात्मक' (Dialectics) में 'संश्लेषण' (Synthesis) क्या है? (What is Synthesis in Hegel's Dialectics?)", "options": ["वाद और प्रतिवाद का समाधान", "विनाश", "प्रारंभिक अवस्था"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'एर्गोजेनिक एड्स' के अंतर्गत 'ब्लड डोपिंग' (Blood Doping) का क्या उद्देश्य है? (Objective of Blood Doping?)", "options": ["ऑक्सीजन वहन क्षमता बढ़ाना", "ताकत बढ़ाना", "वजन घटाना"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 07 (22 Subjects - Elite Level)",
+  "data": [
+    {"subject": "History", "q": "1. 1919 के 'मोंटेग्यू-चेम्सफोर्ड सुधार' में 'द्वैध शासन' (Dyarchy) का सबसे बड़ा संवैधानिक दोष क्या था? (What was the biggest constitutional flaw of Dyarchy in 1919?)", "options": ["वित्तीय शक्ति और उत्तरदायित्व का पृथक्करण", "अत्यधिक केंद्रीकरण", "मुसलमानों के लिए अलग निर्वाचन"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'अनुच्छेद 137' के अंतर्गत 'न्यायिक पुनरावलोकन' की शक्ति का प्रयोग सर्वोच्च न्यायालय किस सिद्धांत के तहत करता है? (Which principle governs Judicial Review under Art 137?)", "options": ["निर्णयों का पुरावलोकन (Curative Power)", "कानून की व्याख्या", "कार्यपालिका का नियंत्रण"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'जेफरसन का प्राइमेट सिटी नियम' (Law of Primate City) क्या व्याख्या करता है? (What does Jefferson's Primate City rule explain?)", "options": ["शहरों के आकार का पदानुक्रम", "जनसंख्या घनत्व", "नगरीय जलवायु"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'आर.बी.आई.' द्वारा 'ओपन मार्केट ऑपरेशन्स' (OMO) का मुख्य उद्देश्य क्या होता है? (Main objective of OMO by RBI?)", "options": ["अर्थव्यवस्था में तरलता का प्रबंधन", "विनिमय दर का निर्धारण", "विदेशी निवेश को बढ़ावा"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'संज्ञानात्मक विसंगति' (Cognitive Dissonance) के समाधान के लिए व्यक्ति अक्सर क्या करता है? (What do people do to resolve Cognitive Dissonance?)", "options": ["अपने दृष्टिकोण या व्यवहार में बदलाव", "पूर्णतः चुप रहना", "अवसाद में जाना"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'वर्टेहन' (Verstehen) विधि जो मैक्स वेबर ने दी, उसका अर्थ क्या है? (Meaning of Verstehen in Weber's sociology?)", "options": ["सामाजिक क्रिया का अर्थपूर्ण समझना", "सांख्यिकीय विश्लेषण", "केवल अवलोकन"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'लिपिड प्रोफाइल' में 'ट्राइग्लिसराइड्स' का स्तर बढ़ने से मुख्य जोखिम क्या है? (Risk of high Triglycerides in Lipid Profile?)", "options": ["हृदय संबंधी विकार (Cardiovascular risk)", "अस्थि रोग", "पाचन विकार"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'डॉक्ट्रिन ऑफ इक्विटी' (Doctrine of Equity) का मुख्य अर्थ क्या है? (Meaning of Doctrine of Equity?)", "options": ["कानून के कठोर अक्षर के बजाय न्याय की भावना", "सख्त कानून का पालन", "न्यायाधीश की मर्जी"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'नई कहानी' आंदोलन (1950 के बाद) की सबसे बड़ी विशेषता क्या है? (Main characteristic of Nayi Kahani?)", "options": ["मध्यमवर्गीय जीवन का यथार्थवादी चित्रण", "रोमांचक घटनाएं", "पुराण कथाएं"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'विक्टोरियन काल' के साहित्य में 'यूटिलिटेरियनिज्म' (Utilitarianism) का विरोध किस लेखक ने प्रमुखता से किया? (Who opposed Utilitarianism in Victorian literature?)", "options": ["चार्ल्स डिकेंस", "थॉमस हार्डी", "ऑस्कर वाइल्ड"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'आई.एफ.आर.एस.' (IFRS) का 'फेयर वैल्यू अकाउंटिंग' (Fair Value Accounting) सिद्धांत किस ओर संकेत करता है? (Meaning of Fair Value Accounting in IFRS?)", "options": ["बाजार आधारित मूल्यांकन", "ऐतिहासिक लागत", "लागत माइनस डेप्रिसिएशन"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'प्रबंधन के छः एम' (6Ms) में 'मैन' के अलावा कौन सा महत्वपूर्ण तत्व 'मार्केट' के लिए उत्तरदायी है? (Important element besides 'Men' for Market?)", "options": ["मनी और मशीन", "मैनेजमेंट", "मीडिया"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'स्केल-एबिलिटी' (Scalability) प्राप्त करने के लिए किस तकनीक का प्रयोग किया जाता है? (Technique for Scalability?)", "options": ["स्वचालन (Automation)", "मैनुअल काम", "स्थिर बजट"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'क्वांटम कंप्यूटर' में 'सुपरपोज़िशन' (Superposition) का अर्थ क्या है? (Meaning of Superposition in Quantum Computing?)", "options": ["एक साथ कई अवस्थाओं में होना (0 और 1)", "केवल 0 होना", "केवल 1 होना"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'सॉल्वे प्रक्रिया' का उपयोग मुख्य रूप से किस औद्योगिक रसायन के निर्माण हेतु होता है? (Industrial use of Solvay process?)", "options": ["सोडियम कार्बोनेट", "सल्फ्यूरिक एसिड", "हाइड्रोजन"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'आर.एन.ए. इंटरफेरेंस' (RNAi) तकनीक का जैविक महत्व क्या है? (Biological significance of RNAi?)", "options": ["जीन साइलेंसिंग (Gene Silencing)", "जीन एम्प्लीफिकेशन", "कोशिका विभाजन"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'क्रिसपर-कैस9' (CRISPR-Cas9) में 'कैस9' एंजाइम की भूमिका क्या है? (Role of Cas9 in CRISPR?)", "options": ["डीएनए के विशिष्ट स्थान को काटना", "आरएनए बनाना", "ऊर्जा देना"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'टोपोलॉजी' में 'होमियोमोर्फिज्म' का क्या अर्थ है? (Meaning of Homeomorphism in Topology?)", "options": ["आकृतियों को बिना काटे मोड़ना/खिंचना", "कोण मापना", "संख्या निकालना"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'क्यूइंग थ्योरी' (Queuing Theory) का सबसे महत्वपूर्ण उपयोग किस सेवा क्षेत्र में है? (Primary service sector application of Queuing Theory?)", "options": ["बैंक और दूरसंचार (कॉल सेंटर)", "कृषि", "खेल"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'कंटेनर टेक्नोलॉजी' (Docker) में 'इमेज' (Image) का क्या अर्थ है? (Meaning of Image in Docker?)", "options": ["एप्लिकेशन चलाने हेतु रेडी-टू-रन पैकेज", "फोटो फाइल", "सॉफ्टवेयर बैकअप"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'हेगेल' के 'द्वंद्वात्मक' (Dialectics) में 'संश्लेषण' (Synthesis) क्या है? (Definition of Synthesis in Hegel's Dialectics?)", "options": ["वाद और प्रतिवाद का उच्च स्तर पर समाधान", "वाद का खंडन", "कोई नहीं"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'एर्गोजेनिक एड्स' में 'ब्लड डोपिंग' का मुख्य उद्देश्य क्या है? (Primary objective of Blood Doping?)", "options": ["लाल रक्त कणिकाओं (RBC) की संख्या बढ़ाकर ऑक्सीजन वहन बढ़ाना", "तनाव कम करना", "मांसपेशियों का आकार बढ़ाना"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 08 (22 Subjects - Research/Deep Concept Level)",
+  "data": [
+    {"subject": "History", "q": "1. 'मुगलकाल' में 'जमींदारी' और 'जागीरदारी' के बीच संरचनात्मक द्वंद्व (Structural Conflict) का मुख्य कारण क्या था? (Core structural conflict in Mughal era?)", "options": ["राजस्व अधिकारों का अधिलाभ (Overlapping rights)", "धार्मिक मतभेद", "सैन्य असंतुलन"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'संविधानवाद' (Constitutionalism) और 'कानून का शासन' (Rule of Law) में सूक्ष्म अंतर क्या है? (Nuanced difference between Constitutionalism and Rule of Law?)", "options": ["संविधानवाद सरकार की शक्तियों को सीमित करता है", "कानून का शासन केवल प्रक्रिया है", "दोनों समान हैं"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'प्लेट टेक्टोनिक्स' में 'पैलियोमैग्नेटिज्म' (Paleomagnetism) का समुद्री तल के विस्तार (Seafloor Spreading) में क्या प्रमाण है? (Proof of Seafloor Spreading via Paleomagnetism?)", "options": ["चट्टानों में चुंबकीय ध्रुव का उत्क्रमण (Reversal pattern)", "चट्टानों की आयु", "ज्वालामुखी"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'आर.बी.आई.' की 'मौद्रिक नीति' में 'टी.एल.टी.आर.ओ.' (TLTRO) का उद्देश्य क्या है? (Objective of TLTRO in Monetary Policy?)", "options": ["विशिष्ट क्षेत्रों में दीर्घकालिक नकदी प्रवाह सुनिश्चित करना", "महंगाई घटाना", "जीडीपी बढ़ाना"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'एक्ज़िस्टेंशियल थेरेपी' (Existential Therapy) में 'अस्तित्वगत चिंता' (Existential Anxiety) का क्या अर्थ है? (Meaning of Existential Anxiety?)", "options": ["स्वतंत्रता और मृत्युबोध के प्रति चेतना", "फोबिया", "तनाव"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'फूको' (Foucault) के अनुसार 'बायोपॉवर' (Biopower) का क्या अर्थ है? (Meaning of Biopower in Foucault's work?)", "options": ["आबादी को नियंत्रित करने वाली शक्ति (Control over population)", "कानून बनाना", "इतिहास लिखना"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'नैनो-फोर्टिफिकेशन' (Nano-fortification) का खाद्य पदार्थों में मुख्य उद्देश्य क्या है? (Main objective of Nano-fortification?)", "options": ["सूक्ष्म पोषक तत्वों की जैव-उपलब्धता (Bio-availability) बढ़ाना", "स्वाद बदलना", "रंग निखारना"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'इंटरनेशनल लॉ' में 'एर्गा ओम्नेस' (Erga Omnes) दायित्व क्या हैं? (What are Erga Omnes obligations?)", "options": ["संपूर्ण अंतरराष्ट्रीय समुदाय के प्रति दायित्व", "केवल दो देशों के बीच", "कोई नहीं"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'अज्ञेय' के 'प्रयोगवाद' (Prayogvad) में 'क्षण का महत्व' किस दार्शनिक आधार पर है? (Philosophical basis of 'Moment' in Agyeya's poetry?)", "options": ["अस्तित्ववाद (Existentialism)", "मार्क्सवाद", "रोमांटिसिज्म"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'एडवर्ड सईद' के 'ओरिएंटलिज्म' (Orientalism) का मुख्य तर्क क्या है? (Central argument of Orientalism?)", "options": ["पश्चिम द्वारा पूर्व का एक निर्मित प्रतिबिंब (Constructed representation)", "इतिहास लेखन", "कला का विश्लेषण"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'आई.एफ.आर.एस. 9' (IFRS 9) में 'एक्सपेक्टेड क्रेडिट लॉस' (ECL) मॉडल का क्या महत्व है? (Significance of ECL model in IFRS 9?)", "options": ["भविष्य के संभावित नुकसानों का अग्रिम प्रावधान", "वास्तविक घाटा दर्ज करना", "मुनाफा दिखाना"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'ब्लू ओशन स्ट्रेटेजी' (Blue Ocean Strategy) का मुख्य सार क्या है? (Essence of Blue Ocean Strategy?)", "options": ["प्रतियोगिता को अप्रासंगिक बनाना (Make competition irrelevant)", "बाजार में लड़ाई", "मुनाफा कम करना"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'लीं स्टार्टअप' (Lean Startup) में 'पिवट' (Pivot) का क्या अर्थ है? (Meaning of Pivot in Lean Startup?)", "options": ["व्यावसायिक दिशा में मौलिक बदलाव", "कंपनी बंद करना", "निवेश बढ़ाना"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'डार्क मैटर' (Dark Matter) का अस्तित्व किस अवलोकन से सिद्ध होता है? (Observational proof of Dark Matter?)", "options": ["आकाशगंगाओं का घूर्णन वेग (Rotation curves)", "प्रकाश का परावर्तन", "ध्वनि"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'सुपर-कंडक्टिविटी' के 'बी.सी.एस. थ्योरी' (BCS Theory) में 'कूपर पेयर्स' (Cooper Pairs) क्या हैं? (What are Cooper Pairs in BCS theory?)", "options": ["दो इलेक्ट्रॉनों का युग्म", "प्रोटॉन का जोड़ा", "अणु का समूह"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'एपिजेंटिक्स' (Epigenetics) में 'मिथाइलेशन' (Methylation) का क्या प्रभाव है? (Impact of Methylation in Epigenetics?)", "options": ["जीन अभिव्यक्ति को नियंत्रित (बंद/खुला) करना", "डीएनए बदलना", "कोशिका नष्ट करना"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'सिंथेटिक बायोलॉजी' (Synthetic Biology) का अंतिम लक्ष्य क्या है? (Ultimate goal of Synthetic Biology?)", "options": ["नए जैविक सिस्टम और कार्यों का निर्माण", "पौधे उगाना", "बीमारी जांचना"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'गोडेल का अपूर्णता प्रमेय' (Godel's Incompleteness Theorem) किस विषय पर है? (Subject of Godel's theorem?)", "options": ["गणितीय प्रणालियों की सीमाएं", "ज्यामिति", "अंकगणित"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'गेम थ्योरी' (Game Theory) में 'नैश इक्विलिब्रियम' (Nash Equilibrium) क्या है? (What is Nash Equilibrium?)", "options": ["वह स्थिति जहाँ कोई खिलाड़ी अपनी रणनीति नहीं बदलता", "शून्य लाभ", "जीत-हार"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'एज कंप्यूटिंग' (Edge Computing) क्लाउड कंप्यूटिंग से कैसे भिन्न है? (How is Edge Computing different?)", "options": ["डेटा प्रोसेसिंग डेटा स्रोत (स्रोत के करीब) के पास करना", "सर्वर पर प्रोसेसिंग", "कोई अंतर नहीं"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'डेरिडा' का 'डिफ़रेंस' (Différance) क्या है? (What is Derrida's Différance?)", "options": ["अर्थ का निरंतर टलना (Deferral of meaning)", "विरोधाभास", "सत्य"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'न्यूरो-मस्कुलर एडैप्टेशन' (Neuromuscular Adaptation) का शक्ति प्रशिक्षण (Strength training) में क्या महत्व है? (Significance of Neuromuscular Adaptation?)", "options": ["मस्तिष्क और मांसपेशियों के तालमेल में सुधार", "मांसपेशियों का वजन", "हड्डी की ताकत"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 09 (22 Subjects - Cross-Disciplinary/Research Level)",
+  "data": [
+    {"subject": "History", "q": "1. 'मार्क्सवादी इतिहासलेखन' में 'सामंती उत्पादन पद्धति' (Feudal Mode of Production) का भारत के संदर्भ में मुख्य वाद-विवाद क्या है? (Key debate on Feudal mode in Indian history?)", "options": ["भारत में सामंतवाद का स्वरूप (युरोपीय बनाम भारतीय)", "मार्क्स की असफलता", "केवल भूमि का मुद्दा"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'डेलीब्रेटिव डेमोक्रेसी' (Deliberative Democracy) में 'जन-विमर्श' का क्या आधार है? (Basis of deliberation in deliberative democracy?)", "options": ["तर्कपूर्ण संवाद और सहमति का निर्माण", "केवल मतदान", "बहुमत का शासन"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'नव्य-नियतिवाद' (Neo-determinism) जिसे 'रुको और जाओ नियतिवाद' भी कहते हैं, इसके प्रतिपादक कौन थे? (Who proposed Neo-determinism / Stop and Go?)", "options": ["ग्रिफिथ टेलर", "हंबोल्ट", "रिटर"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'बिहेवियरल इकोनॉमिक्स' (Behavioral Economics) में 'नज' (Nudge) थ्योरी का उपयोग नीति निर्माण में कैसे होता है? (Use of Nudge theory in policy?)", "options": ["लोगों के निर्णयों को बिना मजबूरी प्रभावित करना", "कर लगाना", "प्रतिबंध लगाना"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'न्यूरोप्लास्टिसिटी' (Neuroplasticity) का अधिगम (Learning) में क्या व्यावहारिक महत्व है? (Significance of Neuroplasticity in learning?)", "options": ["मस्तिष्क की संरचना को नए अनुभवों से बदलने की क्षमता", "केवल याददाश्त", "बुद्धि का स्थिर होना"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'अंडर-डेवलपमेंट' (Underdevelopment) के 'डिपेंडेंसी थ्योरी' (Dependency Theory) के अनुसार, विश्व अर्थव्यवस्था की संरचना कैसी है? (Structure of global economy as per Dependency Theory?)", "options": ["केंद्र और परिधि (Core-Periphery) का शोषणकारी संबंध", "स्वतंत्रता", "समानता"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'माइक्रोबायोम' (Microbiome) का स्वास्थ्य पर प्रभाव किस प्रकार से 'आहार-पोषण' से संबंधित है? (Relation between Microbiome and Nutrition?)", "options": ["आहार पाचन और प्रतिरक्षा में आंतों के बैक्टीरिया की भूमिका", "केवल कैलोरी", "स्वाद"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'पब्लिक इंटरेस्ट लिटिगेशन' (PIL) का 'लोकस स्टैंडाई' (Locus Standi) के सिद्धांत में क्या परिवर्तन किया गया है? (Change in Locus Standi for PIL?)", "options": ["पीड़ित के बजाय कोई भी व्यक्ति अदालत जा सकता है", "केवल पीड़ित ही जा सकता है", "कोई नहीं"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'अस्तित्ववादी दर्शन' का भारतीय हिंदी उपन्यास 'गुनाहों का देवता' में किस प्रकार प्रभाव दिखता है? (Existentialism in 'Gunahon Ka Devta'?)", "options": ["व्यक्तिगत नैतिकता का संकट और अलगाव", "सामाजिक एकता", "भक्ति"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'फेमिनिस्ट क्रिटिसिज्म' (Feminist Criticism) में 'गायनेक्रिटिसिज्म' (Gynocriticism) का अर्थ क्या है? (Meaning of Gynocriticism?)", "options": ["लेखिकाओं के लेखन और उनकी परंपरा का अध्ययन", "पुरुष लेखन", "इतिहास"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'फंड अकाउंटिंग' (Fund Accounting) जो सरकारी संस्थाओं में प्रयोग होती है, उसकी मुख्य विशेषता क्या है? (Key feature of Fund Accounting?)", "options": ["विशिष्ट उद्देश्यों हेतु पृथक संसाधनों का लेखांकन", "मुनाफा कमाना", "कोई नहीं"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'एजाइल मैनेजमेंट' (Agile Management) का मुख्य दर्शन क्या है? (Core philosophy of Agile?)", "options": ["लगातार सुधार और अनुकूलनशीलता (Adaptability)", "कठोर नियोजन", "पिरामिड संरचना"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'सोशल एंटरप्रेन्योरशिप' में 'हाइब्रिड मॉडल' (Hybrid Model) क्या है? (What is a Hybrid Model in Social Entrep?)", "options": ["मुनाफा और सामाजिक प्रभाव का एक साथ संचालन", "केवल दान", "केवल व्यवसाय"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'क्वांटम कंप्यूटर' में 'डिकोहेरेंस' (Decoherence) की समस्या क्या है? (Problem of Decoherence in QC?)", "options": ["बाहरी शोर से क्वांटम अवस्थाओं का नष्ट होना", "धीमी गति", "कोई नहीं"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'फोटोकैटेलीसिस' (Photocatalysis) का भविष्य में ऊर्जा क्षेत्र में क्या अनुप्रयोग है? (Future application of Photocatalysis?)", "options": ["प्रकाश ऊर्जा से हाइड्रोजन उत्पादन (Water splitting)", "प्लास्टिक बनाना", "कोई नहीं"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'सिंथेटिक बायोलॉजी' में 'बायो-ब्रिक्स' (Bio-bricks) क्या हैं? (What are Bio-bricks?)", "options": ["मानकीकृत डीएनए अनुक्रम (Standardized DNA parts)", "मिट्टी का ईंट", "प्रोटीन"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'मेटाजेनोमिक्स' (Metagenomics) किस प्रकार पारंपरिक जेनेटिक्स से भिन्न है? (How is Metagenomics different?)", "options": ["पूरे पर्यावरण से लिए गए मिश्रित डीएनए का विश्लेषण", "एक जीव का अध्ययन", "कोई नहीं"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'फ्रैक्टल्स' (Fractals) की मुख्य ज्यामितीय विशेषता क्या है? (Geometrical feature of Fractals?)", "options": ["स्व-समानता (Self-similarity) और जटिलता", "सीधी रेखा", "वृत्त"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'ऑप्टिमाइज़ेशन' में 'जेनेटिक एल्गोरिदम' (Genetic Algorithm) किस सिद्धांत पर आधारित है? (Genetic Algorithm is based on?)", "options": ["चार्ल्स डार्विन का विकासवाद (Evolutionary process)", "संख्या पद्धति", "कोई नहीं"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'ब्लॉकचेन' में 'प्रूफ ऑफ वर्क' (Proof of Work) का क्या उद्देश्य है? (Objective of Proof of Work?)", "options": ["नेटवर्क में सुरक्षा और सर्वसम्मति (Consensus)", "तेजी लाना", "डेटा स्टोरेज"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'फेनोमेनोलॉजी' (Phenomenology) में 'इपोके' (Epoche) या 'ब्रैकेटिंग' क्या है? (What is 'Epoche' in Phenomenology?)", "options": ["पूर्व-मान्यताओं को स्थगित करना", "सब स्वीकार करना", "अस्तित्व मिटाना"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'स्पोर्ट्स साइकोलॉजी' में 'विज़ुअलाइज़ेशन' (Visualization) का प्रदर्शन में क्या वैज्ञानिक प्रभाव है? (Scientific impact of Visualization?)", "options": ["मस्तिष्क में मोटर पाथवे (Neural pathways) का सक्रियण", "आराम", " कोई नहीं"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 10 (22 Subjects - Research/Frontier Tech Level)",
+  "data": [
+    {"subject": "History", "q": "1. 'सब-अल्टरन स्टडीज' (Subaltern Studies) के दृष्टिकोण से इतिहास लेखन का मुख्य उद्देश्य क्या है? (Objective of Subaltern historiography?)", "options": ["सामान्य लोगों और हाशिए के वर्गों की आवाज को सामने लाना", "केवल राजाओं का इतिहास", "औपनिवेशिक रिकॉर्ड का समर्थन"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'हन्ना आरेन्ट' (Hannah Arendt) के अनुसार 'टोटलिटेरियनिज्म' (Totalitarianism) के उदय का मुख्य कारण क्या था? (Cause of Totalitarianism according to Arendt?)", "options": ["सामाजिक अलगाव और अकेलापन (Atomization)", "आर्थिक गरीबी", "धार्मिक कट्टरपंथ"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'एंथ्रोपोसीन' (Anthropocene) युग की अवधारणा में मानव गतिविधि का सबसे महत्वपूर्ण भूगर्भीय प्रभाव क्या है? (Geological impact of Anthropocene?)", "options": ["मानव द्वारा किए गए पर्यावरणीय और जलवायु परिवर्तन", "ज्वालामुखी", "प्लेट हलचल"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'डिजिटल इकोनॉमी' में 'नेटवर्क इफेक्ट्स' (Network Effects) का बाजार शक्ति (Market Power) पर क्या प्रभाव पड़ता है? (Impact of Network Effects?)", "options": ["एकाधिकार (Monopoly) को बढ़ावा मिलना", "प्रतियोगिता बढ़ना", "कीमतें घटना"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'साइको-न्यूरो-इम्युनोलॉजी' (Psychoneuroimmunology) क्या सिद्ध करती है? (What does PNI prove?)", "options": ["मानसिक तनाव और प्रतिरक्षा प्रणाली का अंतर्संबंध", "मस्तिष्क का आकार", "कोई नहीं"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'पियर्स बुर्दियु' (Pierre Bourdieu) के 'कल्चरल कैपिटल' (Cultural Capital) का सामाजिक स्तरीकरण में क्या योगदान है? (Contribution of Cultural Capital?)", "options": ["सामाजिक वर्ग के पुनरुत्पादन (Social reproduction) में मदद", "केवल धन का संचय", "शिक्षा की कमी"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'न्यूट्रास्यूटिकल्स' (Nutraceuticals) का कार्यात्मक खाद्य पदार्थों (Functional Foods) से क्या तात्विक अंतर है? (Difference between Nutraceuticals & Functional Foods?)", "options": ["न्यूट्रास्यूटिकल्स में दवा जैसे गुण और निष्कर्षण (Extraction) होता है", "दोनों समान हैं", "कोई नहीं"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'कॉर्पोरेट पर्दा' (Lifting of Corporate Veil) किस स्थिति में न्यायपालिका करती है? (When is Corporate Veil lifted?)", "options": ["जब कंपनी का उपयोग धोखाधड़ी (Fraud) के लिए किया जाए", "मुनाफा कम होने पर", "नाम बदलने पर"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'नई समीक्षा' (New Criticism) का हिंदी आलोचना में क्या योगदान है? (Contribution of New Criticism in Hindi?)", "options": ["पाठ (Text) की आंतरिक संरचना पर बल", "लेखक की जीवनी", "ऐतिहासिक संदर्भ"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'पोस्ट-कोलोनियल' साहित्य में 'हाइब्रिडिटी' (Hybridity) का क्या अर्थ है? (Meaning of Hybridity?)", "options": ["औपनिवेशिक और स्थानीय संस्कृतियों का मिश्रण", "केवल अंग्रेजी", "कोई नहीं"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'ब्लॉकचेन' (Blockchain) का अकाउंटिंग में सबसे क्रांतिकारी बदलाव क्या है? (Revolutionary impact of Blockchain?)", "options": ["ट्रिपल-एंट्री बहीखाता पद्धति (Triple-entry accounting)", "पेपरलेस वर्क", "स्पीड"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'डिजिटल ट्रांसफॉर्मेशन' में 'डिजिटल ट्विन' (Digital Twin) का क्या उपयोग है? (Use of Digital Twin?)", "options": ["भौतिक संपत्ति का आभासी (Virtual) प्रतिरूप बनाना", "फोटो कॉपी", "कोई नहीं"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'स्केल-अप' के दौरान 'डेब्ट फाइनेंसिंग' (Debt Financing) कब लेनी चाहिए? (When to use Debt Financing?)", "options": ["जब कैश फ्लो स्थिर और पूर्वानुमानित हो", "शुरुआत में ही", "नुकसान के समय"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'ग्रेविटेशनल वेव्स' (Gravitational Waves) का अस्तित्व किस चीज की पुष्टि करता है? (What do Gravitational Waves confirm?)", "options": ["स्पेस-टाइम में विक्षोभ (Distortions)", "प्रकाश की गति", "कोई नहीं"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'ग्रीन सॉल्वेंट्स' (Green Solvents) में 'आयनिक लिक्विड्स' (Ionic Liquids) की क्या विशेषता है? (Feature of Ionic Liquids?)", "options": ["अत्यधिक कम वाष्पशील (Low volatility)", "जहरीले", "महंगे"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'सिंथेटिक जीनोमिक्स' (Synthetic Genomics) में 'एम.वाय.सी.ओ.प्लाज्मा लैबोरेटोरियम' प्रयोग का क्या अर्थ है? (Meaning of Synthetic Genomics experiment?)", "options": ["पूर्णतः कृत्रिम जीनोम का निर्माण", "डीएनए का संशोधन", "कोई नहीं"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'माइक्रोफ्लुइडिक्स' (Microfluidics) का 'लैब-ऑन-ए-चिप' (Lab-on-a-chip) में क्या महत्व है? (Importance of Microfluidics?)", "options": ["बहुत कम तरल मात्रा में तीव्र परीक्षण", "बड़े टैंक", "कोई नहीं"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'कैओस थ्योरी' (Chaos Theory) का 'बटरफ्लाई इफेक्ट' क्या बताता है? (Butterfly effect explanation?)", "options": ["प्रारंभिक स्थिति में मामूली परिवर्तन का विशाल परिणाम", "शांति", "कोई नहीं"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'मशीन लर्निंग' में 'ओवरफिटिंग' (Overfitting) से बचने के लिए कौन सा सिद्धांत महत्वपूर्ण है? (Importance in avoiding Overfitting?)", "options": ["रेगुलाइजेशन (Regularization)", "ज्यादा डेटा", "कोई नहीं"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'एज कंप्यूटिंग' में 'लेटेंसी' (Latency) कम करने का क्या लाभ है? (Benefit of reducing latency?)", "options": ["डेटा प्रोसेसिंग की वास्तविक-समय गति (Real-time speed)", "मेमोरी बचत", "कोई नहीं"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'सार्त्र' के 'बीइंग-इन-इटसेल्फ' (Being-in-itself) और 'बीइंग-फॉर-इटसेल्फ' (Being-for-itself) का भेद क्या है? (Distinction between Being-in-itself/for-itself?)", "options": ["जड़ता (Inertia) बनाम चेतना (Consciousness)", "मन और शरीर", "कोई नहीं"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'हाइपोक्सिक ट्रेनिंग' (Hypoxic Training) का उच्च-स्तरीय एथलीटों पर क्या शारीरिक प्रभाव पड़ता है? (Effect of Hypoxic Training?)", "options": ["एरिथ्रोपोइटिन (EPO) उत्पादन में वृद्धि (RBC increase)", "वजन कम", "कोई नहीं"], "correct": 0},
+    {
+  "subject_set": "Advanced Practice Set 12 (22 Subjects - High-Level Conceptual Linkage)",
+  "data": [
+    {"subject": "History", "q": "1. 'मुगलकालीन' प्रशासन में 'जागीरदारी संकट' (Crisis of Jagirdari) का तात्कालिक कारण क्या माना जाता है? (Immediate cause of Jagirdari crisis?)", "options": ["पीबक (Paibaqi) की कमी - जागीर की मांग और उपलब्धता में असंतुलन", "धार्मिक विद्रोह", "सैन्य भर्ती में कमी"], "correct": 0},
+    {"subject": "Political Science", "q": "2. 'पॉलिटिकल सोशलाइजेशन' में 'एजेंट्स' के रूप में 'परिवार' और 'विद्यालय' का क्या अंतर है? (Difference between family and school as agents of socialization?)", "options": ["परिवार प्राथमिक (अनौपचारिक) और स्कूल द्वितीयक (औपचारिक) है", "दोनों समान हैं", "कोई अंतर नहीं"], "correct": 0},
+    {"subject": "Geography", "q": "3. 'जेफरसन के प्राइमेट सिटी नियम' के अनुसार, यदि किसी देश का सबसे बड़ा शहर अन्य शहरों की तुलना में बहुत बड़ा है, तो यह क्या दर्शाता है? (What does Primate city imply?)", "options": ["असंतुलित क्षेत्रीय विकास (Unbalanced regional development)", "नगरीय समृद्धि", "आर्थिक समानता"], "correct": 0},
+    {"subject": "Economics", "q": "4. 'फिस्कल पॉलिसी' में 'क्राउडिंग आउट' (Crowding Out) प्रभाव तब होता है जब: (When does Crowding Out occur?)", "options": ["सरकारी ऋण बढ़ने से ब्याज दरें बढ़ती हैं और निजी निवेश घटता है", "टैक्स कम हो जाता है", "निर्यात बढ़ता है"], "correct": 0},
+    {"subject": "Psychology", "q": "5. 'एटीट्यूड' के 'ABC मॉडल' में 'C' का अर्थ क्या है? (Meaning of 'C' in ABC model of attitude?)", "options": ["कॉग्निटिव (संज्ञानात्मक - विचार/मान्यता)", "क्लाइमेट", "कंट्रोल"], "correct": 0},
+    {"subject": "Sociology", "q": "6. 'मैक्स वेबर' के 'स्टैटस ग्रुप' (Status Group) और 'क्लास' (Class) में मुख्य अंतर क्या है? (Difference between Status group and Class?)", "options": ["क्लास आर्थिक स्थिति है, जबकि स्टेटस ग्रुप सामाजिक प्रतिष्ठा है", "दोनों एक हैं", "status ही क्लास है"], "correct": 0},
+    {"subject": "Home Science", "q": "7. 'हाइपर-फूड फोर्टिफिकेशन' के जोखिम में किस प्रकार का असंतुलन होता है? (Risk of hyper-fortification?)", "options": ["पोषक तत्वों की विषाक्तता (Toxicity)", "पाचन की कमी", "भूख मरना"], "correct": 0},
+    {"subject": "Legal Studies", "q": "8. 'टॉर्ट' (Tort) में 'डेमनम साइन इंजुरिया' (Damnum Sine Injuria) का अर्थ क्या है? (Meaning of Damnum Sine Injuria?)", "options": ["बिना कानूनी अधिकार के उल्लंघन के नुकसान होना (मुआवजा नहीं मिलता)", "नुकसान के साथ कानूनी चोट", "कोई नहीं"], "correct": 0},
+    {"subject": "Hindi Literature", "q": "9. 'नई कविता' के 'प्रतीक' (Symbolism) और 'बिम्ब' (Imagery) में क्या अंतर है? (Difference between Symbol and Imagery?)", "options": ["बिम्ब दृश्य है, प्रतीक अमूर्त अर्थ/भाव है", "दोनों एक हैं", "प्रतीक दृश्य है"], "correct": 0},
+    {"subject": "English Literature", "q": "10. 'विक्टोरियन' काल में 'यूटिलिटेरियनिज्म' का क्या अर्थ था? (Meaning of Utilitarianism?)", "options": ["अधिकतम लोगों का अधिकतम सुख (Greatest good for greatest number)", "व्यक्तिगत लाभ", "कोई नहीं"], "correct": 0},
+    {"subject": "Accountancy", "q": "11. 'गोइंग कंसर्न' (Going Concern) अवधारणा का अकाउंटिंग में क्या महत्व है? (Significance of Going Concern?)", "options": ["व्यवसाय का दीर्घकाल तक चलने का अनुमान लगाना", "संपत्तियों का बाजार मूल्य निकालना", "लिक्विडेशन"], "correct": 0},
+    {"subject": "Business Studies", "q": "12. 'ब्लू ओशन' बनाम 'रेड ओशन' रणनीति में मुख्य अंतर क्या है? (Difference between Blue and Red Ocean?)", "options": ["रेड में प्रतिस्पर्धा है, ब्लू में नए बाजार की खोज है", "रेड में तकनीक है", "कोई अंतर नहीं"], "correct": 0},
+    {"subject": "Entrepreneurship", "q": "13. 'सीड फंडिंग' (Seed Funding) और 'सीरीज-ए' (Series A) के बीच का मुख्य अंतर क्या है? (Difference between Seed and Series A?)", "options": ["सीड प्रारंभिक विचार के लिए है, सीरीज-ए बाजार विस्तार के लिए है", "दोनों एक हैं", "कोई नहीं"], "correct": 0},
+    {"subject": "Physics", "q": "14. 'क्वांटम एंटैंगलमेंट' में 'स्पूकी एक्शन' (Spooky action) का अर्थ क्या है? (Meaning of Spooky action?)", "options": ["एक कण का प्रभाव दूसरे पर दूरी के बावजूद तुरंत होना", "चुंबकत्व", "प्रकाश"], "correct": 0},
+    {"subject": "Chemistry", "q": "15. 'सॉल्वे प्रक्रिया' का उपयोग मुख्य रूप से किस यौगिक के निर्माण में होता है? (Main product of Solvay process?)", "options": ["सोडियम कार्बोनेट (Na2CO3)", "अमोनिया", "सल्फ्यूरिक एसिड"], "correct": 0},
+    {"subject": "Biology", "q": "16. 'एपिजेंटिक्स' में 'डीएनए मिथाइलेशन' का प्रभाव जीन अभिव्यक्ति (Gene expression) पर क्या होता है? (Effect of DNA methylation on gene expression?)", "options": ["जीन को साइलेंस (बंद) करना", "जीन को सक्रिय करना", "कोई प्रभाव नहीं"], "correct": 0},
+    {"subject": "Biotechnology", "q": "17. 'क्रिसपर-कैस9' तकनीक में 'आरएनए-गाइड' की भूमिका क्या है? (Role of guide RNA in CRISPR?)", "options": ["लक्ष्य डीएनए अनुक्रम का पता लगाना", "डीएनए को काटना", "प्रोटीन जोड़ना"], "correct": 0},
+    {"subject": "Maths", "q": "18. 'मैट्रिक्स' में 'डिटरमिनेंट' का मान क्या बताता है? (What does determinant indicate?)", "options": ["मैट्रिक्स का स्कैलिंग फैक्टर (Scaling factor)", "योग", "औसत"], "correct": 0},
+    {"subject": "Applied Maths", "q": "19. 'मार्कोव चेन' में 'स्टेशनरी डिस्ट्रीब्यूशन' का क्या अर्थ है? (Meaning of Stationary distribution?)", "options": ["लंबी अवधि में संभावनाओं का स्थिर होना", "तेजी से बदलना", "कोई नहीं"], "correct": 0},
+    {"subject": "Computer Science", "q": "20. 'एज कंप्यूटिंग' (Edge) और 'क्लाउड' (Cloud) में मुख्य अंतर क्या है? (Main difference?)", "options": ["डेटा प्रोसेसिंग का स्थान (स्रोत के निकट vs केंद्रीकृत सर्वर)", "मेमोरी", "नेटवर्क"], "correct": 0},
+    {"subject": "Philosophy", "q": "21. 'सार्त्र' के अस्तित्ववाद में 'फैक्टिसिटी' (Facticity) क्या है? (What is Facticity?)", "options": ["व्यक्ति की वे स्थितियाँ जिन्हें वह नहीं चुन सकता (जन्म, आदि)", "व्यक्ति की पसंद", "ईश्वर"], "correct": 0},
+    {"subject": "Physical Education", "q": "22. 'न्यूरो-मस्कुलर' अनुकूलन का 'प्लाईमेट्रिक्स' (Plyometrics) में क्या महत्व है? (Significance of Plyometrics?)", "options": ["शक्ति और गति बढ़ाने के लिए स्नायु-तंत्र (Stretch-shortening cycle) का उपयोग", "वजन बढ़ाना", "कोई नहीं"], "correct": 0}
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+    
+  
+
+
+    
+  
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
