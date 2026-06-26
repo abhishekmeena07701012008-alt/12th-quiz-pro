@@ -1,52 +1,69 @@
-let currentQuestions = [...allQuestions].sort(() => Math.random() - 0.5).slice(0, 20);
-let currentIndex = 0;
-let score = 0;
+let currentLang = '', currentSubject = '', quizQuestions = [], currentIndex = 0, score = 0;
 
-function showQuestion() {
-    if (currentIndex >= currentQuestions.length) {
-        document.getElementById("quiz-container").style.display = "none";
-        document.getElementById("report").style.display = "block";
-        document.getElementById("score-text").innerText = `आपका स्कोर: ${score} / 20`;
-        return;
-    }
+function setLanguage(lang) {
+    currentLang = lang;
+    document.getElementById('lang-screen').classList.add('hidden');
+    document.getElementById('subject-screen').classList.remove('hidden');
+    renderSubjects();
+}
 
-    let q = currentQuestions[currentIndex];
-    document.getElementById("question").innerText = q.question;
-    document.getElementById("subject-tag").innerText = `विषय: ${q.subject}`;
-    document.getElementById("progress").innerText = `प्रश्न ${currentIndex + 1} / 20`;
-    
-    let optionsDiv = document.getElementById("options");
-    optionsDiv.innerHTML = "";
-    
-    // उत्तरों को शफल करना
-    let shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
-
-    shuffledOptions.forEach((opt) => {
-        let btn = document.createElement("button");
-        btn.innerText = opt;
-        btn.className = "option-btn";
-        btn.onclick = () => checkAnswer(opt, q.answer, btn);
-        optionsDiv.appendChild(btn);
+function renderSubjects() {
+    let container = document.getElementById('subjects-container');
+    // Unique subjects nikalne ke liye
+    let subjects = [...new Set(quizDataMaster.map(q => q.subject))];
+    subjects.forEach(sub => {
+        let btn = document.createElement('button');
+        btn.className = 'btn';
+        btn.innerText = sub;
+        btn.onclick = () => startQuiz(sub);
+        container.appendChild(btn);
     });
 }
 
-function checkAnswer(selected, correct, btn) {
-    let allBtns = document.querySelectorAll(".option-btn");
-    allBtns.forEach(b => b.style.pointerEvents = "none"); // क्लिक बंद करना
+function startQuiz(sub) {
+    currentSubject = sub;
+    // Data filter: Subject + Lang match hona chahiye
+    quizQuestions = quizDataMaster
+        .filter(q => q.subject === sub && (q.lang === currentLang || !q.lang))
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 20);
 
-    if (selected === correct) {
-        btn.classList.add("correct");
-        score++;
-    } else {
-        btn.classList.add("wrong");
-        // सही उत्तर को हरा दिखाना
-        allBtns.forEach(b => { if(b.innerText === correct) b.classList.add("correct"); });
-    }
+    if(quizQuestions.length === 0) { alert("Questions not found for this subject!"); return; }
 
-    setTimeout(() => {
-        currentIndex++;
-        showQuestion();
-    }, 1000);
+    document.getElementById('subject-screen').classList.add('hidden');
+    document.getElementById('quiz-screen').classList.remove('hidden');
+    showQuestion();
 }
 
-showQuestion();
+function showQuestion() {
+    if (currentIndex >= quizQuestions.length) {
+        document.getElementById('quiz-screen').classList.add('hidden');
+        document.getElementById('report').classList.remove('hidden');
+        document.getElementById('score-text').innerText = `Score: ${score} / ${quizQuestions.length}`;
+        return;
+    }
+
+    let q = quizQuestions[currentIndex];
+    // .question ya .q handle karne ke liye (Aapki file ke hisaab se)
+    document.getElementById('question').innerText = q.question || q.q;
+    document.getElementById('options').innerHTML = "";
+    
+    q.options.forEach((opt, idx) => {
+        let btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerText = opt;
+        btn.onclick = () => checkAnswer(idx, q.correct, btn);
+        document.getElementById('options').appendChild(btn);
+    });
+}
+
+function checkAnswer(idx, correct, btn) {
+    document.querySelectorAll('.option-btn').forEach(b => b.style.pointerEvents = 'none');
+    if (idx === correct) {
+        btn.classList.add('correct');
+        score++;
+    } else {
+        btn.classList.add('wrong');
+    }
+    setTimeout(() => { currentIndex++; showQuestion(); }, 1000);
+}
