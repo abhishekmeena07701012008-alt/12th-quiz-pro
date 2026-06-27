@@ -520,12 +520,3 @@
     {"id": 99, "question_hi": "क्या अर्थशास्त्र एक रोमांचक विषय है?", "question_en": "Is economics an exciting subject?", "options": ["हाँ", "नहीं", "पता नहीं", "कोई नहीं"], "correct_index": 0},
     {"id": 100, "question_hi": "क्या यह सीरीज का आखिरी सवाल है?", "question_en": "Is this the last question of the series?", "options": ["हाँ", "शायद", "पता नहीं", "कोई नहीं"], "correct_index": 0}
   ]
-    }
-
-
-
-
-
-
-
-
