@@ -10,7 +10,7 @@ function render(html) { document.getElementById('app').innerHTML = `<div class="
 function shuffle(a) { return a.sort(() => Math.random() - 0.5); }
 
 function start() {
-    render(`<h2>Language/माध्यम</h2><button class="btn" onclick="setLang('hi')">Hindi</button><button class="btn" onclick="setLang('en')">English</button>`);
+    render(`<h2>Language</h2><button class="btn" onclick="setLang('hi')">Hindi</button><button class="btn" onclick="setLang('en')">English</button>`);
 }
 
 window.setLang = (l) => { lang = l; render(`<h2>Select Stream</h2>` + Object.keys(streams).map(s => `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join('')); };
@@ -25,29 +25,32 @@ window.loadQuiz = async (sub) => {
         quizData = shuffle([...data]).slice(0, 10);
         score = 0; currentIdx = 0;
         showQuestion();
-    } catch (e) { alert("File not found!"); }
+    } catch (e) { alert("File error!"); }
 };
 
 function showQuestion() {
     if (currentIdx >= quizData.length) return showResults();
     const q = quizData[currentIdx];
+    // ऑप्शंस तैयार करें
     let options = (lang === 'hi' ? q.options_hi : q.options_en).map((text, i) => ({ text, isCorrect: i === q.answer_index }));
-    options = shuffle(options);
-
-    render(`<p>Question ${currentIdx + 1}/10</p><h3>${lang === 'hi' ? q.question_hi : q.question_en}</h3>` + 
-    options.map(opt => `<button class="btn" onclick="checkAnswer(this, ${opt.isCorrect})">${opt.text}</button>`).join(''));
+    
+    render(`<p>Q: ${currentIdx + 1}/10</p><h3>${lang === 'hi' ? q.question_hi : q.question_en}</h3>` + 
+    options.map((opt, i) => `<button class="btn" onclick="checkAnswer(this, ${opt.isCorrect}, ${q.answer_index})">${opt.text}</button>`).join(''));
 }
 
-window.checkAnswer = (btn, isCorrect) => {
-    // यहाँ हमने क्लास ऐड की है जो CSS से कंट्रोल होगी
-    btn.classList.add(isCorrect ? 'correct' : 'wrong');
-    if (isCorrect) score++;
-    
-    // सभी बटन्स को डिसेबल करें ताकि बार-बार क्लिक न हो
+window.checkAnswer = (btn, isCorrect, correctIdx) => {
     const btns = document.querySelectorAll('.btn');
-    btns.forEach(b => b.disabled = true);
+    btns.forEach(b => b.disabled = true); // क्लिक डिसेबल
+
+    if (isCorrect) {
+        btn.classList.add('correct');
+        score++;
+    } else {
+        btn.classList.add('wrong');
+        btns[correctIdx].classList.add('highlight-correct'); // सही जवाब को चमकाएं
+    }
     
-    setTimeout(() => { currentIdx++; showQuestion(); }, 800);
+    setTimeout(() => { currentIdx++; showQuestion(); }, 1000); // 1 सेकंड का इंतज़ार
 };
 
 function showResults() {
