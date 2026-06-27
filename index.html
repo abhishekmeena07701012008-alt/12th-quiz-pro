@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>12th Quiz Pro</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .btn { padding: 10px 20px; margin: 10px; cursor: pointer; }
+        .option { display: block; width: 80%; margin: 10px auto; padding: 10px; border: 1px solid #ccc; cursor: pointer; }
+        .correct { background-color: green; color: white; }
+        .wrong { background-color: red; color: white; }
+    </style>
+</head>
+<body>
+    <div id="setup">
+        <h1>भाषा चुनें / Select Language</h1>
+        <button class="btn" onclick="startQuiz('hi')">हिंदी</button>
+        <button class="btn" onclick="startQuiz('en')">English</button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+        <h2 id="question">प्रश्न यहाँ आएगा</h2>
+        <div id="options"></div>
+    </div>
+
+    <div id="report" style="display:none;">
+        <h1>रिपोर्ट कार्ड</h1>
+        <p id="score"></p>
+        <button onclick="location.reload()">फिर से शुरू करें</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
