@@ -1,7 +1,7 @@
 const streams = {
     "Science": ["physics", "chemistry", "biology", "maths", "computer_science", "biotech", "physiology"],
     "Commerce": ["accountancy", "economics", "applied_maths", "basic_studies"],
-    "Arts": ["history", "geography", "political_science", "sociology", "hindi_lit_json", "english_lit", "philosophy", "home_science", "legal_studies"]
+    "Arts": ["history", "geography", "political_science", "sociology", "hindi_lit.json", "english_lit", "philosophy", "home_science", "legal_studies"]
 };
 
 let quizData = [], score = 0, currentIdx = 0, lang = 'hi';
