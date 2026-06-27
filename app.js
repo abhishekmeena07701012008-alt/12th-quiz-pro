@@ -7,10 +7,12 @@ const streams = {
 let quizData = [], score = 0, currentIdx = 0, lang = 'hi';
 
 function render(html) { document.getElementById('app').innerHTML = `<div class="card">${html}</div>`; }
-function shuffle(arr) { return arr.sort(() => Math.random() - 0.5); }
+function shuffle(a) { return a.sort(() => Math.random() - 0.5); }
 
 function start() {
-    render(`<h2>Language/माध्यम</h2><button class="btn" onclick="setLang('hi')">Hindi</button><button class="btn" onclick="setLang('en')">English</button>`);
+    render(`<h2>Language/माध्यम</h2>
+            <button class="btn" onclick="setLang('hi')">Hindi</button>
+            <button class="btn" onclick="setLang('en')">English</button>`);
 }
 
 window.setLang = (l) => { lang = l; render(`<h2>Select Stream</h2>` + Object.keys(streams).map(s => `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join('')); };
@@ -22,38 +24,37 @@ window.loadQuiz = async (sub) => {
     try {
         const res = await fetch(`./${fileName}.json`);
         const data = await res.json();
-        // सवाल शफलिंग
         quizData = shuffle([...data]).slice(0, 10);
         score = 0; currentIdx = 0;
         showQuestion();
-    } catch (e) { alert("फ़ाइल नहीं मिली!"); }
+    } catch (e) { alert("File not found!"); }
 };
 
 function showQuestion() {
     if (currentIdx >= quizData.length) return showResults();
     const q = quizData[currentIdx];
     
-    // ऑप्शंस के साथ सही इंडेक्स को ट्रैक करना
+    // Options shuffling
     let options = (lang === 'hi' ? q.options_hi : q.options_en).map((text, i) => ({ text, isCorrect: i === q.answer_index }));
-    options = shuffle(options); // ऑप्शंस शफलिंग
+    options = shuffle(options);
 
     render(`<h3>${lang === 'hi' ? q.question_hi : q.question_en}</h3>` + 
     options.map(opt => `<button class="btn" onclick="checkAnswer(this, ${opt.isCorrect})">${opt.text}</button>`).join(''));
 }
 
 window.checkAnswer = (btn, isCorrect) => {
-    // बटन का रंग बदलना
+    // Green/Red logic
     btn.style.backgroundColor = isCorrect ? '#2ecc71' : '#e74c3c';
     if (isCorrect) score++;
     
-    // थोड़ा रुककर अगला सवाल
     setTimeout(() => { currentIdx++; showQuestion(); }, 800);
 };
 
 function showResults() {
-    let msg = score >= 5 ? "बहुत बढ़िया!" : "और मेहनत की ज़रूरत है।";
-    render(`<h2>Report Card</h2><div style="font-size:30px;">आपका स्कोर: ${score}/10</div><p>${msg}</p>
-            <button class="btn" onclick="location.reload()">फिर से खेलें</button>`);
+    render(`<h2>Final Report</h2>
+            <div style="font-size: 30px;">Score: ${score}/10</div>
+            <p>${score >= 5 ? "Excellent Performance!" : "Keep Practicing!"}</p>
+            <button class="btn" onclick="location.reload()">Restart</button>`);
 }
 
 document.addEventListener('DOMContentLoaded', start);
