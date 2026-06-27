@@ -4,6 +4,7 @@ body { font-family: 'Outfit', sans-serif; background: linear-gradient(135deg, #1
 .card { background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 25px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); width: 100%; max-width: 500px; text-align: center; }
 .btn { width: 100%; margin: 10px 0; padding: 15px; border: none; border-radius: 12px; background: linear-gradient(90deg, #ff7e5f, #feb47b); color: white; cursor: pointer; font-weight: bold; transition: 0.3s; }
 .btn:hover { transform: scale(1.03); }
-.correct { background: #00b894 !important; }
-.wrong { background: #d63031 !important; }
-#timer { font-size: 20px; font-weight: bold; color: #ff3838; margin-bottom: 10px; }
+
+/* यह पक्का रंग बदलेगा */
+.correct { background: #2ecc71 !important; color: white !important; }
+.wrong { background: #e74c3c !important; color: white !important; }
