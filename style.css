@@ -1,0 +1,8 @@
+body { font-family: 'Arial', sans-serif; background: #f4f7f6; padding: 20px; }
+.container { max-width: 600px; margin: auto; }
+.card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+.option-btn { display: block; width: 100%; margin: 10px 0; padding: 12px; cursor: pointer; border: 1px solid #ddd; border-radius: 8px; background: #fff; transition: 0.3s; }
+.option-btn:hover { background: #e9ecef; }
+.correct { background-color: #28a745 !important; color: white; border-color: #28a745; }
+.wrong { background-color: #dc3545 !important; color: white; border-color: #dc3545; }
+.sub-btn { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin: 5px; cursor: pointer; }
