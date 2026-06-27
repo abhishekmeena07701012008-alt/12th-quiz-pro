@@ -1,46 +1,66 @@
-const subjects = ["physics", "chemistry", "biology", "history", "geography", "economics", "accountancy", "maths", "computer_science"];
-let currentQuizData = [], score = 0, currentIndex = 0;
+const streams = {
+    "Science": ["physics", "chemistry", "biology", "maths", "computer_science", "biotech", "physiology"],
+    "Commerce": ["accountancy", "economics", "applied_maths", "basic_studies"],
+    "Arts": ["history", "geography", "political_science", "sociology", "hindi_lit", "english_lit", "philosophy", "home_science", "legal_studies"]
+};
 
+let quizData = [], score = 0, currentIdx = 0, lang = 'hi';
+
+function render(html) { document.getElementById('app').innerHTML = html; }
+
+// स्टेप 1: मीडियम चुनें
 function init() {
-    const app = document.getElementById('app');
-    app.innerHTML = `<h3>विषय चुनें:</h3>` + subjects.map(sub => 
-        `<button class="sub-btn" onclick="loadQuiz('${sub}')">${sub.toUpperCase()}</button>`).join('');
+    render(`<h3>माध्यम चुनें (Choose Medium):</h3>
+    <button class="btn" onclick="setLang('hi')">हिंदी (Hindi)</button>
+    <button class="btn" onclick="setLang('en')">English</button>`);
 }
 
-async function loadQuiz(subject) {
-    const response = await fetch(`${subject}.json`);
-    const data = await response.json();
-    currentQuizData = data.sort(() => 0.5 - Math.random()).slice(0, 10);
-    currentIndex = 0; score = 0;
+function setLang(l) { lang = l; showStreams(); }
+
+// स्टेप 2: स्ट्रीम चुनें
+function showStreams() {
+    render(`<h3>स्ट्रीम चुनें:</h3>` + Object.keys(streams).map(s => 
+        `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join(''));
+}
+
+// स्टेप 3: विषय चुनें
+function showSubjects(stream) {
+    render(`<h3>विषय चुनें:</h3>` + streams[stream].map(sub => 
+        `<button class="btn" onclick="loadQuiz('${sub}')">${sub.replace('_', ' ').toUpperCase()}</button>`).join(''));
+}
+
+// क्विज लोडिंग लॉजिक
+async function loadQuiz(sub) {
+    const res = await fetch(`${sub}.json`);
+    const data = await res.json();
+    quizData = data.sort(() => 0.5 - Math.random()).slice(0, 10);
+    score = 0; currentIdx = 0;
     showQuestion();
 }
 
+// प्रश्न दिखाना
 function showQuestion() {
-    if (currentIndex >= currentQuizData.length) return showResults();
-    const q = currentQuizData[currentIndex];
-    const app = document.getElementById('app');
+    if (currentIdx >= quizData.length) return showResults();
+    const q = quizData[currentIdx];
+    const opts = lang === 'hi' ? q.options_hi : q.options_en;
     
-    let options = q.options_hi.map((opt, i) => ({ text: opt, isCorrect: i === q.answer_index }));
-    options.sort(() => 0.5 - Math.random());
-
-    app.innerHTML = `
-        <p><strong>प्रश्न ${currentIndex + 1}/10:</strong> ${q.question_hi}</p>
-        ${options.map(opt => `<button class="option-btn" onclick="checkAnswer(this, ${opt.isCorrect})">${opt.text}</button>`).join('')}
-    `;
+    render(`<p>प्रश्न ${currentIdx + 1}/10</p>
+    <h3>${lang === 'hi' ? q.question_hi : q.question_en}</h3>
+    ${opts.map((opt, i) => `<button class="btn option-btn" onclick="check(${i}, ${q.answer_index}, this)">${opt}</button>`).join('')}`);
 }
 
-function checkAnswer(btn, isCorrect) {
+// जवाब चेक करना
+function check(sel, cor, btn) {
     document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
-    btn.classList.add(isCorrect ? 'correct' : 'wrong');
-    if (isCorrect) score++;
-    setTimeout(() => { currentIndex++; showQuestion(); }, 1000);
+    if (sel === cor) { btn.classList.add('correct'); score++; }
+    else { btn.classList.add('wrong'); document.querySelectorAll('.option-btn')[cor].classList.add('correct'); }
+    setTimeout(() => { currentIdx++; showQuestion(); }, 1000);
 }
 
+// रिजल्ट कार्ड
 function showResults() {
-    document.getElementById('app').innerHTML = `
-        <h2>क्विज पूर्ण!</h2>
-        <p>आपका स्कोर: ${score} / 10</p>
-        <button class="sub-btn" onclick="location.reload()">वापस मुख्य मेनू पर जाएँ</button>
-    `;
+    render(`<h2>रिपोर्ट कार्ड</h2><p>आपका स्कोर: ${score}/10</p>
+    <button class="btn" onclick="location.reload()">वापस शुरू करें</button>`);
 }
+
 init();
