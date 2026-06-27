@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
 
-body { font-family: 'Outfit', sans-serif; background: linear-gradient(135deg, #7474bf, #348ac7); min-height: 100vh; display: flex; justify-content: center; align-items: center; margin: 0; padding: 20px; }
-.container { width: 100%; max-width: 500px; }
-.card { background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 25px; box-shadow: 0 20px 40px rgba(0,0,0,0.3); text-align: center; border: 2px solid rgba(255,255,255,0.3); }
-
-.btn { display: block; width: 100%; margin: 12px 0; padding: 18px; border: none; border-radius: 15px; background: linear-gradient(90deg, #6c5ce7, #a29bfe); color: white; cursor: pointer; font-size: 16px; font-weight: bold; transition: 0.3s; }
-.btn:hover { transform: scale(1.02); filter: brightness(1.1); }
-
-.option-btn { background: #f8f9fa; border: 2px solid #ddd; color: #333; text-align: left; }
-.correct { background: #00b894 !important; color: white !important; border-color: #00b894 !important; }
-.wrong { background: #d63031 !important; color: white !important; border-color: #d63031 !important; }
-
-.result-card { background: linear-gradient(135deg, #1dd1a1, #10ac84); color: white; padding: 40px; border-radius: 25px; }
+body { font-family: 'Outfit', sans-serif; background: linear-gradient(135deg, #1e3c72, #2a5298); min-height: 100vh; display: flex; justify-content: center; align-items: center; margin: 0; padding: 20px; }
+.card { background: rgba(255, 255, 255, 0.95); padding: 30px; border-radius: 25px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); width: 100%; max-width: 500px; text-align: center; }
+.btn { width: 100%; margin: 10px 0; padding: 15px; border: none; border-radius: 12px; background: linear-gradient(90deg, #ff7e5f, #feb47b); color: white; cursor: pointer; font-weight: bold; transition: 0.3s; }
+.btn:hover { transform: scale(1.03); }
+.correct { background: #00b894 !important; }
+.wrong { background: #d63031 !important; }
+#timer { font-size: 20px; font-weight: bold; color: #ff3838; margin-bottom: 10px; }
