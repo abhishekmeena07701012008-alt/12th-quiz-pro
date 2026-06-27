@@ -728,16 +728,3 @@
     {"id": 99, "question_hi": "क्या कंप्यूटर का उपयोग ऑफिस में होता है?", "question_en": "Is PC used in office?", "options": ["हाँ", "नहीं", "पता नहीं", "कोई नहीं"], "correct_index": 0},
     {"id": 100, "question_hi": "क्या कंप्यूटर सीखना करियर के लिए अच्छा है?", "question_en": "Is learning PC good for career?", "options": ["हाँ", "नहीं", "पता नहीं", "कोई नहीं"], "correct_index": 0}
   ]
-}
-
-
-
-
-
-
-
-
-
-
-
-
