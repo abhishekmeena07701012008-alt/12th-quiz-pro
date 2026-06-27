@@ -6,67 +6,54 @@ const streams = {
 
 let quizData = [], score = 0, currentIdx = 0, lang = 'hi';
 
-function render(html) {
-    document.getElementById('app').innerHTML = `<div class="card">${html}</div>`;
-}
+function render(html) { document.getElementById('app').innerHTML = `<div class="card">${html}</div>`; }
+function shuffle(arr) { return arr.sort(() => Math.random() - 0.5); }
 
 function start() {
-    render(`<h2>Language/माध्यम</h2>
-            <button class="btn" onclick="setLang('hi')">Hindi</button>
-            <button class="btn" onclick="setLang('en')">English</button>`);
+    render(`<h2>Language/माध्यम</h2><button class="btn" onclick="setLang('hi')">Hindi</button><button class="btn" onclick="setLang('en')">English</button>`);
 }
 
-function setLang(l) {
-    lang = l;
-    render(`<h2>Select Stream</h2>` + Object.keys(streams).map(s => 
-        `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join(''));
-}
+window.setLang = (l) => { lang = l; render(`<h2>Select Stream</h2>` + Object.keys(streams).map(s => `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join('')); };
 
-function showSubjects(stream) {
-    render(`<h2>Select Subject</h2>` + streams[stream].map(sub => 
-        `<button class="btn" onclick="loadQuiz('${sub}')">${sub.replace('_', ' ').toUpperCase()}</button>`).join(''));
-}
+window.showSubjects = (stream) => { render(`<h2>Select Subject</h2>` + streams[stream].map(sub => `<button class="btn" onclick="loadQuiz('${sub}')">${sub.replace('_', ' ').toUpperCase()}</button>`).join('')); };
 
-async function loadQuiz(sub) {
-    // यहाँ स्पेलिंग ठीक की गई है ताकि politicl_science भी सही लोड हो
+window.loadQuiz = async (sub) => {
     const fileName = (sub === 'political_science') ? 'politicl_science' : sub;
-    
     try {
         const res = await fetch(`./${fileName}.json`);
-        if (!res.ok) throw new Error("File not found");
         const data = await res.json();
-        
-        // डेटा का स्ट्रक्चर चेक करना
-        quizData = data.sort(() => Math.random() - 0.5).slice(0, 10);
+        // सवाल शफलिंग
+        quizData = shuffle([...data]).slice(0, 10);
         score = 0; currentIdx = 0;
         showQuestion();
-    } catch (e) {
-        alert("एरर: " + fileName + ".json नहीं मिली। कृपया फाइल नेम चेक करें।");
-    }
-}
+    } catch (e) { alert("फ़ाइल नहीं मिली!"); }
+};
 
 function showQuestion() {
     if (currentIdx >= quizData.length) return showResults();
     const q = quizData[currentIdx];
     
-    // सुरक्षित तरीके से ऑप्शंस दिखाना
-    const options = (lang === 'hi' ? q.options_hi : q.options_en) || [];
-    
-    render(`<p>Question ${currentIdx + 1}/10</p>
-            <h3>${lang === 'hi' ? q.question_hi : q.question_en}</h3>` + 
-            options.map((opt, i) => `<button class="btn" onclick="check(${i === q.answer_index})">${opt}</button>`).join(''));
+    // ऑप्शंस के साथ सही इंडेक्स को ट्रैक करना
+    let options = (lang === 'hi' ? q.options_hi : q.options_en).map((text, i) => ({ text, isCorrect: i === q.answer_index }));
+    options = shuffle(options); // ऑप्शंस शफलिंग
+
+    render(`<h3>${lang === 'hi' ? q.question_hi : q.question_en}</h3>` + 
+    options.map(opt => `<button class="btn" onclick="checkAnswer(this, ${opt.isCorrect})">${opt.text}</button>`).join(''));
 }
 
-function check(isCorrect) {
+window.checkAnswer = (btn, isCorrect) => {
+    // बटन का रंग बदलना
+    btn.style.backgroundColor = isCorrect ? '#2ecc71' : '#e74c3c';
     if (isCorrect) score++;
-    currentIdx++;
-    showQuestion();
-}
+    
+    // थोड़ा रुककर अगला सवाल
+    setTimeout(() => { currentIdx++; showQuestion(); }, 800);
+};
 
 function showResults() {
-    render(`<h2>Final Report</h2>
-            <div style="font-size: 40px;">Score: ${score}/10</div>
-            <button class="btn" onclick="location.reload()">Restart</button>`);
+    let msg = score >= 5 ? "बहुत बढ़िया!" : "और मेहनत की ज़रूरत है।";
+    render(`<h2>Report Card</h2><div style="font-size:30px;">आपका स्कोर: ${score}/10</div><p>${msg}</p>
+            <button class="btn" onclick="location.reload()">फिर से खेलें</button>`);
 }
 
 document.addEventListener('DOMContentLoaded', start);
