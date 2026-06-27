@@ -1,31 +1,40 @@
 const streams = {
     "Science": ["physics", "chemistry", "biology", "maths", "computer_science", "biotech", "physiology"],
-    "Commerce": ["accountancy", "economics", "applied_maths", "basic_studies"],
+    "Commerce": ["accountancy", "economics", "applied_maths", "basic_studies", "entrepreneurship"],
     "Arts": ["history", "geography", "political_science", "sociology", "hindi_lit", "english_lit", "philosophy", "home_science", "legal_studies"]
 };
 
 let quizData = [], score = 0, currentIdx = 0, lang = 'hi', timer, timeLeft = 15;
 
 function shuffle(a) { return a.sort(() => Math.random() - 0.5); }
-
 function render(html) { document.getElementById('app').innerHTML = `<div class="card">${html}</div>`; }
 
 function start() {
     render(`<h2>Language/माध्यम</h2><button class="btn" onclick="setLang('hi')">Hindi</button><button class="btn" onclick="setLang('en')">English</button>`);
 }
 
-function setLang(l) { lang = l; render(`<h2>Select Stream</h2>` + Object.keys(streams).map(s => `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join('')); }
+function setLang(l) { 
+    lang = l; 
+    render(`<h2>Select Stream</h2>` + Object.keys(streams).map(s => `<button class="btn" onclick="showSubjects('${s}')">${s}</button>`).join('')); 
+}
 
 function showSubjects(stream) {
     render(`<h2>Select Subject</h2>` + streams[stream].map(sub => `<button class="btn" onclick="loadQuiz('${sub}')">${sub.replace('_', ' ').toUpperCase()}</button>`).join(''));
 }
 
 async function loadQuiz(sub) {
-    const res = await fetch(`${sub}.json`);
-    const data = await res.json();
-    quizData = shuffle([...data]).slice(0, 10);
-    score = 0; currentIdx = 0;
-    showQuestion();
+    // यहाँ आपकी फाइल के नाम और स्ट्रीम नाम का मिलान किया गया है
+    let fileName = sub === 'political_science' ? 'politicl_science' : sub;
+    
+    try {
+        const res = await fetch(`${fileName}.json`);
+        const data = await res.json();
+        quizData = shuffle([...data]).slice(0, 10);
+        score = 0; currentIdx = 0;
+        showQuestion();
+    } catch (e) {
+        alert("फ़ाइल नहीं मिली: " + fileName + ".json");
+    }
 }
 
 function startTimer() {
@@ -58,11 +67,7 @@ function check(isCorrect, btn) {
 
 function showResults() {
     let acc = (score / 10) * 100;
-    render(`<div style="background: linear-gradient(135deg, #fbc2eb, #a6c1ee); padding: 20px; border-radius: 20px;">
-    <h2>Final Report Card</h2>
-    <div style="font-size: 50px;">${score}/10</div>
-    <p>Accuracy: ${acc}%</p>
-    <p>${score >= 8 ? "Excellent Performance!" : "Keep Practicing!"}</p>
-    <button class="btn" onclick="location.reload()">Restart</button></div>`);
+    render(`<div style="padding: 20px;"><h2>Final Report</h2><div style="font-size: 50px;">${score}/10</div>
+    <p>Accuracy: ${acc}%</p><button class="btn" onclick="location.reload()">Restart</button></div>`);
 }
 start();
