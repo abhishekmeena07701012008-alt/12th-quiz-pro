@@ -1,45 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
 
-body {
-    font-family: 'Outfit', sans-serif;
-    background: #050505;
-    margin: 0; min-height: 100vh;
-    display: flex; justify-content: center; align-items: center;
-    color: #fff;
-}
-
-.card {
-    background: #111;
-    padding: 30px; border-radius: 30px;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
-    width: 90%; max-width: 400px; text-align: center;
-    border: 1px solid #222;
-}
-
-.btn {
-    width: 100%; margin: 10px 0; padding: 16px;
-    border: none; border-radius: 15px;
-    background: #1a1a1a; color: #ccc;
-    font-size: 16px; cursor: pointer; transition: 0.3s;
-    border: 1px solid #333;
-}
-
-.correct { 
-    background: #00ff88 !important; color: #000 !important; 
-    box-shadow: 0 0 20px #00ff88; transform: scale(1.02);
-}
-
-.wrong { 
-    background: #ff4444 !important; color: #fff !important; 
-}
-
-.highlight-correct {
-    animation: pulse 1s infinite;
-    border: 2px solid #00ff88 !important;
-}
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 0px #00ff88; }
-    50% { box-shadow: 0 0 15px #00ff88; }
-    100% { box-shadow: 0 0 0px #00ff88; }
-}
+body { font-family: 'Outfit', sans-serif; background: #050505; color: #fff; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.card { background: #111; padding: 30px; border-radius: 30px; width: 90%; max-width: 400px; text-align: center; border: 1px solid #222; position: relative; }
+.btn { width: 100%; margin: 10px 0; padding: 16px; border: none; border-radius: 15px; background: #1a1a1a; color: #ccc; cursor: pointer; transition: 0.3s; border: 1px solid #333; }
+.back-btn { background: #222; color: #fff; border: none; padding: 5px 10px; border-radius: 8px; cursor: pointer; position: absolute; top: 10px; left: 10px; font-size: 12px; }
+.correct { background: #00ff88 !important; color: #000 !important; }
+.wrong { background: #ff4444 !important; color: #fff !important; }
+.highlight-correct { animation: pulse 1s infinite; border: 2px solid #00ff88 !important; }
+@keyframes pulse { 0% { box-shadow: 0 0 0px #00ff88; } 50% { box-shadow: 0 0 15px #00ff88; } 100% { box-shadow: 0 0 0px #00ff88; } }
