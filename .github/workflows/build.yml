@@ -1,0 +1,65 @@
+name: Build Android APK (Unsigned)
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Prepare Web Directory (www)
+        run: |
+          # 1. सारी फाइलें जो ऐप चलाने के लिए जरूरी हैं, उन्हें www में डालना
+          mkdir -p www
+          cp index.html www/
+          cp app.js www/
+          cp style.css www/
+          # 2. सारी .json फाइलें कॉपी करना
+          cp *.json www/
+          # 3. app-ads.txt को भी डालना
+          [ -f app-ads.txt ] && cp app-ads.txt www/ || touch www/app-ads.txt
+
+      - name: Install Dependencies
+        run: |
+          npm install @capacitor/core@5 @capacitor/cli@5 @capacitor/android@5 @capacitor-community/admob@5
+
+      - name: Initialize Capacitor and Add Android
+        run: |
+          # अपने प्रोजेक्ट के नाम और पैकेज के अनुसार सेट करें
+          npx cap init "12th Quiz Pro" "com.abhishek.quizpro12" --web-dir www
+          npx cap add android
+
+      - name: Inject AdMob Meta-data
+        run: |
+          sed -i '/<\/application>/i \        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3294666124278706~3862221941"/>' android/app/src/main/AndroidManifest.xml
+
+      - name: Sync Capacitor
+        run: |
+          npx cap sync android
+
+      - name: Build APK
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleRelease
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: 12th-Quiz-Pro-Final
+          path: android/app/build/outputs/apk/release/app-release-unsigned.apk
